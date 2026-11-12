@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+build/
+papers/paper-1/build/
+papers/paper-1/supplement.zip
+papers/paper-1/MANIFEST.json

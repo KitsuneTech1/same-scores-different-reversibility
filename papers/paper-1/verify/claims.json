@@ -1,0 +1,149 @@
+{
+  "_note": "Every archive number stated in paper.md v0.4, as printed. verify.py recomputes each from data/ and fails on any mismatch.",
+  "n_models": 34,
+  "n_pairs": 561,
+  "later_l1": 141,
+  "model_dirs_with_window_files": 67,
+  "models_any_median": 46,
+  "bound_ge_L": 531,
+  "exact_gt_L": 543,
+  "bound_lt_L": 30,
+  "exact_lt_L": 18,
+  "later_reversals": 1,
+  "reversed_pairs": [
+    "BPagano-RtDriven|JCB-PRM"
+  ],
+  "tie_equals_strict": 561,
+  "ratio_gt_1.01": 263,
+  "ratio_gt_1.25": 170,
+  "ratio_gt_2": 41,
+  "ratio_gt_10": 9,
+  "ratio_max": "2273",
+  "bound_ge_50": 544,
+  "exact_gt_50": 556,
+  "bound_ge_100": 537,
+  "exact_gt_100": 547,
+  "bound_ge_150": 531,
+  "exact_gt_150": 542,
+  "bound_ge_300": 511,
+  "exact_gt_300": 523,
+  "bound_ge_500": 475,
+  "exact_gt_500": 489,
+  "bound_ge_1000": 395,
+  "exact_gt_1000": 424,
+  "ranks": {
+    "Columbia_UNC-SurvCon": 1,
+    "Karlen-pypm": 2,
+    "OliverWyman-Navigator": 3,
+    "BPagano-RtDriven": 6,
+    "JCB-PRM": 7,
+    "COVIDhub-ensemble": 11,
+    "CU-select": 18,
+    "COVIDhub-baseline": 22
+  },
+  "mae_1dp": {
+    "Columbia_UNC-SurvCon": "1301.1",
+    "Karlen-pypm": "1311.2",
+    "OliverWyman-Navigator": "1327.2",
+    "BPagano-RtDriven": "1515.1",
+    "JCB-PRM": "1516.5",
+    "COVIDhub-ensemble": "1728.1",
+    "COVIDhub-baseline": "1981.4",
+    "UCM_MESALab-FoGSEIR": "4841.4"
+  },
+  "pair_radii_2dp": {
+    "Columbia_UNC-SurvCon|Karlen-pypm": [
+      "40.25",
+      "175.25"
+    ],
+    "Columbia_UNC-SurvCon|OliverWyman-Navigator": [
+      "104.28",
+      "1023.28"
+    ],
+    "Karlen-pypm|OliverWyman-Navigator": [
+      "64.03",
+      "130.03"
+    ],
+    "COVIDhub-ensemble|MOBS-GLEAM_COVID": [
+      "135.59",
+      "889.59"
+    ],
+    "CU-select|CU-scenario_low": [
+      "0.50",
+      "1136.50"
+    ],
+    "BPagano-RtDriven|JCB-PRM": [
+      "5.62",
+      "5.62"
+    ],
+    "COVIDhub-baseline|UCLA-SuEIR": [
+      "9.85",
+      "149.85"
+    ],
+    "RPI_UW-Mob_Collision|COVIDhub-baseline": [
+      "15.49",
+      "15.49"
+    ]
+  },
+  "v02_three_week_2dp": [
+    "452.45",
+    "597.45"
+  ],
+  "v02_three_week_gap_invariant": true,
+  "v02_eight_week_2dp": [
+    "1558.23",
+    "1558.23"
+  ],
+  "pairs_outside_all_8": 102,
+  "mean_weeks_outside_2dp": "6.38",
+  "ratio_eq_1": 295,
+  "min_exact_pair": "BPagano-RtDriven|JCB-PRM",
+  "tables_ok": true,
+  "hist_versions": 155,
+  "hist_complete": 139,
+  "hist_post": 136,
+  "hist_full_stream": 111,
+  "hist_lfs_tail": 44,
+  "hist_all_upward": 127,
+  "hist_max": [
+    "2022-06-19",
+    5713
+  ],
+  "hist_final": [
+    "2023-03-06",
+    5348
+  ],
+  "hist_final_revision": [
+    527,
+    496,
+    687,
+    937,
+    699,
+    651,
+    682,
+    669
+  ],
+  "hist_ever_reversed": 61,
+  "hist_final_reversed": 49,
+  "hist_radius_violations": 0,
+  "hist_upward_immune": 299,
+  "hist_leaders": [
+    [
+      "2021-01-05",
+      "Columbia_UNC-SurvCon"
+    ],
+    [
+      "2021-02-14",
+      "UMass-MechBayes"
+    ]
+  ],
+  "hist_final_ranks": {
+    "UMass-MechBayes": 1,
+    "Columbia_UNC-SurvCon": 4,
+    "COVIDhub-ensemble": 11,
+    "COVIDhub-baseline": 25
+  },
+  "hist_decision_reproduced": true,
+  "hist_adjacent_nonzero": 45,
+  "table5_ok": true
+}

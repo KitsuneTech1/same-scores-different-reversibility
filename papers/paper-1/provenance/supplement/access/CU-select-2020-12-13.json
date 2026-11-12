@@ -1,0 +1,12 @@
+{
+  "access_finished_at": "2026-09-09T02:58:44.691302+00:00",
+  "access_scope": "entire CSV including out-of-selector rows",
+  "access_started_at": "2026-09-09T02:58:44.313227+00:00",
+  "id": "CU-select-2020-12-13",
+  "identity": {
+    "bytes": 12754175,
+    "git_blob_sha1": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+    "sha256": "ef63d339dc27e367fab45a11465788ff02d05d5f335a0b01d812cb66a182e8ec"
+  },
+  "url": "https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/5c6214c112e92953efbf701faa37078d20c31147/data-processed/CU-select/2020-12-13-CU-select.csv"
+}

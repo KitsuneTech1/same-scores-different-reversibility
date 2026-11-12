@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "bytes": 40540358,
+    "git_blob_sha1": "bc761016361e4a6e9640a56c58496c334da5896a",
+    "sha256": "2e89356827fdfa7703895a3cc028c98f21f36b4870f7e7d89f0424460fb92975"
+  },
+  "plan_sha256": "62948805cb5eeac45730a07ce8796bad8fc81beccf75767f6e22d15472bee637",
+  "source": {
+    "git_blob_sha1": "bc761016361e4a6e9640a56c58496c334da5896a",
+    "git_time": "2021-01-31T16:34:16Z",
+    "id": "truth-outcome-b276f442e33d",
+    "path": "data-truth/truth-Incident Deaths.csv",
+    "ref": "b276f442e33da33228bd97c393701221fa3a6273"
+  },
+  "weeks": {
+    "2020-11-07": {
+      "days": 7,
+      "status": "complete",
+      "value": "6973"
+    },
+    "2020-11-14": {
+      "days": 7,
+      "status": "complete",
+      "value": "7609"
+    },
+    "2020-11-21": {
+      "days": 7,
+      "status": "complete",
+      "value": "10299"
+    },
+    "2020-11-28": {
+      "days": 7,
+      "status": "complete",
+      "value": "10127"
+    },
+    "2020-12-05": {
+      "days": 7,
+      "status": "complete",
+      "value": "15050"
+    },
+    "2020-12-12": {
+      "days": 7,
+      "status": "complete",
+      "value": "16679"
+    },
+    "2020-12-19": {
+      "days": 7,
+      "status": "complete",
+      "value": "18225"
+    },
+    "2020-12-26": {
+      "days": 7,
+      "status": "complete",
+      "value": "15693"
+    }
+  }
+}

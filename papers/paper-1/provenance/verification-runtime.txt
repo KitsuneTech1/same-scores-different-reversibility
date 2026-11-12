@@ -1,0 +1,45 @@
+Python 3.12.3
+test_catalog_tie_and_no_reversal_remain_distinct (test_analysis.AnalysisTests.test_catalog_tie_and_no_reversal_remain_distinct) ... ok
+test_compare_retains_fixed_candidate_identity (test_analysis.AnalysisTests.test_compare_retains_fixed_candidate_identity) ... ok
+test_finite_reversal_minimum_is_attained (test_analysis.AnalysisTests.test_finite_reversal_minimum_is_attained) ... ok
+test_missing_pair_not_zero_padded (test_analysis.AnalysisTests.test_missing_pair_not_zero_padded) ... ok
+test_tie_is_not_win (test_analysis.AnalysisTests.test_tie_is_not_win) ... ok
+test_duplicate_day_rejected (test_audit.ExtractionTests.test_duplicate_day_rejected) ... ok
+test_git_blob_hash (test_audit.ExtractionTests.test_git_blob_hash) ... ok
+test_lexical_duplicate (test_audit.ExtractionTests.test_lexical_duplicate) ... ok
+test_median_is_exact (test_audit.ExtractionTests.test_median_is_exact) ... ok
+test_missing_median_not_point_substitution (test_audit.ExtractionTests.test_missing_median_not_point_substitution) ... ok
+test_negative_rejected (test_audit.ExtractionTests.test_negative_rejected) ... ok
+test_nonfinite_rejected (test_audit.ExtractionTests.test_nonfinite_rejected) ... ok
+test_out_of_scope_values_not_parsed (test_audit.ExtractionTests.test_out_of_scope_values_not_parsed) ... ok
+test_week_requires_seven_days (test_audit.ExtractionTests.test_week_requires_seven_days) ... ok
+test_attained_strict_reversal_has_an_exact_witness (test_exact.ExactAuditTests.test_attained_strict_reversal_has_an_exact_witness) ... ok
+test_box_with_no_nonnegative_revised_value_is_infeasible (test_exact.ExactAuditTests.test_box_with_no_nonnegative_revised_value_is_infeasible) ... ok
+test_degenerate_box_is_handled_exactly (test_exact.ExactAuditTests.test_degenerate_box_is_handled_exactly) ... ok
+test_initial_tie_finds_the_constrained_tie_radius (test_exact.ExactAuditTests.test_initial_tie_finds_the_constrained_tie_radius) ... ok
+test_initial_tie_has_no_selected_winner (test_exact.ExactAuditTests.test_initial_tie_has_no_selected_winner) ... ok
+test_initial_tie_respects_a_box_that_excludes_zero_revision (test_exact.ExactAuditTests.test_initial_tie_respects_a_box_that_excludes_zero_revision) ... ok
+test_invalid_inputs_return_invalid_input_not_a_fake_radius (test_exact.ExactAuditTests.test_invalid_inputs_return_invalid_input_not_a_fake_radius) ... ok
+test_missing_internal_enumeration_is_a_failure_not_infinity (test_exact.ExactAuditTests.test_missing_internal_enumeration_is_a_failure_not_infinity) ... ok
+test_nonnegativity_clips_the_box_before_solving (test_exact.ExactAuditTests.test_nonnegativity_clips_the_box_before_solving) ... ok
+test_proof_family_has_fixed_scores_and_expected_strict_statuses (test_exact.ExactAuditTests.test_proof_family_has_fixed_scores_and_expected_strict_statuses) ... ok
+test_swapped_initial_winner_is_normalized (test_exact.ExactAuditTests.test_swapped_initial_winner_is_normalized) ... ok
+test_existing_cache_is_validated_without_fetch_or_overwrite (test_fetch_sources.FetchSourcesTests.test_existing_cache_is_validated_without_fetch_or_overwrite) ... ok
+test_missing_cache_fetches_once_after_validation (test_fetch_sources.FetchSourcesTests.test_missing_cache_fetches_once_after_validation) ... ok
+test_validate_blob_requires_source_receipt_and_emitted_identity (test_fetch_sources.FetchSourcesTests.test_validate_blob_requires_source_receipt_and_emitted_identity) ... ok
+test_seeded_cases_match_independent_reference (test_reference_probe.ReferenceDifferentialProbeTests.test_seeded_cases_match_independent_reference) ... ok
+test_current_artifacts_verify_offline (test_replay.ReplayTests.test_current_artifacts_verify_offline) ... ok
+test_current_cache_verifies_when_requested (test_replay.ReplayTests.test_current_cache_verifies_when_requested) ... ok
+test_modified_group_weeks_are_rejected (test_replay.ReplayTests.test_modified_group_weeks_are_rejected) ... ok
+test_modified_redundant_forecast_vector_is_rejected (test_replay.ReplayTests.test_modified_redundant_forecast_vector_is_rejected) ... ok
+test_outcome_source_mismatch_is_rejected (test_replay.ReplayTests.test_outcome_source_mismatch_is_rejected) ... ok
+test_raw_emitted_identity_mismatch_is_rejected (test_replay.ReplayTests.test_raw_emitted_identity_mismatch_is_rejected) ... ok
+test_removed_group_is_rejected (test_replay.ReplayTests.test_removed_group_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 12.655s
+
+OK
+verified: links, source hashes, groups
+verified: links, source hashes, groups, raw cache
+validated 23 whole CSV sources: 23 existing, 0 fetched; full transfer set is about 348 MiB

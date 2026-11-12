@@ -1,0 +1,587 @@
+{
+  "exposure_correction_sha256": "de34fc6e577d58debdf95b23cb033ce44b80ff4472078dba6cd7870c5353b4b3",
+  "forecasts": [
+    {
+      "id": "CU-select-2020-11-01",
+      "identity": {
+        "bytes": 12696778,
+        "git_blob_sha1": "18e52e4db832db4ede097bd860b746d7fe190c34",
+        "sha256": "4bc8c0d59b9da28b10f6ecaaf327f8e83e25b43c610ce8d703ef9d8c09498e61"
+      },
+      "median": "6882",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-11-07"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-11-01",
+      "identity": {
+        "bytes": 1706440,
+        "git_blob_sha1": "ef908fe68b92fe648331989f6af3e196a86ff127",
+        "sha256": "9a862873454b5332aa32cf18588cfa728b8995d01e1b9285ebb7f3574583bb2d"
+      },
+      "median": "318831841/50000",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-11-07"
+    },
+    {
+      "id": "CU-select-2020-11-08",
+      "identity": {
+        "bytes": 12722809,
+        "git_blob_sha1": "6425f0a7885759c6e4acbca037daaa7cf5e0a831",
+        "sha256": "6a9bb01cb5e0be7367198b44611561376d483dbd797b75080fbf679775549fb0"
+      },
+      "median": "8747",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-11-14"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-11-08",
+      "identity": {
+        "bytes": 1708863,
+        "git_blob_sha1": "6ad07adac05082682f495a130d7a160bc3ed313b",
+        "sha256": "39966e272b1750c692246eb39fc7d550027958c2ab46436e31a202e35bea588b"
+      },
+      "median": "775599537/100000",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-11-14"
+    },
+    {
+      "id": "CU-select-2020-11-15",
+      "identity": {
+        "bytes": 12756296,
+        "git_blob_sha1": "31498b1ea24dc2f3bfcd203c89b570591579b7de",
+        "sha256": "57d1c2ce87aab0ce6d9aa54b9cac8493501185d4928d4e037284ff9575920ea2"
+      },
+      "median": "8708",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-11-21"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-11-15",
+      "identity": {
+        "bytes": 1710460,
+        "git_blob_sha1": "5f9629fe562ec290578c6b7ce3b2d4892cb027bf",
+        "sha256": "28b5e19ffc0556fdce6406d2562ffe0c5540d13b41e9862a63f1b3ebf3d0b31a"
+      },
+      "median": "45636297/5000",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-11-21"
+    },
+    {
+      "id": "CU-select-2020-11-22",
+      "identity": {
+        "bytes": 12762910,
+        "git_blob_sha1": "dd9d0f6fe66348bb424d16a2b4f6bad7470afac9",
+        "sha256": "01ae33c87776b383cf9cdcfee4bb022db3f4066ff571df425a608c1866547b86"
+      },
+      "median": "10443",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-11-28"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-11-22",
+      "identity": {
+        "bytes": 856457,
+        "git_blob_sha1": "fbfde361f708253c5a32f4cbe92154d4aba75f1a",
+        "sha256": "c28b6dccccc05ee18eb114cc47f9d4f5b625801ce937ceae6ae5c512ffcfef28"
+      },
+      "median": "38902143/3125",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-11-28"
+    },
+    {
+      "id": "CU-select-2020-11-29",
+      "identity": {
+        "bytes": 12906234,
+        "git_blob_sha1": "843c952786e7a301cf1fbbd47fe1f69915c15c73",
+        "sha256": "1737f93097ef32efec69ebc05219f28bc73dd4cc88df62814ea45aad7f8380d3"
+      },
+      "median": "10808",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-12-05"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-11-29",
+      "identity": {
+        "bytes": 856353,
+        "git_blob_sha1": "ab531130cb883e96a9e8ee609891fa2a6ce629b7",
+        "sha256": "3ba50da6315c0f7c37f2492027bcd094cdc9b8fbd71fca422558739c5896f568"
+      },
+      "median": "42599742/3125",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-12-05"
+    },
+    {
+      "id": "CU-select-2020-12-06",
+      "identity": {
+        "bytes": 12740619,
+        "git_blob_sha1": "58446c783c6bfcc9b4b25ed70b0efba9506a90cb",
+        "sha256": "3a97e0bad1c20655b7a22032a0aa00d2939367cea9ea83a7d24c7e8b6034ea71"
+      },
+      "median": "12537",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-12-12"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-12-06",
+      "identity": {
+        "bytes": 857257,
+        "git_blob_sha1": "fdaca678872afc2a8d4c041dd7fabd512711cfad",
+        "sha256": "d9363240b0db2e8209b1bcb9667eec679e78ae86fb8beafe9b77886f240c097b"
+      },
+      "median": "339348879/20000",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-12-12"
+    },
+    {
+      "id": "CU-select-2020-12-13",
+      "identity": {
+        "bytes": 12754175,
+        "git_blob_sha1": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+        "sha256": "ef63d339dc27e367fab45a11465788ff02d05d5f335a0b01d812cb66a182e8ec"
+      },
+      "median": "17666",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-12-19"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-12-13",
+      "identity": {
+        "bytes": 857474,
+        "git_blob_sha1": "a3d69e237379688d005df4d22c798f74218ab011",
+        "sha256": "5ee9f0508acfe8d270c35a984d410f87c0d4cf86ec1b40c0e38946abeed8605c"
+      },
+      "median": "403510553/20000",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-12-19"
+    },
+    {
+      "id": "CU-select-2020-12-20",
+      "identity": {
+        "bytes": 12719364,
+        "git_blob_sha1": "b1a5ec00752b74e2b1818340cb2d6c0f83a44141",
+        "sha256": "d3e29ec7a5c44edef377d72c8339ca9bf96c3b3b0d403dafce0ed007979dd107"
+      },
+      "median": "18922",
+      "model": "CU-select",
+      "status": "included",
+      "target_end": "2020-12-26"
+    },
+    {
+      "id": "BPagano-RtDriven-2020-12-20",
+      "identity": {
+        "bytes": 857097,
+        "git_blob_sha1": "360358460ab2cf0304f3ce16e05d4837058f83b8",
+        "sha256": "324da5803361bfcb4baa5dd30dbb0818b20679a7a55ef98ef1219b5939316473"
+      },
+      "median": "1002835023/50000",
+      "model": "BPagano-RtDriven",
+      "status": "included",
+      "target_end": "2020-12-26"
+    }
+  ],
+  "manifest_sha256": "6e7fb7dcf1187dcad6734cc4465eab088b8b55f77437c3af4c04b96c48d0d035",
+  "schema": "fulcrum.paper1.extraction.v1",
+  "truths": [
+    {
+      "id": "truth-885931af4e0c",
+      "identity": {
+        "bytes": 33166275,
+        "git_blob_sha1": "1b949af071ffe1327801756fa1b2d62c76688582",
+        "sha256": "199e6126d0248a099ae35d3853a5f1662009c3c0e798d6d60f27fe1cde5adc08"
+      },
+      "weeks": {
+        "2020-11-07": {
+          "days": 7,
+          "status": "complete",
+          "value": "6890"
+        },
+        "2020-11-14": {
+          "days": 7,
+          "status": "complete",
+          "value": "7578"
+        },
+        "2020-11-21": {
+          "days": 7,
+          "status": "complete",
+          "value": "10270"
+        },
+        "2020-11-28": {
+          "days": 2,
+          "missing": [
+            "2020-11-28",
+            "2020-11-27",
+            "2020-11-26",
+            "2020-11-25",
+            "2020-11-24"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-05": {
+          "days": 0,
+          "missing": [
+            "2020-12-05",
+            "2020-12-04",
+            "2020-12-03",
+            "2020-12-02",
+            "2020-12-01",
+            "2020-11-30",
+            "2020-11-29"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-12": {
+          "days": 0,
+          "missing": [
+            "2020-12-12",
+            "2020-12-11",
+            "2020-12-10",
+            "2020-12-09",
+            "2020-12-08",
+            "2020-12-07",
+            "2020-12-06"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-19": {
+          "days": 0,
+          "missing": [
+            "2020-12-19",
+            "2020-12-18",
+            "2020-12-17",
+            "2020-12-16",
+            "2020-12-15",
+            "2020-12-14",
+            "2020-12-13"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-26": {
+          "days": 0,
+          "missing": [
+            "2020-12-26",
+            "2020-12-25",
+            "2020-12-24",
+            "2020-12-23",
+            "2020-12-22",
+            "2020-12-21",
+            "2020-12-20"
+          ],
+          "status": "missing_days"
+        }
+      }
+    },
+    {
+      "id": "truth-5f052abd160a",
+      "identity": {
+        "bytes": 34467324,
+        "git_blob_sha1": "9a0e616c6a8c234a2dd14d074c8827a5e4f72bf9",
+        "sha256": "27f359fcb8dbf9bb7428145e97e67014cc8ddcd48888258b6bc9a5c03e2796d1"
+      },
+      "weeks": {
+        "2020-11-07": {
+          "days": 7,
+          "status": "complete",
+          "value": "6955"
+        },
+        "2020-11-14": {
+          "days": 7,
+          "status": "complete",
+          "value": "7582"
+        },
+        "2020-11-21": {
+          "days": 7,
+          "status": "complete",
+          "value": "10283"
+        },
+        "2020-11-28": {
+          "days": 7,
+          "status": "complete",
+          "value": "10100"
+        },
+        "2020-12-05": {
+          "days": 7,
+          "status": "complete",
+          "value": "15139"
+        },
+        "2020-12-12": {
+          "days": 0,
+          "missing": [
+            "2020-12-12",
+            "2020-12-11",
+            "2020-12-10",
+            "2020-12-09",
+            "2020-12-08",
+            "2020-12-07",
+            "2020-12-06"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-19": {
+          "days": 0,
+          "missing": [
+            "2020-12-19",
+            "2020-12-18",
+            "2020-12-17",
+            "2020-12-16",
+            "2020-12-15",
+            "2020-12-14",
+            "2020-12-13"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-26": {
+          "days": 0,
+          "missing": [
+            "2020-12-26",
+            "2020-12-25",
+            "2020-12-24",
+            "2020-12-23",
+            "2020-12-22",
+            "2020-12-21",
+            "2020-12-20"
+          ],
+          "status": "missing_days"
+        }
+      }
+    },
+    {
+      "id": "truth-eefbf0e79039",
+      "identity": {
+        "bytes": 35226373,
+        "git_blob_sha1": "c1bd4684c836e21c8361439cbc1c67ba6808e72e",
+        "sha256": "7e26ae59bab23955c2920fa2b55924d2f21a1e6d3bc87f359eb9aa416e63a560"
+      },
+      "weeks": {
+        "2020-11-07": {
+          "days": 7,
+          "status": "complete",
+          "value": "6955"
+        },
+        "2020-11-14": {
+          "days": 7,
+          "status": "complete",
+          "value": "7582"
+        },
+        "2020-11-21": {
+          "days": 7,
+          "status": "complete",
+          "value": "10283"
+        },
+        "2020-11-28": {
+          "days": 7,
+          "status": "complete",
+          "value": "10100"
+        },
+        "2020-12-05": {
+          "days": 7,
+          "status": "complete",
+          "value": "15139"
+        },
+        "2020-12-12": {
+          "days": 7,
+          "status": "complete",
+          "value": "16632"
+        },
+        "2020-12-19": {
+          "days": 0,
+          "missing": [
+            "2020-12-19",
+            "2020-12-18",
+            "2020-12-17",
+            "2020-12-16",
+            "2020-12-15",
+            "2020-12-14",
+            "2020-12-13"
+          ],
+          "status": "missing_days"
+        },
+        "2020-12-26": {
+          "days": 0,
+          "missing": [
+            "2020-12-26",
+            "2020-12-25",
+            "2020-12-24",
+            "2020-12-23",
+            "2020-12-22",
+            "2020-12-21",
+            "2020-12-20"
+          ],
+          "status": "missing_days"
+        }
+      }
+    },
+    {
+      "id": "truth-e4a9fe27c3c7",
+      "identity": {
+        "bytes": 35985439,
+        "git_blob_sha1": "da4a1c542a509c556bfe43019034179fe0ecd727",
+        "sha256": "e3b918303c9c4f720d8d7fb5b1105d9af1a56285658391aed4df69c94fe5d586"
+      },
+      "weeks": {
+        "2020-11-07": {
+          "days": 7,
+          "status": "complete",
+          "value": "6964"
+        },
+        "2020-11-14": {
+          "days": 7,
+          "status": "complete",
+          "value": "7611"
+        },
+        "2020-11-21": {
+          "days": 7,
+          "status": "complete",
+          "value": "10264"
+        },
+        "2020-11-28": {
+          "days": 7,
+          "status": "complete",
+          "value": "10130"
+        },
+        "2020-12-05": {
+          "days": 7,
+          "status": "complete",
+          "value": "15052"
+        },
+        "2020-12-12": {
+          "days": 7,
+          "status": "complete",
+          "value": "16682"
+        },
+        "2020-12-19": {
+          "days": 7,
+          "status": "complete",
+          "value": "18255"
+        },
+        "2020-12-26": {
+          "days": 0,
+          "missing": [
+            "2020-12-26",
+            "2020-12-25",
+            "2020-12-24",
+            "2020-12-23",
+            "2020-12-22",
+            "2020-12-21",
+            "2020-12-20"
+          ],
+          "status": "missing_days"
+        }
+      }
+    },
+    {
+      "id": "truth-ae770bdd7b5d",
+      "identity": {
+        "bytes": 36744443,
+        "git_blob_sha1": "79c75a1e9d58e71441ec332ff3f67135dc01edba",
+        "sha256": "56fa2ec46335f8a95eb13635ddfe338b8bf36aa4847a031b8aa58679fd179753"
+      },
+      "weeks": {
+        "2020-11-07": {
+          "days": 7,
+          "status": "complete",
+          "value": "6964"
+        },
+        "2020-11-14": {
+          "days": 7,
+          "status": "complete",
+          "value": "7611"
+        },
+        "2020-11-21": {
+          "days": 7,
+          "status": "complete",
+          "value": "10264"
+        },
+        "2020-11-28": {
+          "days": 7,
+          "status": "complete",
+          "value": "10130"
+        },
+        "2020-12-05": {
+          "days": 7,
+          "status": "complete",
+          "value": "15052"
+        },
+        "2020-12-12": {
+          "days": 7,
+          "status": "complete",
+          "value": "16682"
+        },
+        "2020-12-19": {
+          "days": 7,
+          "status": "complete",
+          "value": "18255"
+        },
+        "2020-12-26": {
+          "days": 7,
+          "status": "complete",
+          "value": "15750"
+        }
+      }
+    },
+    {
+      "id": "truth-80bf182e77a1",
+      "identity": {
+        "bytes": 37503538,
+        "git_blob_sha1": "157bc3244181706fba20b510f51e39293ec45ba9",
+        "sha256": "1e3852b06b8f92a6be7b452bf29751b7cdad70aa8f425392c36253936a47edaa"
+      },
+      "weeks": {
+        "2020-11-07": {
+          "days": 7,
+          "status": "complete",
+          "value": "6964"
+        },
+        "2020-11-14": {
+          "days": 7,
+          "status": "complete",
+          "value": "7611"
+        },
+        "2020-11-21": {
+          "days": 7,
+          "status": "complete",
+          "value": "10264"
+        },
+        "2020-11-28": {
+          "days": 7,
+          "status": "complete",
+          "value": "10130"
+        },
+        "2020-12-05": {
+          "days": 7,
+          "status": "complete",
+          "value": "15052"
+        },
+        "2020-12-12": {
+          "days": 7,
+          "status": "complete",
+          "value": "16682"
+        },
+        "2020-12-19": {
+          "days": 7,
+          "status": "complete",
+          "value": "18255"
+        },
+        "2020-12-26": {
+          "days": 7,
+          "status": "complete",
+          "value": "15750"
+        }
+      }
+    }
+  ]
+}

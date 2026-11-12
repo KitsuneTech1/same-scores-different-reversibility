@@ -1,0 +1,40 @@
+{
+  "acquisition_sha256": "6e7fb7dcf1187dcad6734cc4465eab088b8b55f77437c3af4c04b96c48d0d035",
+  "box_rule": "secondary only: symmetric coordinate widths equal maximum absolute adjacent complete revision per coordinate; continuous relaxation, not observed joint scenarios",
+  "contamination": "all historical material treated as exposed development data; see exposure-correction.json",
+  "cost": "L1 sum of weekly reported-death changes; no scaling or inferred probabilities",
+  "decision_truth_id": "truth-80bf182e77a1",
+  "extraction_sha256": "034e1f2eb6bc61b573a8ebeabc4a907f3bd08c8290850e00bbd3c2808bd85f55",
+  "frozen_at": "2026-09-09T03:08:42.101232+00:00",
+  "outcome_rule": "latest path commit by reported Git committer timestamp <=2021-02-02T02:00:00Z, from currently accessible repository history; release-relative later-vintage comparison, not proof of first publication within 28 days",
+  "outcome_source": {
+    "git_blob_sha1": "bc761016361e4a6e9640a56c58496c334da5896a",
+    "git_time": "2021-01-31T16:34:16Z",
+    "id": "truth-outcome-b276f442e33d",
+    "path": "data-truth/truth-Incident Deaths.csv",
+    "ref": "b276f442e33da33228bd97c393701221fa3a6273"
+  },
+  "pair": [
+    "CU-select",
+    "BPagano-RtDriven"
+  ],
+  "primary_weeks": [
+    "2020-11-07",
+    "2020-11-14",
+    "2020-11-21",
+    "2020-11-28",
+    "2020-12-05",
+    "2020-12-12",
+    "2020-12-19",
+    "2020-12-26"
+  ],
+  "reporting": "fixed original model identities; initial winner chosen once by MAE, later ties distinct from reversals; all results descriptive; no predictors, p-values or confidence intervals; retain null results",
+  "scenario_rule": "adjacent retained pre-cutoff vintage differences on identical record keys, only complete vectors; add zero and deduplicate; apply unchanged same-key vectors to decision truth as a historical replay stress assumption, not a validated revision distribution",
+  "schema": "fulcrum.paper1.analysis.v1",
+  "secondary_status": "post-extraction common-support sensitivity check; not a replacement primary cohort or confirmatory result",
+  "secondary_weeks": [
+    "2020-11-07",
+    "2020-11-14",
+    "2020-11-21"
+  ]
+}

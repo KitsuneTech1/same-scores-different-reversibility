@@ -1,0 +1,90 @@
+{
+ "aggregation": "sum of exactly seven unique daily clipped US incident-death rows, Sunday to Saturday, from the pinned Hub truth producer",
+ "decision": {
+  "label": "last retained reference vintage before cutoff (reported Git time 3 January 2021)",
+  "values": [
+   "6964",
+   "7611",
+   "10264",
+   "10130",
+   "15052",
+   "16682",
+   "18255",
+   "15750"
+  ]
+ },
+ "later": {
+  "label": "release-relative later vintage b276f442e33d (31 January 2021)",
+  "values": [
+   "6973",
+   "7609",
+   "10299",
+   "10127",
+   "15050",
+   "16679",
+   "18225",
+   "15693"
+  ]
+ },
+ "schema": "fulcrum.paper1.truth.v04",
+ "source": "supplement results.json (v0.2 extraction, sha256 034e1f2eb6bc61b573a8ebeabc4a907f3bd08c8290850e00bbd3c2808bd85f55)",
+ "three_week": {
+  "adjacent_revisions": [
+   [
+    "65",
+    "4",
+    "13"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "9",
+    "29",
+    "-19"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "0"
+   ]
+  ],
+  "box_widths": [
+   "65",
+   "29",
+   "19"
+  ],
+  "decision": [
+   "6964",
+   "7611",
+   "10264"
+  ],
+  "later": [
+   "6973",
+   "7609",
+   "10299"
+  ],
+  "weeks": [
+   "2020-11-07",
+   "2020-11-14",
+   "2020-11-21"
+  ]
+ },
+ "weeks": [
+  "2020-11-07",
+  "2020-11-14",
+  "2020-11-21",
+  "2020-11-28",
+  "2020-12-05",
+  "2020-12-12",
+  "2020-12-19",
+  "2020-12-26"
+ ]
+}

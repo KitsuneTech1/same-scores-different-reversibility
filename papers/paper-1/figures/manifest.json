@@ -1,0 +1,15 @@
+{
+  "paper": 1,
+  "version": "v0.4",
+  "font": "Palatino Linotype",
+  "dpi": 300,
+  "generated": [
+    "fig2-protocol.png",
+    "fig1-exact-family.png",
+    "fig5-catalog-bound.png",
+    "fig6-coverage-failure.png",
+    "fig3-ranking.png",
+    "fig4-bound-vs-exact.png",
+    "fig7-revision-history.png"
+  ]
+}

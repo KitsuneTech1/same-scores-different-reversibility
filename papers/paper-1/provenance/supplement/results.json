@@ -1,0 +1,368 @@
+{
+  "extraction_sha256": "034e1f2eb6bc61b573a8ebeabc4a907f3bd08c8290850e00bbd3c2808bd85f55",
+  "groups": {
+    "common_support": {
+      "adjacent_pairs": [
+        {
+          "delta": [
+            "65",
+            "4",
+            "13"
+          ],
+          "l1_cost": "82",
+          "new": "truth-5f052abd160a",
+          "old": "truth-885931af4e0c",
+          "weeks": [
+            "2020-11-07",
+            "2020-11-14",
+            "2020-11-21"
+          ]
+        },
+        {
+          "delta": [
+            "0",
+            "0",
+            "0"
+          ],
+          "l1_cost": "0",
+          "new": "truth-eefbf0e79039",
+          "old": "truth-5f052abd160a",
+          "weeks": [
+            "2020-11-07",
+            "2020-11-14",
+            "2020-11-21"
+          ]
+        },
+        {
+          "delta": [
+            "9",
+            "29",
+            "-19"
+          ],
+          "l1_cost": "57",
+          "new": "truth-e4a9fe27c3c7",
+          "old": "truth-eefbf0e79039",
+          "weeks": [
+            "2020-11-07",
+            "2020-11-14",
+            "2020-11-21"
+          ]
+        },
+        {
+          "delta": [
+            "0",
+            "0",
+            "0"
+          ],
+          "l1_cost": "0",
+          "new": "truth-ae770bdd7b5d",
+          "old": "truth-e4a9fe27c3c7",
+          "weeks": [
+            "2020-11-07",
+            "2020-11-14",
+            "2020-11-21"
+          ]
+        },
+        {
+          "delta": [
+            "0",
+            "0",
+            "0"
+          ],
+          "l1_cost": "0",
+          "new": "truth-80bf182e77a1",
+          "old": "truth-ae770bdd7b5d",
+          "weeks": [
+            "2020-11-07",
+            "2020-11-14",
+            "2020-11-21"
+          ]
+        }
+      ],
+      "box": {
+        "gap_bound_alone_excludes_strict_reversal": true,
+        "maximum_l1": "113",
+        "strict_radius": null,
+        "strict_status": "infeasible",
+        "tie_radius": null,
+        "tie_status": "infeasible",
+        "widths": [
+          "65",
+          "29",
+          "19"
+        ]
+      },
+      "catalog": {
+        "radius": null,
+        "scenarios": [
+          {
+            "cost": "0",
+            "delta": [
+              "0",
+              "0",
+              "0"
+            ],
+            "ranking": {
+              "gap": "18098017/60000",
+              "gap_cost_bound": "18098017/40000",
+              "mae": {
+                "BPagano-RtDriven": "12460661/20000",
+                "CU-select": "2774/3"
+              },
+              "winner": "BPagano-RtDriven"
+            },
+            "status": "same_winner"
+          },
+          {
+            "cost": "57",
+            "delta": [
+              "9",
+              "29",
+              "-19"
+            ],
+            "ranking": {
+              "gap": "18098017/60000",
+              "gap_cost_bound": "18098017/40000",
+              "mae": {
+                "BPagano-RtDriven": "12200661/20000",
+                "CU-select": "2735/3"
+              },
+              "winner": "BPagano-RtDriven"
+            },
+            "status": "same_winner"
+          },
+          {
+            "cost": "82",
+            "delta": [
+              "65",
+              "4",
+              "13"
+            ],
+            "ranking": {
+              "gap": "18098017/60000",
+              "gap_cost_bound": "18098017/40000",
+              "mae": {
+                "BPagano-RtDriven": "38861983/60000",
+                "CU-select": "2848/3"
+              },
+              "winner": "BPagano-RtDriven"
+            },
+            "status": "same_winner"
+          }
+        ],
+        "status": "no_reversal_in_catalog",
+        "ties": 0,
+        "unique_scenarios": 3
+      },
+      "decision_truth": [
+        "6964",
+        "7611",
+        "10264"
+      ],
+      "forecasts": {
+        "BPagano-RtDriven": [
+          "318831841/50000",
+          "775599537/100000",
+          "45636297/5000"
+        ],
+        "CU-select": [
+          "6882",
+          "8747",
+          "8708"
+        ]
+      },
+      "initial": {
+        "gap": "18098017/60000",
+        "gap_cost_bound": "18098017/40000",
+        "mae": {
+          "BPagano-RtDriven": "12460661/20000",
+          "CU-select": "2774/3"
+        },
+        "winner": "BPagano-RtDriven"
+      },
+      "later": {
+        "gap": "18098017/60000",
+        "gap_cost_bound": "18098017/40000",
+        "mae": {
+          "BPagano-RtDriven": "38301983/60000",
+          "CU-select": "940"
+        },
+        "winner": "BPagano-RtDriven"
+      },
+      "later_status": "same_winner",
+      "later_truth": [
+        "6973",
+        "7609",
+        "10299"
+      ],
+      "n": 3,
+      "observed_later_delta": [
+        "9",
+        "-2",
+        "35"
+      ],
+      "observed_later_l1": "46",
+      "weeks": [
+        "2020-11-07",
+        "2020-11-14",
+        "2020-11-21"
+      ]
+    },
+    "primary": {
+      "adjacent_pairs": [
+        {
+          "delta": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "l1_cost": "0",
+          "new": "truth-80bf182e77a1",
+          "old": "truth-ae770bdd7b5d",
+          "weeks": [
+            "2020-11-07",
+            "2020-11-14",
+            "2020-11-21",
+            "2020-11-28",
+            "2020-12-05",
+            "2020-12-12",
+            "2020-12-19",
+            "2020-12-26"
+          ]
+        }
+      ],
+      "catalog": {
+        "radius": null,
+        "scenarios": [
+          {
+            "cost": "0",
+            "delta": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "ranking": {
+              "gap": "311646047/800000",
+              "gap_cost_bound": "311646047/200000",
+              "mae": {
+                "BPagano-RtDriven": "1212053953/800000",
+                "CU-select": "15237/8"
+              },
+              "winner": "BPagano-RtDriven"
+            },
+            "status": "same_winner"
+          }
+        ],
+        "status": "no_reversal_in_catalog",
+        "ties": 0,
+        "unique_scenarios": 1
+      },
+      "decision_truth": [
+        "6964",
+        "7611",
+        "10264",
+        "10130",
+        "15052",
+        "16682",
+        "18255",
+        "15750"
+      ],
+      "forecasts": {
+        "BPagano-RtDriven": [
+          "318831841/50000",
+          "775599537/100000",
+          "45636297/5000",
+          "38902143/3125",
+          "42599742/3125",
+          "339348879/20000",
+          "403510553/20000",
+          "1002835023/50000"
+        ],
+        "CU-select": [
+          "6882",
+          "8747",
+          "8708",
+          "10443",
+          "10808",
+          "12537",
+          "17666",
+          "18922"
+        ]
+      },
+      "initial": {
+        "gap": "311646047/800000",
+        "gap_cost_bound": "311646047/200000",
+        "mae": {
+          "BPagano-RtDriven": "1212053953/800000",
+          "CU-select": "15237/8"
+        },
+        "winner": "BPagano-RtDriven"
+      },
+      "later": {
+        "gap": "305046047/800000",
+        "gap_cost_bound": "305046047/200000",
+        "mae": {
+          "BPagano-RtDriven": "1225753953/800000",
+          "CU-select": "3827/2"
+        },
+        "winner": "BPagano-RtDriven"
+      },
+      "later_status": "same_winner",
+      "later_truth": [
+        "6973",
+        "7609",
+        "10299",
+        "10127",
+        "15050",
+        "16679",
+        "18225",
+        "15693"
+      ],
+      "n": 8,
+      "observed_later_delta": [
+        "9",
+        "-2",
+        "35",
+        "-3",
+        "-2",
+        "-3",
+        "-30",
+        "-57"
+      ],
+      "observed_later_l1": "141",
+      "weeks": [
+        "2020-11-07",
+        "2020-11-14",
+        "2020-11-21",
+        "2020-11-28",
+        "2020-12-05",
+        "2020-12-12",
+        "2020-12-19",
+        "2020-12-26"
+      ]
+    }
+  },
+  "outcome_sha256": "9916966dda79586ad5a4bda9f1d6f4b8efbb987154bf678464c7ba739fd4c083",
+  "plan_sha256": "62948805cb5eeac45730a07ce8796bad8fc81beccf75767f6e22d15472bee637",
+  "schema": "fulcrum.paper1.results.v1",
+  "source_hashes": {
+    "analysis.py": "dd5a317efaed4680aa5ea0721668c0601c6f25c8cc33b9e95202ac86022f3f43",
+    "audit.py": "d461cf3343bb7e3cd970258b9a3ff508f94aa5825615c0daeaa4c4015288e444",
+    "exact.py": "d65375a47540a221aaebc216511e5f7446942a660c8e61e399cf1f28118d1a0b",
+    "prepare.py": "b62570f0454929f1172132555926cd6bd075cb05b05b733c60d58e93733339b8",
+    "run_acquisition.py": "3477569ae49342d05b7162ef41c8381e7fb072c1d79d4b4c5c386977316f7239",
+    "test_analysis.py": "9a09bb397a4ee174a5c32245eb2252adab03e75178d57c4fb6a35139e8e0be1f",
+    "test_audit.py": "87d6357009d3c91f71a8bcf74f9a1ff74c883f881c6998e1bb2a6a160f1445be",
+    "test_exact.py": "4a4eca8cd19fd4ad9a6c9d2cb7fc2df53481700b67b0fb2cdc99c029a503c2ae"
+  }
+}

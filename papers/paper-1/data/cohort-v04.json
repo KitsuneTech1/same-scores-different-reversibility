@@ -1,0 +1,3389 @@
+{
+ "commit": "52f10b79f02af0af7940a0a9a02314a563c04569",
+ "eligibility": "A file counts for target week W (a Saturday) when its forecast_date is the Sunday or Monday that opens W; both make W the 1 wk ahead target_end_date under the Hub convention. If both exist the Monday file is used (latest submission by Monday). The selected row must have location US, target 1 wk ahead inc death, type quantile, quantile 0.5 (numeric) and target_end_date W. A model enters the cohort only with a median for all eight weeks.",
+ "location": "US",
+ "models": {
+  "AIpert-pwllnod": {
+   "2020-12-26": {
+    "blob_sha1": "bc62dadd5f6e2149b37cb1434309e6ee7cca2611",
+    "blob_sha1_listed": "bc62dadd5f6e2149b37cb1434309e6ee7cca2611",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/AIpert-pwllnod/2020-12-21-AIpert-pwllnod.csv"
+   }
+  },
+  "BPagano-RtDriven": {
+   "2020-11-07": {
+    "blob_sha1": "ef908fe68b92fe648331989f6af3e196a86ff127",
+    "blob_sha1_listed": "ef908fe68b92fe648331989f6af3e196a86ff127",
+    "forecast_date": "2020-11-01",
+    "median": "6376.63682",
+    "path": "data-processed/BPagano-RtDriven/2020-11-01-BPagano-RtDriven.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "6ad07adac05082682f495a130d7a160bc3ed313b",
+    "blob_sha1_listed": "6ad07adac05082682f495a130d7a160bc3ed313b",
+    "forecast_date": "2020-11-08",
+    "median": "7755.99537",
+    "path": "data-processed/BPagano-RtDriven/2020-11-08-BPagano-RtDriven.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "5f9629fe562ec290578c6b7ce3b2d4892cb027bf",
+    "blob_sha1_listed": "5f9629fe562ec290578c6b7ce3b2d4892cb027bf",
+    "forecast_date": "2020-11-15",
+    "median": "9127.25940",
+    "path": "data-processed/BPagano-RtDriven/2020-11-15-BPagano-RtDriven.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "fbfde361f708253c5a32f4cbe92154d4aba75f1a",
+    "blob_sha1_listed": "fbfde361f708253c5a32f4cbe92154d4aba75f1a",
+    "forecast_date": "2020-11-22",
+    "median": "12448.68576",
+    "path": "data-processed/BPagano-RtDriven/2020-11-22-BPagano-RtDriven.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "ab531130cb883e96a9e8ee609891fa2a6ce629b7",
+    "blob_sha1_listed": "ab531130cb883e96a9e8ee609891fa2a6ce629b7",
+    "forecast_date": "2020-11-29",
+    "median": "13631.91744",
+    "path": "data-processed/BPagano-RtDriven/2020-11-29-BPagano-RtDriven.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "fdaca678872afc2a8d4c041dd7fabd512711cfad",
+    "blob_sha1_listed": "fdaca678872afc2a8d4c041dd7fabd512711cfad",
+    "forecast_date": "2020-12-06",
+    "median": "16967.44395",
+    "path": "data-processed/BPagano-RtDriven/2020-12-06-BPagano-RtDriven.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "a3d69e237379688d005df4d22c798f74218ab011",
+    "blob_sha1_listed": "a3d69e237379688d005df4d22c798f74218ab011",
+    "forecast_date": "2020-12-13",
+    "median": "20175.52765",
+    "path": "data-processed/BPagano-RtDriven/2020-12-13-BPagano-RtDriven.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "360358460ab2cf0304f3ce16e05d4837058f83b8",
+    "blob_sha1_listed": "360358460ab2cf0304f3ce16e05d4837058f83b8",
+    "forecast_date": "2020-12-20",
+    "median": "20056.70046",
+    "path": "data-processed/BPagano-RtDriven/2020-12-20-BPagano-RtDriven.csv"
+   }
+  },
+  "CEID-Walk": {
+   "2020-11-07": {
+    "blob_sha1": "19a2e618c1554b324ca6cc5e97f98cc2db04e98e",
+    "blob_sha1_listed": "19a2e618c1554b324ca6cc5e97f98cc2db04e98e",
+    "forecast_date": "2020-11-01",
+    "median": "5671.051",
+    "path": "data-processed/CEID-Walk/2020-11-01-CEID-Walk.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "9102c310df6c44f0c1d5bedbe9fe2e87b401d3ad",
+    "blob_sha1_listed": "9102c310df6c44f0c1d5bedbe9fe2e87b401d3ad",
+    "forecast_date": "2020-11-09",
+    "median": "6489.582",
+    "path": "data-processed/CEID-Walk/2020-11-09-CEID-Walk.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "58e91d1819fd90e3a6e40dfd0b255f214f5e0b1c",
+    "blob_sha1_listed": "58e91d1819fd90e3a6e40dfd0b255f214f5e0b1c",
+    "forecast_date": "2020-11-16",
+    "median": "7524.117",
+    "path": "data-processed/CEID-Walk/2020-11-16-CEID-Walk.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "943e9f13c713fa8c7d0855293812fcc77409fb50",
+    "blob_sha1_listed": "943e9f13c713fa8c7d0855293812fcc77409fb50",
+    "forecast_date": "2020-11-23",
+    "median": "10365.889",
+    "path": "data-processed/CEID-Walk/2020-11-23-CEID-Walk.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "719d058fccad313ef1fe4e8936fa7e73b4430103",
+    "blob_sha1_listed": "719d058fccad313ef1fe4e8936fa7e73b4430103",
+    "forecast_date": "2020-11-30",
+    "median": "10219.339",
+    "path": "data-processed/CEID-Walk/2020-11-30-CEID-Walk.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "6c588d53c47a34cd7b57dc3b70c804241c318c49",
+    "blob_sha1_listed": "6c588d53c47a34cd7b57dc3b70c804241c318c49",
+    "forecast_date": "2020-12-07",
+    "median": "15010.95",
+    "path": "data-processed/CEID-Walk/2020-12-07-CEID-Walk.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "d615bf5488fa12c8127b89f849561aa48d9d5ae0",
+    "blob_sha1_listed": "d615bf5488fa12c8127b89f849561aa48d9d5ae0",
+    "forecast_date": "2020-12-14",
+    "median": "16796.345",
+    "path": "data-processed/CEID-Walk/2020-12-14-CEID-Walk.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "174cd3edbc62e0b174ae38f473e83934691bae91",
+    "blob_sha1_listed": "174cd3edbc62e0b174ae38f473e83934691bae91",
+    "forecast_date": "2020-12-21",
+    "median": "18757.677",
+    "path": "data-processed/CEID-Walk/2020-12-21-CEID-Walk.csv"
+   }
+  },
+  "CMU-TimeSeries": {
+   "2020-11-07": {
+    "blob_sha1": "43cc84e6d1db40cac89bc467c46b5b93cf718fd3",
+    "blob_sha1_listed": "43cc84e6d1db40cac89bc467c46b5b93cf718fd3",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-11-02-CMU-TimeSeries.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "183f80bd1a9aa3063bee5eea7a2fcc19794829a9",
+    "blob_sha1_listed": "183f80bd1a9aa3063bee5eea7a2fcc19794829a9",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-11-09-CMU-TimeSeries.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "485b7317022d75c580c3b5c7f17e76829101c5bf",
+    "blob_sha1_listed": "485b7317022d75c580c3b5c7f17e76829101c5bf",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-11-16-CMU-TimeSeries.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "1d09af4cb56f6b7b6f4597ace10664c97ca57f7d",
+    "blob_sha1_listed": "1d09af4cb56f6b7b6f4597ace10664c97ca57f7d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-11-23-CMU-TimeSeries.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "846de46583064f368996d666acc5c9d4f113afd7",
+    "blob_sha1_listed": "846de46583064f368996d666acc5c9d4f113afd7",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-11-30-CMU-TimeSeries.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "51b19c3fc6b40542f9f574f9732ca6a5a803964f",
+    "blob_sha1_listed": "51b19c3fc6b40542f9f574f9732ca6a5a803964f",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-12-07-CMU-TimeSeries.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "8f2ed52d95b70f36481d864d7d6f07678ce66845",
+    "blob_sha1_listed": "8f2ed52d95b70f36481d864d7d6f07678ce66845",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-12-14-CMU-TimeSeries.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "65cf06e5a46832eb0928bbc69bdd0cc30ca3aa02",
+    "blob_sha1_listed": "65cf06e5a46832eb0928bbc69bdd0cc30ca3aa02",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/CMU-TimeSeries/2020-12-21-CMU-TimeSeries.csv"
+   }
+  },
+  "COVIDhub-baseline": {
+   "2020-11-07": {
+    "blob_sha1": "2b80428fd2b076e0ded0091f96678a658f81e973",
+    "blob_sha1_listed": "2b80428fd2b076e0ded0091f96678a658f81e973",
+    "forecast_date": "2020-11-02",
+    "median": "5655",
+    "path": "data-processed/COVIDhub-baseline/2020-11-02-COVIDhub-baseline.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "aa585a1ad05fd1ea24e6551ab9eace8b0d4a71dd",
+    "blob_sha1_listed": "aa585a1ad05fd1ea24e6551ab9eace8b0d4a71dd",
+    "forecast_date": "2020-11-09",
+    "median": "6515",
+    "path": "data-processed/COVIDhub-baseline/2020-11-09-COVIDhub-baseline.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "02a19a87be9fd56d844f4938945a21ed7e23dafa",
+    "blob_sha1_listed": "02a19a87be9fd56d844f4938945a21ed7e23dafa",
+    "forecast_date": "2020-11-16",
+    "median": "7580",
+    "path": "data-processed/COVIDhub-baseline/2020-11-16-COVIDhub-baseline.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "373aa9f924bd32f88551c2c27a3d46b2a65638c3",
+    "blob_sha1_listed": "373aa9f924bd32f88551c2c27a3d46b2a65638c3",
+    "forecast_date": "2020-11-23",
+    "median": "10270",
+    "path": "data-processed/COVIDhub-baseline/2020-11-23-COVIDhub-baseline.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "579bc49fcd8894278ee08147ce696bfae33cac06",
+    "blob_sha1_listed": "579bc49fcd8894278ee08147ce696bfae33cac06",
+    "forecast_date": "2020-11-30",
+    "median": "10101",
+    "path": "data-processed/COVIDhub-baseline/2020-11-30-COVIDhub-baseline.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "7ee86f6ad04b567d8d17268f44fd113480387c54",
+    "blob_sha1_listed": "7ee86f6ad04b567d8d17268f44fd113480387c54",
+    "forecast_date": "2020-12-07",
+    "median": "15139",
+    "path": "data-processed/COVIDhub-baseline/2020-12-07-COVIDhub-baseline.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "0cad6754acc4f5d31271f07d23e4edfe729a7f14",
+    "blob_sha1_listed": "0cad6754acc4f5d31271f07d23e4edfe729a7f14",
+    "forecast_date": "2020-12-14",
+    "median": "16632",
+    "path": "data-processed/COVIDhub-baseline/2020-12-14-COVIDhub-baseline.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "62d576824d27dc806ab497227e4de5af33ac8521",
+    "blob_sha1_listed": "62d576824d27dc806ab497227e4de5af33ac8521",
+    "forecast_date": "2020-12-21",
+    "median": "18255",
+    "path": "data-processed/COVIDhub-baseline/2020-12-21-COVIDhub-baseline.csv"
+   }
+  },
+  "COVIDhub-ensemble": {
+   "2020-11-07": {
+    "blob_sha1": "8d31f03a3c747c3ab53c763a820f8d4086045238",
+    "blob_sha1_listed": "8d31f03a3c747c3ab53c763a820f8d4086045238",
+    "forecast_date": "2020-11-02",
+    "median": "6210",
+    "path": "data-processed/COVIDhub-ensemble/2020-11-02-COVIDhub-ensemble.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "cc5e574a35e19f8dc115b4c8c61f5dfe599cea10",
+    "blob_sha1_listed": "cc5e574a35e19f8dc115b4c8c61f5dfe599cea10",
+    "forecast_date": "2020-11-09",
+    "median": "6930",
+    "path": "data-processed/COVIDhub-ensemble/2020-11-09-COVIDhub-ensemble.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "1857c7dca8f3f1d8e8d39976b1bc87ad03efb6e6",
+    "blob_sha1_listed": "1857c7dca8f3f1d8e8d39976b1bc87ad03efb6e6",
+    "forecast_date": "2020-11-16",
+    "median": "8669",
+    "path": "data-processed/COVIDhub-ensemble/2020-11-16-COVIDhub-ensemble.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "ef3753a34dff6c68d307e42cc178b5ea1aa4580c",
+    "blob_sha1_listed": "ef3753a34dff6c68d307e42cc178b5ea1aa4580c",
+    "forecast_date": "2020-11-23",
+    "median": "11100",
+    "path": "data-processed/COVIDhub-ensemble/2020-11-23-COVIDhub-ensemble.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "c11ae7b72c9bdad46361bb28984862fa3f43547a",
+    "blob_sha1_listed": "c11ae7b72c9bdad46361bb28984862fa3f43547a",
+    "forecast_date": "2020-11-30",
+    "median": "11498",
+    "path": "data-processed/COVIDhub-ensemble/2020-11-30-COVIDhub-ensemble.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "4c42bb0006e48a4091c9931834ae25dba4baff9b",
+    "blob_sha1_listed": "4c42bb0006e48a4091c9931834ae25dba4baff9b",
+    "forecast_date": "2020-12-07",
+    "median": "15083",
+    "path": "data-processed/COVIDhub-ensemble/2020-12-07-COVIDhub-ensemble.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "20141168b6ce48acb920fbf6e5a29e527950176b",
+    "blob_sha1_listed": "20141168b6ce48acb920fbf6e5a29e527950176b",
+    "forecast_date": "2020-12-14",
+    "median": "17340",
+    "path": "data-processed/COVIDhub-ensemble/2020-12-14-COVIDhub-ensemble.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "0586c18cbc62e99c052c2e7db639a8775a24f3c7",
+    "blob_sha1_listed": "0586c18cbc62e99c052c2e7db639a8775a24f3c7",
+    "forecast_date": "2020-12-21",
+    "median": "19507",
+    "path": "data-processed/COVIDhub-ensemble/2020-12-21-COVIDhub-ensemble.csv"
+   }
+  },
+  "CU-nochange": {
+   "2020-11-07": {
+    "blob_sha1": "8312d46e4f224dbdf09fd6c50c6570ca0e656fdf",
+    "blob_sha1_listed": "8312d46e4f224dbdf09fd6c50c6570ca0e656fdf",
+    "forecast_date": "2020-11-01",
+    "median": "6911",
+    "path": "data-processed/CU-nochange/2020-11-01-CU-nochange.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "44a8b89f4d8bf27329af4b65638038aa53f56c23",
+    "blob_sha1_listed": "44a8b89f4d8bf27329af4b65638038aa53f56c23",
+    "forecast_date": "2020-11-08",
+    "median": "8746",
+    "path": "data-processed/CU-nochange/2020-11-08-CU-nochange.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "affcf482ddc19f3effa02001fe97e6b4e548527e",
+    "blob_sha1_listed": "affcf482ddc19f3effa02001fe97e6b4e548527e",
+    "forecast_date": "2020-11-15",
+    "median": "8693",
+    "path": "data-processed/CU-nochange/2020-11-15-CU-nochange.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "6a142c29b73d80c1c6e83138237b81c098d2e7a0",
+    "blob_sha1_listed": "6a142c29b73d80c1c6e83138237b81c098d2e7a0",
+    "forecast_date": "2020-11-22",
+    "median": "10462",
+    "path": "data-processed/CU-nochange/2020-11-22-CU-nochange.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "89841fc59e79f4365b9206ad5f0ac60b77d8f45e",
+    "blob_sha1_listed": "89841fc59e79f4365b9206ad5f0ac60b77d8f45e",
+    "forecast_date": "2020-11-29",
+    "median": "10841",
+    "path": "data-processed/CU-nochange/2020-11-29-CU-nochange.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "703972f52f025d4c597c1240f584883cc0509e85",
+    "blob_sha1_listed": "703972f52f025d4c597c1240f584883cc0509e85",
+    "forecast_date": "2020-12-06",
+    "median": "12524",
+    "path": "data-processed/CU-nochange/2020-12-06-CU-nochange.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1a7bcda0254b2c666f30bb37faac030d5da9fd60",
+    "blob_sha1_listed": "1a7bcda0254b2c666f30bb37faac030d5da9fd60",
+    "forecast_date": "2020-12-13",
+    "median": "17658",
+    "path": "data-processed/CU-nochange/2020-12-13-CU-nochange.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "1015163191adda8f0755e39aa94490cdd44886b9",
+    "blob_sha1_listed": "1015163191adda8f0755e39aa94490cdd44886b9",
+    "forecast_date": "2020-12-20",
+    "median": "18895",
+    "path": "data-processed/CU-nochange/2020-12-20-CU-nochange.csv"
+   }
+  },
+  "CU-scenario_high": {
+   "2020-11-07": {
+    "blob_sha1": "457ade7ea13198c74d05b12e797c1124f0864bbd",
+    "blob_sha1_listed": "457ade7ea13198c74d05b12e797c1124f0864bbd",
+    "forecast_date": "2020-11-01",
+    "median": "6889",
+    "path": "data-processed/CU-scenario_high/2020-11-01-CU-scenario_high.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "56ebab4f7d2e65effe13943a05a38aa02ccc7c1c",
+    "blob_sha1_listed": "56ebab4f7d2e65effe13943a05a38aa02ccc7c1c",
+    "forecast_date": "2020-11-08",
+    "median": "8742",
+    "path": "data-processed/CU-scenario_high/2020-11-08-CU-scenario_high.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "ad2d47e8417bc77100de860c856f7fd7575080eb",
+    "blob_sha1_listed": "ad2d47e8417bc77100de860c856f7fd7575080eb",
+    "forecast_date": "2020-11-15",
+    "median": "8716",
+    "path": "data-processed/CU-scenario_high/2020-11-15-CU-scenario_high.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "4da4e74ddd2df7de37ab745427b57fbc5fa1100c",
+    "blob_sha1_listed": "4da4e74ddd2df7de37ab745427b57fbc5fa1100c",
+    "forecast_date": "2020-11-22",
+    "median": "10441",
+    "path": "data-processed/CU-scenario_high/2020-11-22-CU-scenario_high.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "38b45d8b8a262bb43a0de2d8f45f6ba472b5aae2",
+    "blob_sha1_listed": "38b45d8b8a262bb43a0de2d8f45f6ba472b5aae2",
+    "forecast_date": "2020-11-29",
+    "median": "10832",
+    "path": "data-processed/CU-scenario_high/2020-11-29-CU-scenario_high.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "3c8416ff577b08778810351282e408b0714ee431",
+    "blob_sha1_listed": "3c8416ff577b08778810351282e408b0714ee431",
+    "forecast_date": "2020-12-06",
+    "median": "12539",
+    "path": "data-processed/CU-scenario_high/2020-12-06-CU-scenario_high.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1a2c272860c6e719f7785f387231ed4c658f417e",
+    "blob_sha1_listed": "1a2c272860c6e719f7785f387231ed4c658f417e",
+    "forecast_date": "2020-12-13",
+    "median": "17669",
+    "path": "data-processed/CU-scenario_high/2020-12-13-CU-scenario_high.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "94bb2aa6dcec2b5687146c1a0cfd0bd3ec295380",
+    "blob_sha1_listed": "94bb2aa6dcec2b5687146c1a0cfd0bd3ec295380",
+    "forecast_date": "2020-12-20",
+    "median": "18910",
+    "path": "data-processed/CU-scenario_high/2020-12-20-CU-scenario_high.csv"
+   }
+  },
+  "CU-scenario_low": {
+   "2020-11-07": {
+    "blob_sha1": "8da280f5cfcde5758992c413e8a3f60262acda8e",
+    "blob_sha1_listed": "8da280f5cfcde5758992c413e8a3f60262acda8e",
+    "forecast_date": "2020-11-01",
+    "median": "6885",
+    "path": "data-processed/CU-scenario_low/2020-11-01-CU-scenario_low.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "ba75b288a01d176b14b3320ce89a7bd1b99b56f5",
+    "blob_sha1_listed": "ba75b288a01d176b14b3320ce89a7bd1b99b56f5",
+    "forecast_date": "2020-11-08",
+    "median": "8751",
+    "path": "data-processed/CU-scenario_low/2020-11-08-CU-scenario_low.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "31498b1ea24dc2f3bfcd203c89b570591579b7de",
+    "blob_sha1_listed": "31498b1ea24dc2f3bfcd203c89b570591579b7de",
+    "forecast_date": "2020-11-15",
+    "median": "8708",
+    "path": "data-processed/CU-scenario_low/2020-11-15-CU-scenario_low.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "dd9d0f6fe66348bb424d16a2b4f6bad7470afac9",
+    "blob_sha1_listed": "dd9d0f6fe66348bb424d16a2b4f6bad7470afac9",
+    "forecast_date": "2020-11-22",
+    "median": "10443",
+    "path": "data-processed/CU-scenario_low/2020-11-22-CU-scenario_low.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "843c952786e7a301cf1fbbd47fe1f69915c15c73",
+    "blob_sha1_listed": "843c952786e7a301cf1fbbd47fe1f69915c15c73",
+    "forecast_date": "2020-11-29",
+    "median": "10808",
+    "path": "data-processed/CU-scenario_low/2020-11-29-CU-scenario_low.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "58446c783c6bfcc9b4b25ed70b0efba9506a90cb",
+    "blob_sha1_listed": "58446c783c6bfcc9b4b25ed70b0efba9506a90cb",
+    "forecast_date": "2020-12-06",
+    "median": "12537",
+    "path": "data-processed/CU-scenario_low/2020-12-06-CU-scenario_low.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+    "blob_sha1_listed": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+    "forecast_date": "2020-12-13",
+    "median": "17666",
+    "path": "data-processed/CU-scenario_low/2020-12-13-CU-scenario_low.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "b1a5ec00752b74e2b1818340cb2d6c0f83a44141",
+    "blob_sha1_listed": "b1a5ec00752b74e2b1818340cb2d6c0f83a44141",
+    "forecast_date": "2020-12-20",
+    "median": "18922",
+    "path": "data-processed/CU-scenario_low/2020-12-20-CU-scenario_low.csv"
+   }
+  },
+  "CU-scenario_mid": {
+   "2020-11-07": {
+    "blob_sha1": "18e52e4db832db4ede097bd860b746d7fe190c34",
+    "blob_sha1_listed": "18e52e4db832db4ede097bd860b746d7fe190c34",
+    "forecast_date": "2020-11-01",
+    "median": "6882",
+    "path": "data-processed/CU-scenario_mid/2020-11-01-CU-scenario_mid.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "6425f0a7885759c6e4acbca037daaa7cf5e0a831",
+    "blob_sha1_listed": "6425f0a7885759c6e4acbca037daaa7cf5e0a831",
+    "forecast_date": "2020-11-08",
+    "median": "8747",
+    "path": "data-processed/CU-scenario_mid/2020-11-08-CU-scenario_mid.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "f95f2de5b893127cf3801e0d24f7c2b76c767de4",
+    "blob_sha1_listed": "f95f2de5b893127cf3801e0d24f7c2b76c767de4",
+    "forecast_date": "2020-11-15",
+    "median": "8708",
+    "path": "data-processed/CU-scenario_mid/2020-11-15-CU-scenario_mid.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "6c1e9494400311dec27f858a339e19da5cc2a4ca",
+    "blob_sha1_listed": "6c1e9494400311dec27f858a339e19da5cc2a4ca",
+    "forecast_date": "2020-11-22",
+    "median": "10446",
+    "path": "data-processed/CU-scenario_mid/2020-11-22-CU-scenario_mid.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "ec934d54e96c2c1eff6cca2558cead3755187997",
+    "blob_sha1_listed": "ec934d54e96c2c1eff6cca2558cead3755187997",
+    "forecast_date": "2020-11-29",
+    "median": "10820",
+    "path": "data-processed/CU-scenario_mid/2020-11-29-CU-scenario_mid.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "bd48a45912127f983e5303de615927c90464b7d9",
+    "blob_sha1_listed": "bd48a45912127f983e5303de615927c90464b7d9",
+    "forecast_date": "2020-12-06",
+    "median": "12495",
+    "path": "data-processed/CU-scenario_mid/2020-12-06-CU-scenario_mid.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "64011ef92e7e0670c8532a4c7f3db464f11cd567",
+    "blob_sha1_listed": "64011ef92e7e0670c8532a4c7f3db464f11cd567",
+    "forecast_date": "2020-12-13",
+    "median": "17696",
+    "path": "data-processed/CU-scenario_mid/2020-12-13-CU-scenario_mid.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "3c202fb5bf30505f2ac6951f8e6ff0e238efcfa8",
+    "blob_sha1_listed": "3c202fb5bf30505f2ac6951f8e6ff0e238efcfa8",
+    "forecast_date": "2020-12-20",
+    "median": "18916",
+    "path": "data-processed/CU-scenario_mid/2020-12-20-CU-scenario_mid.csv"
+   }
+  },
+  "CU-select": {
+   "2020-11-07": {
+    "blob_sha1": "18e52e4db832db4ede097bd860b746d7fe190c34",
+    "blob_sha1_listed": "18e52e4db832db4ede097bd860b746d7fe190c34",
+    "forecast_date": "2020-11-01",
+    "median": "6882",
+    "path": "data-processed/CU-select/2020-11-01-CU-select.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "6425f0a7885759c6e4acbca037daaa7cf5e0a831",
+    "blob_sha1_listed": "6425f0a7885759c6e4acbca037daaa7cf5e0a831",
+    "forecast_date": "2020-11-08",
+    "median": "8747",
+    "path": "data-processed/CU-select/2020-11-08-CU-select.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "31498b1ea24dc2f3bfcd203c89b570591579b7de",
+    "blob_sha1_listed": "31498b1ea24dc2f3bfcd203c89b570591579b7de",
+    "forecast_date": "2020-11-15",
+    "median": "8708",
+    "path": "data-processed/CU-select/2020-11-15-CU-select.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "dd9d0f6fe66348bb424d16a2b4f6bad7470afac9",
+    "blob_sha1_listed": "dd9d0f6fe66348bb424d16a2b4f6bad7470afac9",
+    "forecast_date": "2020-11-22",
+    "median": "10443",
+    "path": "data-processed/CU-select/2020-11-22-CU-select.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "843c952786e7a301cf1fbbd47fe1f69915c15c73",
+    "blob_sha1_listed": "843c952786e7a301cf1fbbd47fe1f69915c15c73",
+    "forecast_date": "2020-11-29",
+    "median": "10808",
+    "path": "data-processed/CU-select/2020-11-29-CU-select.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "58446c783c6bfcc9b4b25ed70b0efba9506a90cb",
+    "blob_sha1_listed": "58446c783c6bfcc9b4b25ed70b0efba9506a90cb",
+    "forecast_date": "2020-12-06",
+    "median": "12537",
+    "path": "data-processed/CU-select/2020-12-06-CU-select.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+    "blob_sha1_listed": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+    "forecast_date": "2020-12-13",
+    "median": "17666",
+    "path": "data-processed/CU-select/2020-12-13-CU-select.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "b1a5ec00752b74e2b1818340cb2d6c0f83a44141",
+    "blob_sha1_listed": "b1a5ec00752b74e2b1818340cb2d6c0f83a44141",
+    "forecast_date": "2020-12-20",
+    "median": "18922",
+    "path": "data-processed/CU-select/2020-12-20-CU-select.csv"
+   }
+  },
+  "Caltech-CS156": {
+   "2020-11-07": {
+    "blob_sha1": "7600dd47ce23dde4378009fa60a4b333f06cf670",
+    "blob_sha1_listed": "7600dd47ce23dde4378009fa60a4b333f06cf670",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-11-01-Caltech-CS156.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "6e0559e21eb231e43a81815a1c1652bae3d2fab0",
+    "blob_sha1_listed": "6e0559e21eb231e43a81815a1c1652bae3d2fab0",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-11-08-Caltech-CS156.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "687b98198c7a702dfa4f60969981490f08cd7be3",
+    "blob_sha1_listed": "687b98198c7a702dfa4f60969981490f08cd7be3",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-11-15-Caltech-CS156.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "38731394b0ff3482e685a54408e5aea602b8c693",
+    "blob_sha1_listed": "38731394b0ff3482e685a54408e5aea602b8c693",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-11-22-Caltech-CS156.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "7eb5fcc3372d9d1f3ba274f0ea186f6d84b071c3",
+    "blob_sha1_listed": "7eb5fcc3372d9d1f3ba274f0ea186f6d84b071c3",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-11-29-Caltech-CS156.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "16ccdf20d6c746fe7438a99a39516d2402efcf76",
+    "blob_sha1_listed": "16ccdf20d6c746fe7438a99a39516d2402efcf76",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-12-06-Caltech-CS156.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "f727cd29c8afebcb21bbd272b02e66cf0867a627",
+    "blob_sha1_listed": "f727cd29c8afebcb21bbd272b02e66cf0867a627",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-12-13-Caltech-CS156.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "e91bc366978be60ea8ae4e7ba1ad5cc38004e383",
+    "blob_sha1_listed": "e91bc366978be60ea8ae4e7ba1ad5cc38004e383",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Caltech-CS156/2020-12-20-Caltech-CS156.csv"
+   }
+  },
+  "Columbia_UNC-SurvCon": {
+   "2020-11-07": {
+    "blob_sha1": "ac229779484f6cd0a22ed5d09e3a6c113efa57e5",
+    "blob_sha1_listed": "ac229779484f6cd0a22ed5d09e3a6c113efa57e5",
+    "forecast_date": "2020-11-01",
+    "median": "6411",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-11-01-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "bc20b2a9970f8f49b6ce2630a543a2038882bd3d",
+    "blob_sha1_listed": "bc20b2a9970f8f49b6ce2630a543a2038882bd3d",
+    "forecast_date": "2020-11-08",
+    "median": "7746",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-11-08-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "5a33ce8b0aac0bfa9e57e57d281173d074197a5f",
+    "blob_sha1_listed": "5a33ce8b0aac0bfa9e57e57d281173d074197a5f",
+    "forecast_date": "2020-11-15",
+    "median": "9345",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-11-15-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "b4b1510f7593ec07659d74cd251eb027aa8d7960",
+    "blob_sha1_listed": "b4b1510f7593ec07659d74cd251eb027aa8d7960",
+    "forecast_date": "2020-11-22",
+    "median": "11115",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-11-22-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "06561161117d834b7e53e58762e2f3f7bed8d9e6",
+    "blob_sha1_listed": "06561161117d834b7e53e58762e2f3f7bed8d9e6",
+    "forecast_date": "2020-11-29",
+    "median": "13953",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-11-29-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "2d440d196367ab502636b011d33dee6fcde2de57",
+    "blob_sha1_listed": "2d440d196367ab502636b011d33dee6fcde2de57",
+    "forecast_date": "2020-12-06",
+    "median": "15481",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-12-06-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "e1a77fd398019218c3f2bcc1af79915f7ec867b5",
+    "blob_sha1_listed": "e1a77fd398019218c3f2bcc1af79915f7ec867b5",
+    "forecast_date": "2020-12-13",
+    "median": "17283",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-12-13-Columbia_UNC-SurvCon.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "cbb196be393a98a0d778ee4017830678c8f481f8",
+    "blob_sha1_listed": "cbb196be393a98a0d778ee4017830678c8f481f8",
+    "forecast_date": "2020-12-20",
+    "median": "20295",
+    "path": "data-processed/Columbia_UNC-SurvCon/2020-12-20-Columbia_UNC-SurvCon.csv"
+   }
+  },
+  "Covid19Sim-Simulator": {
+   "2020-11-07": {
+    "blob_sha1": "e8a168ca5c6c0c8347d08aaa0980a7608d073428",
+    "blob_sha1_listed": "e8a168ca5c6c0c8347d08aaa0980a7608d073428",
+    "forecast_date": "2020-11-01",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-11-01-Covid19Sim-Simulator.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "e60c75a0fdcab37a361c3156dadf03243865fe63",
+    "blob_sha1_listed": "e60c75a0fdcab37a361c3156dadf03243865fe63",
+    "forecast_date": "2020-11-08",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-11-08-Covid19Sim-Simulator.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "42978c3b72434128b387a38809710ae1f2ebc98b",
+    "blob_sha1_listed": "42978c3b72434128b387a38809710ae1f2ebc98b",
+    "forecast_date": "2020-11-22",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-11-22-Covid19Sim-Simulator.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "e656652bd816dc51dc0d492133bc165ad6bd8016",
+    "blob_sha1_listed": "e656652bd816dc51dc0d492133bc165ad6bd8016",
+    "forecast_date": "2020-11-29",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-11-29-Covid19Sim-Simulator.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "0487ef786210267d930b519804fdb0b1f12c1112",
+    "blob_sha1_listed": "0487ef786210267d930b519804fdb0b1f12c1112",
+    "forecast_date": "2020-12-06",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-12-06-Covid19Sim-Simulator.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "acf6e184bdde9c5741adac0dcc18e312d19680cf",
+    "blob_sha1_listed": "acf6e184bdde9c5741adac0dcc18e312d19680cf",
+    "forecast_date": "2020-12-13",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-12-13-Covid19Sim-Simulator.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "56d66654fb3f1ffaac65cb7b0b7d2207f7720712",
+    "blob_sha1_listed": "56d66654fb3f1ffaac65cb7b0b7d2207f7720712",
+    "forecast_date": "2020-12-20",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/Covid19Sim-Simulator/2020-12-20-Covid19Sim-Simulator.csv"
+   }
+  },
+  "CovidAnalytics-DELPHI": {
+   "2020-11-07": {
+    "blob_sha1": "333bbcfb378e3d4c6a91dbd3f2e10a56b8bb3af6",
+    "blob_sha1_listed": "333bbcfb378e3d4c6a91dbd3f2e10a56b8bb3af6",
+    "forecast_date": "2020-11-02",
+    "median": "4937.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-11-02-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "9084c5c1e440bb60bd30206e6c121168fc68bf40",
+    "blob_sha1_listed": "9084c5c1e440bb60bd30206e6c121168fc68bf40",
+    "forecast_date": "2020-11-09",
+    "median": "5623.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-11-09-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "688cbf0010d3c0ee67e652ed59b31f9542f4c838",
+    "blob_sha1_listed": "688cbf0010d3c0ee67e652ed59b31f9542f4c838",
+    "forecast_date": "2020-11-16",
+    "median": "7137.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-11-16-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "b9c84abe64870841b5226fcad1adf229812e33e6",
+    "blob_sha1_listed": "b9c84abe64870841b5226fcad1adf229812e33e6",
+    "forecast_date": "2020-11-22",
+    "median": "10841.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-11-22-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "fe1ca806a26d03d3b64bf01ba7b25d66a3d277af",
+    "blob_sha1_listed": "fe1ca806a26d03d3b64bf01ba7b25d66a3d277af",
+    "forecast_date": "2020-11-30",
+    "median": "11193.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-11-30-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "7b22d91b0e027fa50f0e699017c223d01a5396ae",
+    "blob_sha1_listed": "7b22d91b0e027fa50f0e699017c223d01a5396ae",
+    "forecast_date": "2020-12-07",
+    "median": "13265.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-12-07-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "b0c3438b2d50a8ad17e3ab28360c2bf531111d6c",
+    "blob_sha1_listed": "b0c3438b2d50a8ad17e3ab28360c2bf531111d6c",
+    "forecast_date": "2020-12-14",
+    "median": "14324.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-12-14-CovidAnalytics-DELPHI.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "c5489538cb0bb9a390f40ee76622f0c940f76e48",
+    "blob_sha1_listed": "c5489538cb0bb9a390f40ee76622f0c940f76e48",
+    "forecast_date": "2020-12-20",
+    "median": "16838.0",
+    "path": "data-processed/CovidAnalytics-DELPHI/2020-12-20-CovidAnalytics-DELPHI.csv"
+   }
+  },
+  "DDS-NBDS": {
+   "2020-11-07": {
+    "blob_sha1": "45d13a2dea6b2beb0b48ad837a82ada45d0f4d65",
+    "blob_sha1_listed": "45d13a2dea6b2beb0b48ad837a82ada45d0f4d65",
+    "forecast_date": "2020-11-02",
+    "median": "5526.0",
+    "path": "data-processed/DDS-NBDS/2020-11-02-DDS-NBDS.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "42f2e89710f61aa90ac7855acd35531b2679da84",
+    "blob_sha1_listed": "42f2e89710f61aa90ac7855acd35531b2679da84",
+    "forecast_date": "2020-11-09",
+    "median": "6789.0",
+    "path": "data-processed/DDS-NBDS/2020-11-09-DDS-NBDS.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "a94a5e929c63d329852cf8077a3bc2ae47aa7437",
+    "blob_sha1_listed": "a94a5e929c63d329852cf8077a3bc2ae47aa7437",
+    "forecast_date": "2020-11-16",
+    "median": "7391",
+    "path": "data-processed/DDS-NBDS/2020-11-16-DDS-NBDS.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "61fcdb29005090c87ff24ed3eafbe4f6acb70708",
+    "blob_sha1_listed": "61fcdb29005090c87ff24ed3eafbe4f6acb70708",
+    "forecast_date": "2020-11-23",
+    "median": "11084.0",
+    "path": "data-processed/DDS-NBDS/2020-11-23-DDS-NBDS.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "5c62842ccc0f6478a7d2fbb0151c97741e896235",
+    "blob_sha1_listed": "5c62842ccc0f6478a7d2fbb0151c97741e896235",
+    "forecast_date": "2020-11-30",
+    "median": "9679.0",
+    "path": "data-processed/DDS-NBDS/2020-11-30-DDS-NBDS.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "f4e225de188273ec9735718db72376c1736d893b",
+    "blob_sha1_listed": "f4e225de188273ec9735718db72376c1736d893b",
+    "forecast_date": "2020-12-07",
+    "median": "15097.0",
+    "path": "data-processed/DDS-NBDS/2020-12-07-DDS-NBDS.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "67a5997ffcd540224a199048acf3a737119ad14b",
+    "blob_sha1_listed": "67a5997ffcd540224a199048acf3a737119ad14b",
+    "forecast_date": "2020-12-14",
+    "median": "20596.0",
+    "path": "data-processed/DDS-NBDS/2020-12-14-DDS-NBDS.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "88f85f30249011500584217595a10bf348c3383b",
+    "blob_sha1_listed": "88f85f30249011500584217595a10bf348c3383b",
+    "forecast_date": "2020-12-21",
+    "median": "20398.0",
+    "path": "data-processed/DDS-NBDS/2020-12-21-DDS-NBDS.csv"
+   }
+  },
+  "FAIR-NRAR": {
+   "2020-11-28": {
+    "blob_sha1": "d2c8a2a4b769a8b953394b6a1ed9c8bf676acb97",
+    "blob_sha1_listed": "d2c8a2a4b769a8b953394b6a1ed9c8bf676acb97",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/FAIR-NRAR/2020-11-22-FAIR-NRAR.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "ae1dbca7220efd0e88e1c86ca20ea29333918836",
+    "blob_sha1_listed": "ae1dbca7220efd0e88e1c86ca20ea29333918836",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/FAIR-NRAR/2020-11-30-FAIR-NRAR.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "63e8306477fc6f986635969bc566b9362e4e28f2",
+    "blob_sha1_listed": "63e8306477fc6f986635969bc566b9362e4e28f2",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/FAIR-NRAR/2020-12-07-FAIR-NRAR.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "ec73c29764e091d8be45bdd1633e07849285c64b",
+    "blob_sha1_listed": "ec73c29764e091d8be45bdd1633e07849285c64b",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/FAIR-NRAR/2020-12-14-FAIR-NRAR.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "dfa45d73b1680f0269b8eb02714f1b371a615614",
+    "blob_sha1_listed": "dfa45d73b1680f0269b8eb02714f1b371a615614",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/FAIR-NRAR/2020-12-21-FAIR-NRAR.csv"
+   }
+  },
+  "GT-DeepCOVID": {
+   "2020-11-07": {
+    "blob_sha1": "5d531a256db3f0cdf43a830f3cd1d4e8d3464fce",
+    "blob_sha1_listed": "5d531a256db3f0cdf43a830f3cd1d4e8d3464fce",
+    "forecast_date": "2020-11-02",
+    "median": "6328.7085",
+    "path": "data-processed/GT-DeepCOVID/2020-11-02-GT-DeepCOVID.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "de91818ccb2f9a09d0a474daea61ed82bb5fb5bc",
+    "blob_sha1_listed": "de91818ccb2f9a09d0a474daea61ed82bb5fb5bc",
+    "forecast_date": "2020-11-09",
+    "median": "6587.7551",
+    "path": "data-processed/GT-DeepCOVID/2020-11-09-GT-DeepCOVID.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "6e9a98595bbbf9de7f342a008a55d0f69a582c4a",
+    "blob_sha1_listed": "6e9a98595bbbf9de7f342a008a55d0f69a582c4a",
+    "forecast_date": "2020-11-16",
+    "median": "9179.5801",
+    "path": "data-processed/GT-DeepCOVID/2020-11-16-GT-DeepCOVID.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "7f9c09f2765f166bebe28246c7aec51442d922cb",
+    "blob_sha1_listed": "7f9c09f2765f166bebe28246c7aec51442d922cb",
+    "forecast_date": "2020-11-23",
+    "median": "11516.8896",
+    "path": "data-processed/GT-DeepCOVID/2020-11-23-GT-DeepCOVID.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "6d6d161605f6dd8ef6795b85c1f7f886dc5d69c5",
+    "blob_sha1_listed": "6d6d161605f6dd8ef6795b85c1f7f886dc5d69c5",
+    "forecast_date": "2020-11-30",
+    "median": "12909.1060",
+    "path": "data-processed/GT-DeepCOVID/2020-11-30-GT-DeepCOVID.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "6645e72623a9bb0d2bce620d04c9ceedaed50bf7",
+    "blob_sha1_listed": "6645e72623a9bb0d2bce620d04c9ceedaed50bf7",
+    "forecast_date": "2020-12-07",
+    "median": "15396.2041",
+    "path": "data-processed/GT-DeepCOVID/2020-12-07-GT-DeepCOVID.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "992c5cf894b554f53efdd5a72bdb023b7361aef7",
+    "blob_sha1_listed": "992c5cf894b554f53efdd5a72bdb023b7361aef7",
+    "forecast_date": "2020-12-14",
+    "median": "17038.1719",
+    "path": "data-processed/GT-DeepCOVID/2020-12-14-GT-DeepCOVID.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "5cdcac179ef6e6bc97197d67a5586491b4b5e0ac",
+    "blob_sha1_listed": "5cdcac179ef6e6bc97197d67a5586491b4b5e0ac",
+    "forecast_date": "2020-12-21",
+    "median": "18055.7451",
+    "path": "data-processed/GT-DeepCOVID/2020-12-21-GT-DeepCOVID.csv"
+   }
+  },
+  "Geneva-DetGrowth": {
+   "2020-11-07": {
+    "blob_sha1": "2a6a0901eaa15a5d9dd2241ab99ca9c4e18d871a",
+    "blob_sha1_listed": "2a6a0901eaa15a5d9dd2241ab99ca9c4e18d871a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-11-01-Geneva-DetGrowth.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "c2ae1a047baf3b70e64b3634867d8108309d8dab",
+    "blob_sha1_listed": "c2ae1a047baf3b70e64b3634867d8108309d8dab",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-11-08-Geneva-DetGrowth.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "699b12da9a022dce4a3edb67cffbec14448ad93e",
+    "blob_sha1_listed": "699b12da9a022dce4a3edb67cffbec14448ad93e",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-11-15-Geneva-DetGrowth.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "59f8f387039426216ae227971a13e341920cb660",
+    "blob_sha1_listed": "59f8f387039426216ae227971a13e341920cb660",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-11-22-Geneva-DetGrowth.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "d0b56749f5b80f2b8e63381251394eecc0022445",
+    "blob_sha1_listed": "d0b56749f5b80f2b8e63381251394eecc0022445",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-11-29-Geneva-DetGrowth.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "32cf10971652217384c919e7d9182749ec259eca",
+    "blob_sha1_listed": "32cf10971652217384c919e7d9182749ec259eca",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-12-06-Geneva-DetGrowth.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "c8b8bec1496e645d0d2f811766ccd993deb6abca",
+    "blob_sha1_listed": "c8b8bec1496e645d0d2f811766ccd993deb6abca",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-12-13-Geneva-DetGrowth.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "96a4e2403b8242e281811cc6a0b65f1812240d32",
+    "blob_sha1_listed": "96a4e2403b8242e281811cc6a0b65f1812240d32",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Geneva-DetGrowth/2020-12-20-Geneva-DetGrowth.csv"
+   }
+  },
+  "Google_Harvard-CPF": {
+   "2020-11-07": {
+    "blob_sha1": "3dd5216f42b7793fc9c641aaf46c67d5f434cb33",
+    "blob_sha1_listed": "3dd5216f42b7793fc9c641aaf46c67d5f434cb33",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-11-01-Google_Harvard-CPF.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "a4c3f4d037f6efd1b9829a27eeca9ca94ce92373",
+    "blob_sha1_listed": "a4c3f4d037f6efd1b9829a27eeca9ca94ce92373",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-11-08-Google_Harvard-CPF.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "74989b1f19b7df3fdaf0f0cd24bad216eea09457",
+    "blob_sha1_listed": "74989b1f19b7df3fdaf0f0cd24bad216eea09457",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-11-15-Google_Harvard-CPF.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "29f5f656888f11f8cb6e568eee4feab563238871",
+    "blob_sha1_listed": "29f5f656888f11f8cb6e568eee4feab563238871",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-11-22-Google_Harvard-CPF.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "bd862e1e44a34608985443dbea9edb8f1178fb55",
+    "blob_sha1_listed": "bd862e1e44a34608985443dbea9edb8f1178fb55",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-11-29-Google_Harvard-CPF.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "e9ac4d697b3649ec82011742bd73361eb0de0355",
+    "blob_sha1_listed": "e9ac4d697b3649ec82011742bd73361eb0de0355",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-12-06-Google_Harvard-CPF.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1f89f00fd7a52916ed31eeb33d10221841511055",
+    "blob_sha1_listed": "1f89f00fd7a52916ed31eeb33d10221841511055",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-12-13-Google_Harvard-CPF.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "87c6b517b263575a1d79faccdff90ae477fbae53",
+    "blob_sha1_listed": "87c6b517b263575a1d79faccdff90ae477fbae53",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Google_Harvard-CPF/2020-12-20-Google_Harvard-CPF.csv"
+   }
+  },
+  "IBF-TimeSeries": {
+   "2020-11-07": {
+    "blob_sha1": "e9ff0f541e293e6f377ebbc5c9510d94153a0274",
+    "blob_sha1_listed": "e9ff0f541e293e6f377ebbc5c9510d94153a0274",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-11-02-IBF-TimeSeries.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "e904b4710db0e72a1264cfcfa3fdc3fa21446556",
+    "blob_sha1_listed": "e904b4710db0e72a1264cfcfa3fdc3fa21446556",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-11-09-IBF-TimeSeries.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "941fd456b617612d564ddb95306b1eb1f9d79b9e",
+    "blob_sha1_listed": "941fd456b617612d564ddb95306b1eb1f9d79b9e",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-11-16-IBF-TimeSeries.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "79cda1a748fff663fab9b5135b4a6897c946f37a",
+    "blob_sha1_listed": "79cda1a748fff663fab9b5135b4a6897c946f37a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-11-23-IBF-TimeSeries.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "d9f7c3515bf22992bac12bb346a80201c9c3dc38",
+    "blob_sha1_listed": "d9f7c3515bf22992bac12bb346a80201c9c3dc38",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-11-30-IBF-TimeSeries.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "cca4f2bc9a8ef13b5964ba2488fa52645a8d0e6a",
+    "blob_sha1_listed": "cca4f2bc9a8ef13b5964ba2488fa52645a8d0e6a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-12-07-IBF-TimeSeries.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "40678a524a1027f1196ca622408d57357484a764",
+    "blob_sha1_listed": "40678a524a1027f1196ca622408d57357484a764",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-12-14-IBF-TimeSeries.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "07c720a54ec96ed9e3f6cf5686a11e9dcaa71af9",
+    "blob_sha1_listed": "07c720a54ec96ed9e3f6cf5686a11e9dcaa71af9",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IBF-TimeSeries/2020-12-21-IBF-TimeSeries.csv"
+   }
+  },
+  "IEM_MED-CovidProject": {
+   "2020-12-12": {
+    "blob_sha1": "f2a0df575fea1140d51f64f739b3d707d835e93c",
+    "blob_sha1_listed": "f2a0df575fea1140d51f64f739b3d707d835e93c",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IEM_MED-CovidProject/2020-12-07-IEM_MED-CovidProject.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "6d3faea259e39b601dffd4a2b73147eb6f5ed8aa",
+    "blob_sha1_listed": "6d3faea259e39b601dffd4a2b73147eb6f5ed8aa",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IEM_MED-CovidProject/2020-12-14-IEM_MED-CovidProject.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "aa55410a17fd83e45baa164b2431ec172f786153",
+    "blob_sha1_listed": "aa55410a17fd83e45baa164b2431ec172f786153",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IEM_MED-CovidProject/2020-12-21-IEM_MED-CovidProject.csv"
+   }
+  },
+  "IHME-CurveFit": {
+   "2020-11-28": {
+    "blob_sha1": "b7a9d239897f5dc94c9f9696cba89b78d74c604a",
+    "blob_sha1_listed": "b7a9d239897f5dc94c9f9696cba89b78d74c604a",
+    "forecast_date": "2020-11-23",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/IHME-CurveFit/2020-11-23-IHME-CurveFit.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "68ce086d47c05e46a43fa2c9b6e2b89b6b3c35b2",
+    "blob_sha1_listed": "68ce086d47c05e46a43fa2c9b6e2b89b6b3c35b2",
+    "forecast_date": "2020-12-07",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/IHME-CurveFit/2020-12-07-IHME-CurveFit.csv"
+   }
+  },
+  "IQVIA_ACOE-STAN": {
+   "2020-11-07": {
+    "blob_sha1": "e51498244bb821e6838cf469bfb0e22c658e36b2",
+    "blob_sha1_listed": "e51498244bb821e6838cf469bfb0e22c658e36b2",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-11-01-IQVIA_ACOE-STAN.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "278180fec0bdb287e6677aa1cc0e15c9ff9207f5",
+    "blob_sha1_listed": "278180fec0bdb287e6677aa1cc0e15c9ff9207f5",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-11-08-IQVIA_ACOE-STAN.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "3ab8232c92ce900bae43de52957a09b3e0fe0975",
+    "blob_sha1_listed": "3ab8232c92ce900bae43de52957a09b3e0fe0975",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-11-15-IQVIA_ACOE-STAN.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "ac424d6362251eb98e729faa0be77107c600fa9c",
+    "blob_sha1_listed": "ac424d6362251eb98e729faa0be77107c600fa9c",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-11-22-IQVIA_ACOE-STAN.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "824c6fcdb0474a45dc0851762f4a7920500d8ba4",
+    "blob_sha1_listed": "824c6fcdb0474a45dc0851762f4a7920500d8ba4",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-11-29-IQVIA_ACOE-STAN.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "63b568a248fd9e85464a0741b5114c6d6f02774e",
+    "blob_sha1_listed": "63b568a248fd9e85464a0741b5114c6d6f02774e",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-12-06-IQVIA_ACOE-STAN.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "7b5e8691cca00640527dfbe3375f333508d89d85",
+    "blob_sha1_listed": "7b5e8691cca00640527dfbe3375f333508d89d85",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/IQVIA_ACOE-STAN/2020-12-13-IQVIA_ACOE-STAN.csv"
+   }
+  },
+  "IowaStateLW-STEM": {
+   "2020-11-07": {
+    "blob_sha1": "09b03837f099fd56be2ea12de4fbf032dc407ac6",
+    "blob_sha1_listed": "09b03837f099fd56be2ea12de4fbf032dc407ac6",
+    "forecast_date": "2020-11-01",
+    "median": "6322",
+    "path": "data-processed/IowaStateLW-STEM/2020-11-01-IowaStateLW-STEM.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "f3fc4a9795fb535a70cf9b6bfc9704b570047455",
+    "blob_sha1_listed": "f3fc4a9795fb535a70cf9b6bfc9704b570047455",
+    "forecast_date": "2020-11-08",
+    "median": "6772",
+    "path": "data-processed/IowaStateLW-STEM/2020-11-08-IowaStateLW-STEM.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "c0ac73333249bd7b6afe1cea5a2dd69b7638caad",
+    "blob_sha1_listed": "c0ac73333249bd7b6afe1cea5a2dd69b7638caad",
+    "forecast_date": "2020-11-15",
+    "median": "8670",
+    "path": "data-processed/IowaStateLW-STEM/2020-11-15-IowaStateLW-STEM.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "326e88c52c6ce1d0949345beeb2c538526a675ac",
+    "blob_sha1_listed": "326e88c52c6ce1d0949345beeb2c538526a675ac",
+    "forecast_date": "2020-11-22",
+    "median": "13026",
+    "path": "data-processed/IowaStateLW-STEM/2020-11-22-IowaStateLW-STEM.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "c73ad9a3272b1c87a18485e79c33e040dc0b2000",
+    "blob_sha1_listed": "c73ad9a3272b1c87a18485e79c33e040dc0b2000",
+    "forecast_date": "2020-11-29",
+    "median": "12984",
+    "path": "data-processed/IowaStateLW-STEM/2020-11-29-IowaStateLW-STEM.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "9afeb7278e6c9a76f72a0c294dbbdd7eca1dcb8e",
+    "blob_sha1_listed": "9afeb7278e6c9a76f72a0c294dbbdd7eca1dcb8e",
+    "forecast_date": "2020-12-06",
+    "median": "16559",
+    "path": "data-processed/IowaStateLW-STEM/2020-12-06-IowaStateLW-STEM.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1ced89a3bd71d731fc447ffcc1c6977b8e15189c",
+    "blob_sha1_listed": "1ced89a3bd71d731fc447ffcc1c6977b8e15189c",
+    "forecast_date": "2020-12-13",
+    "median": "21126",
+    "path": "data-processed/IowaStateLW-STEM/2020-12-13-IowaStateLW-STEM.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "e333c5df6402f6b79c052f028aaece594f2856c6",
+    "blob_sha1_listed": "e333c5df6402f6b79c052f028aaece594f2856c6",
+    "forecast_date": "2020-12-20",
+    "median": "22301",
+    "path": "data-processed/IowaStateLW-STEM/2020-12-20-IowaStateLW-STEM.csv"
+   }
+  },
+  "JCB-PRM": {
+   "2020-11-07": {
+    "blob_sha1": "7ad4f655cd6b0398d3d54530b84892821d726e9e",
+    "blob_sha1_listed": "7ad4f655cd6b0398d3d54530b84892821d726e9e",
+    "forecast_date": "2020-11-02",
+    "median": "6417.305060282115",
+    "path": "data-processed/JCB-PRM/2020-11-02-JCB-PRM.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "145cd17a7f084cb4dea2028bd8d24a18d4a7c4a7",
+    "blob_sha1_listed": "145cd17a7f084cb4dea2028bd8d24a18d4a7c4a7",
+    "forecast_date": "2020-11-09",
+    "median": "7450.563072267472",
+    "path": "data-processed/JCB-PRM/2020-11-09-JCB-PRM.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "8dffcc2e9e6eaae1f25ca2c19a072f973ea5d4f8",
+    "blob_sha1_listed": "8dffcc2e9e6eaae1f25ca2c19a072f973ea5d4f8",
+    "forecast_date": "2020-11-16",
+    "median": "8703.304018499533",
+    "path": "data-processed/JCB-PRM/2020-11-16-JCB-PRM.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "467eb82ca026eda218f33ebe9aafcc04e07c39e8",
+    "blob_sha1_listed": "467eb82ca026eda218f33ebe9aafcc04e07c39e8",
+    "forecast_date": "2020-11-23",
+    "median": "10946.68479948103",
+    "path": "data-processed/JCB-PRM/2020-11-23-JCB-PRM.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "2fedea20ae6a05e40572caea76d0df2ed784cc62",
+    "blob_sha1_listed": "2fedea20ae6a05e40572caea76d0df2ed784cc62",
+    "forecast_date": "2020-11-30",
+    "median": "12434.219570624597",
+    "path": "data-processed/JCB-PRM/2020-11-30-JCB-PRM.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "3a7ae77b09d3af998d17ebcd836b3222f7eb1627",
+    "blob_sha1_listed": "3a7ae77b09d3af998d17ebcd836b3222f7eb1627",
+    "forecast_date": "2020-12-07",
+    "median": "15212.368402557215",
+    "path": "data-processed/JCB-PRM/2020-12-07-JCB-PRM.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "8df1aa76b426ed68614174a1c0a9aac5fceebe32",
+    "blob_sha1_listed": "8df1aa76b426ed68614174a1c0a9aac5fceebe32",
+    "forecast_date": "2020-12-14",
+    "median": "17692.268659798236",
+    "path": "data-processed/JCB-PRM/2020-12-14-JCB-PRM.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "7b2d860e79637a39bee0717fb71029b270e406cb",
+    "blob_sha1_listed": "7b2d860e79637a39bee0717fb71029b270e406cb",
+    "forecast_date": "2020-12-21",
+    "median": "20147.131078803337",
+    "path": "data-processed/JCB-PRM/2020-12-21-JCB-PRM.csv"
+   }
+  },
+  "JHUAPL-Bucky": {
+   "2020-11-07": {
+    "blob_sha1": "56870637fd84531527c61f5976db113911d149af",
+    "blob_sha1_listed": "56870637fd84531527c61f5976db113911d149af",
+    "forecast_date": "2020-11-02",
+    "median": "6558.993750579442",
+    "path": "data-processed/JHUAPL-Bucky/2020-11-02-JHUAPL-Bucky.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "66cb9cee0f809326e0540171990c01236e832830",
+    "blob_sha1_listed": "66cb9cee0f809326e0540171990c01236e832830",
+    "forecast_date": "2020-11-09",
+    "median": "7274.839629687252",
+    "path": "data-processed/JHUAPL-Bucky/2020-11-09-JHUAPL-Bucky.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "d2991b2eca0b3250cc11158db53cc9771387dc33",
+    "blob_sha1_listed": "d2991b2eca0b3250cc11158db53cc9771387dc33",
+    "forecast_date": "2020-11-16",
+    "median": "9676.734508467496",
+    "path": "data-processed/JHUAPL-Bucky/2020-11-16-JHUAPL-Bucky.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "7d4408e98e54bbedd219cf842bc5b40168ee35be",
+    "blob_sha1_listed": "7d4408e98e54bbedd219cf842bc5b40168ee35be",
+    "forecast_date": "2020-11-23",
+    "median": "8825.402336431242",
+    "path": "data-processed/JHUAPL-Bucky/2020-11-23-JHUAPL-Bucky.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "e8e4eba26d0aa5f435b2ee1ef331cc0887a86955",
+    "blob_sha1_listed": "e8e4eba26d0aa5f435b2ee1ef331cc0887a86955",
+    "forecast_date": "2020-11-30",
+    "median": "12894.315891915943",
+    "path": "data-processed/JHUAPL-Bucky/2020-11-30-JHUAPL-Bucky.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "c376babe17e5821a572e3b717abfa0a2b3bb4427",
+    "blob_sha1_listed": "c376babe17e5821a572e3b717abfa0a2b3bb4427",
+    "forecast_date": "2020-12-07",
+    "median": "15106.775808787621",
+    "path": "data-processed/JHUAPL-Bucky/2020-12-07-JHUAPL-Bucky.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "12ace9c44daffc637f731da19c63dec85790d0b3",
+    "blob_sha1_listed": "12ace9c44daffc637f731da19c63dec85790d0b3",
+    "forecast_date": "2020-12-14",
+    "median": "16224.251174183148",
+    "path": "data-processed/JHUAPL-Bucky/2020-12-14-JHUAPL-Bucky.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "680f9130aa00fd46287ab5085910a2e004a0c640",
+    "blob_sha1_listed": "680f9130aa00fd46287ab5085910a2e004a0c640",
+    "forecast_date": "2020-12-21",
+    "median": "20229.515404820122",
+    "path": "data-processed/JHUAPL-Bucky/2020-12-21-JHUAPL-Bucky.csv"
+   }
+  },
+  "JHUAPL-SLPHospEns": {
+   "2020-12-12": {
+    "blob_sha1": "2983023808322cc9b411424a568b4d61b86a2f2c",
+    "blob_sha1_listed": "2983023808322cc9b411424a568b4d61b86a2f2c",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHUAPL-SLPHospEns/2020-12-06-JHUAPL-SLPHospEns.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "4e2b26e2ce9bef6bdf174a7c3db31ef441a01d8a",
+    "blob_sha1_listed": "4e2b26e2ce9bef6bdf174a7c3db31ef441a01d8a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHUAPL-SLPHospEns/2020-12-14-JHUAPL-SLPHospEns.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "23aeaf7893e7f4a1b413ee1afd105b0548ceae16",
+    "blob_sha1_listed": "23aeaf7893e7f4a1b413ee1afd105b0548ceae16",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHUAPL-SLPHospEns/2020-12-21-JHUAPL-SLPHospEns.csv"
+   }
+  },
+  "JHU_CSSE-DECOM": {
+   "2020-11-07": {
+    "blob_sha1": "aee544a9740f4acbd2333fb779199bfc7fe1f12a",
+    "blob_sha1_listed": "aee544a9740f4acbd2333fb779199bfc7fe1f12a",
+    "forecast_date": "2020-11-01",
+    "median": "4994.321233114789",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-11-01-JHU_CSSE-DECOM.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "8d7c72bff0ec400cfa1c6825833941786d32e79a",
+    "blob_sha1_listed": "8d7c72bff0ec400cfa1c6825833941786d32e79a",
+    "forecast_date": "2020-11-08",
+    "median": "6185.857333319072",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-11-08-JHU_CSSE-DECOM.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "6556d2f325d54a6b10a89962121efa1249c91ce3",
+    "blob_sha1_listed": "6556d2f325d54a6b10a89962121efa1249c91ce3",
+    "forecast_date": "2020-11-15",
+    "median": "7658.805910475248",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-11-15-JHU_CSSE-DECOM.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "ec98b589ce61bb376084fa08271aad435662474b",
+    "blob_sha1_listed": "ec98b589ce61bb376084fa08271aad435662474b",
+    "forecast_date": "2020-11-22",
+    "median": "11474.77049404507",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-11-22-JHU_CSSE-DECOM.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "82e7108991ea5ced5b042215eb401ecc06d354ef",
+    "blob_sha1_listed": "82e7108991ea5ced5b042215eb401ecc06d354ef",
+    "forecast_date": "2020-11-29",
+    "median": "10592.43602786212",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-11-29-JHU_CSSE-DECOM.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "8165665060bf31b1cefe94ab5118df05d1a44322",
+    "blob_sha1_listed": "8165665060bf31b1cefe94ab5118df05d1a44322",
+    "forecast_date": "2020-12-06",
+    "median": "14783.580347885285",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-12-06-JHU_CSSE-DECOM.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "c190ecdbd305b5e5af864927994c897fd22e3866",
+    "blob_sha1_listed": "c190ecdbd305b5e5af864927994c897fd22e3866",
+    "forecast_date": "2020-12-13",
+    "median": "17963.193578566916",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-12-13-JHU_CSSE-DECOM.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "404bcddb6a43b86199e9ae1628086c788507a184",
+    "blob_sha1_listed": "404bcddb6a43b86199e9ae1628086c788507a184",
+    "forecast_date": "2020-12-20",
+    "median": "19009.18863157119",
+    "path": "data-processed/JHU_CSSE-DECOM/2020-12-20-JHU_CSSE-DECOM.csv"
+   }
+  },
+  "JHU_IDD-CovidSP": {
+   "2020-11-07": {
+    "blob_sha1": "eb0560418babd7fc98c1e1c0e9509a3bb3928b58",
+    "blob_sha1_listed": "eb0560418babd7fc98c1e1c0e9509a3bb3928b58",
+    "forecast_date": "2020-11-01",
+    "median": "3799.5",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-11-01-JHU_IDD-CovidSP.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "402a7538f94da43825794b11f99c398fdc7a98b1",
+    "blob_sha1_listed": "402a7538f94da43825794b11f99c398fdc7a98b1",
+    "forecast_date": "2020-11-08",
+    "median": "3699",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-11-08-JHU_IDD-CovidSP.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "76e4dca35a41a7c289499189363c5dec74ea9d03",
+    "blob_sha1_listed": "76e4dca35a41a7c289499189363c5dec74ea9d03",
+    "forecast_date": "2020-11-15",
+    "median": "9686",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-11-15-JHU_IDD-CovidSP.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "be6dab4ceb37c6e0c35f1e36ad6f376134a6db51",
+    "blob_sha1_listed": "be6dab4ceb37c6e0c35f1e36ad6f376134a6db51",
+    "forecast_date": "2020-11-22",
+    "median": "10775.5",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-11-22-JHU_IDD-CovidSP.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "949ca0521aad84e6bae836912f8e2823ba31402d",
+    "blob_sha1_listed": "949ca0521aad84e6bae836912f8e2823ba31402d",
+    "forecast_date": "2020-11-29",
+    "median": "11747.5",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-11-29-JHU_IDD-CovidSP.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "33fce5da1d0f00896183e9e67908ba66e2668f92",
+    "blob_sha1_listed": "33fce5da1d0f00896183e9e67908ba66e2668f92",
+    "forecast_date": "2020-12-06",
+    "median": "12609.5",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-12-06-JHU_IDD-CovidSP.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "c273a33912ab9785a24a1a2d269d4f296bb86d66",
+    "blob_sha1_listed": "c273a33912ab9785a24a1a2d269d4f296bb86d66",
+    "forecast_date": "2020-12-13",
+    "median": "13343",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-12-13-JHU_IDD-CovidSP.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "5e3595ac40e8564ed24fce56a84918638a36f184",
+    "blob_sha1_listed": "5e3595ac40e8564ed24fce56a84918638a36f184",
+    "forecast_date": "2020-12-20",
+    "median": "25266.15020951792",
+    "path": "data-processed/JHU_IDD-CovidSP/2020-12-20-JHU_IDD-CovidSP.csv"
+   }
+  },
+  "JHU_UNC_GAS-StatMechPool": {
+   "2020-11-07": {
+    "blob_sha1": "51bd408faeac01d178c57864c9445f38acfecc45",
+    "blob_sha1_listed": "51bd408faeac01d178c57864c9445f38acfecc45",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHU_UNC_GAS-StatMechPool/2020-11-01-JHU_UNC_GAS-StatMechPool.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "9ade2fbf6be50866c69e1c8af6016090bfa0cb9c",
+    "blob_sha1_listed": "9ade2fbf6be50866c69e1c8af6016090bfa0cb9c",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHU_UNC_GAS-StatMechPool/2020-11-08-JHU_UNC_GAS-StatMechPool.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "428ef3902efd2abec492fbdfe7b8ca1fd232b90d",
+    "blob_sha1_listed": "428ef3902efd2abec492fbdfe7b8ca1fd232b90d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHU_UNC_GAS-StatMechPool/2020-11-15-JHU_UNC_GAS-StatMechPool.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "1cbe49f98bf413ed12163928e1db50f71db18b5d",
+    "blob_sha1_listed": "1cbe49f98bf413ed12163928e1db50f71db18b5d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHU_UNC_GAS-StatMechPool/2020-12-06-JHU_UNC_GAS-StatMechPool.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "5b6ab8a69ca582f4ccd6dd51368d888b1988683a",
+    "blob_sha1_listed": "5b6ab8a69ca582f4ccd6dd51368d888b1988683a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHU_UNC_GAS-StatMechPool/2020-12-13-JHU_UNC_GAS-StatMechPool.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "fcdde671b4dc0e75e520e4c44f350e1d32f3b3f3",
+    "blob_sha1_listed": "fcdde671b4dc0e75e520e4c44f350e1d32f3b3f3",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/JHU_UNC_GAS-StatMechPool/2020-12-20-JHU_UNC_GAS-StatMechPool.csv"
+   }
+  },
+  "Karlen-pypm": {
+   "2020-11-07": {
+    "blob_sha1": "ad17a6d2380524b892a1e7fc4d10d0f376bfe8eb",
+    "blob_sha1_listed": "ad17a6d2380524b892a1e7fc4d10d0f376bfe8eb",
+    "forecast_date": "2020-11-01",
+    "median": "6898.0",
+    "path": "data-processed/Karlen-pypm/2020-11-01-Karlen-pypm.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "347ccd1f9926a421f931c966ffa54792aaf0fbe8",
+    "blob_sha1_listed": "347ccd1f9926a421f931c966ffa54792aaf0fbe8",
+    "forecast_date": "2020-11-08",
+    "median": "8100.8",
+    "path": "data-processed/Karlen-pypm/2020-11-08-Karlen-pypm.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "01f5f8ddac94fc95b4c0a2b33eb2c94fc215774e",
+    "blob_sha1_listed": "01f5f8ddac94fc95b4c0a2b33eb2c94fc215774e",
+    "forecast_date": "2020-11-15",
+    "median": "10054.3",
+    "path": "data-processed/Karlen-pypm/2020-11-15-Karlen-pypm.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "71fae897bd72609a9ec3072f77affc65dca2043d",
+    "blob_sha1_listed": "71fae897bd72609a9ec3072f77affc65dca2043d",
+    "forecast_date": "2020-11-22",
+    "median": "12084.5",
+    "path": "data-processed/Karlen-pypm/2020-11-22-Karlen-pypm.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "6a50433265b494d75003ce667b5c1e019fe69ac0",
+    "blob_sha1_listed": "6a50433265b494d75003ce667b5c1e019fe69ac0",
+    "forecast_date": "2020-11-29",
+    "median": "12796.0",
+    "path": "data-processed/Karlen-pypm/2020-11-29-Karlen-pypm.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "21270df4ae66cefcc260f920f8971c35613927fa",
+    "blob_sha1_listed": "21270df4ae66cefcc260f920f8971c35613927fa",
+    "forecast_date": "2020-12-06",
+    "median": "15642.5",
+    "path": "data-processed/Karlen-pypm/2020-12-06-Karlen-pypm.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "4e3c48aff2ffd517e273093fd6171449ece2e8a4",
+    "blob_sha1_listed": "4e3c48aff2ffd517e273093fd6171449ece2e8a4",
+    "forecast_date": "2020-12-13",
+    "median": "17467.0",
+    "path": "data-processed/Karlen-pypm/2020-12-13-Karlen-pypm.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "dbdbbd1ee3d41865eb71bc0b4bc4b1fcb28f7744",
+    "blob_sha1_listed": "dbdbbd1ee3d41865eb71bc0b4bc4b1fcb28f7744",
+    "forecast_date": "2020-12-20",
+    "median": "19436.0",
+    "path": "data-processed/Karlen-pypm/2020-12-20-Karlen-pypm.csv"
+   }
+  },
+  "LANL-GrowthRate": {
+   "2020-11-07": {
+    "blob_sha1": "51c3f345abd653d075207bc72cc42139d27f6f86",
+    "blob_sha1_listed": "51c3f345abd653d075207bc72cc42139d27f6f86",
+    "forecast_date": "2020-11-02",
+    "median": "6216",
+    "path": "data-processed/LANL-GrowthRate/2020-11-02-LANL-GrowthRate.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "f89b7a071eed3d96b02f6c84c157373f94555bf1",
+    "blob_sha1_listed": "f89b7a071eed3d96b02f6c84c157373f94555bf1",
+    "forecast_date": "2020-11-09",
+    "median": "7572",
+    "path": "data-processed/LANL-GrowthRate/2020-11-09-LANL-GrowthRate.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "d7340ce9fac28f4f3c5bad18fb4cf55e897d5549",
+    "blob_sha1_listed": "d7340ce9fac28f4f3c5bad18fb4cf55e897d5549",
+    "forecast_date": "2020-11-16",
+    "median": "9252",
+    "path": "data-processed/LANL-GrowthRate/2020-11-16-LANL-GrowthRate.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "b3ace85defdbfb71a4c55f519db527980c5c0665",
+    "blob_sha1_listed": "b3ace85defdbfb71a4c55f519db527980c5c0665",
+    "forecast_date": "2020-11-23",
+    "median": "11047",
+    "path": "data-processed/LANL-GrowthRate/2020-11-23-LANL-GrowthRate.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "0136c47c7dbecec7297bfb0910625dd97e3effb1",
+    "blob_sha1_listed": "0136c47c7dbecec7297bfb0910625dd97e3effb1",
+    "forecast_date": "2020-11-30",
+    "median": "10347.5",
+    "path": "data-processed/LANL-GrowthRate/2020-11-30-LANL-GrowthRate.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "610b9a951d77b45e350b1bacd902da1e2e0c0099",
+    "blob_sha1_listed": "610b9a951d77b45e350b1bacd902da1e2e0c0099",
+    "forecast_date": "2020-12-07",
+    "median": "15831.5",
+    "path": "data-processed/LANL-GrowthRate/2020-12-07-LANL-GrowthRate.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "5ea9209cd2338776cd1a154966bbb33cb59ac4c3",
+    "blob_sha1_listed": "5ea9209cd2338776cd1a154966bbb33cb59ac4c3",
+    "forecast_date": "2020-12-14",
+    "median": "18724.5",
+    "path": "data-processed/LANL-GrowthRate/2020-12-14-LANL-GrowthRate.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "d6ef31cf5f4ac0a4d8f6dd8f8b5e68d2b1d41072",
+    "blob_sha1_listed": "d6ef31cf5f4ac0a4d8f6dd8f8b5e68d2b1d41072",
+    "forecast_date": "2020-12-21",
+    "median": "20515.5",
+    "path": "data-processed/LANL-GrowthRate/2020-12-21-LANL-GrowthRate.csv"
+   }
+  },
+  "LNQ-ens1": {
+   "2020-11-07": {
+    "blob_sha1": "e7b94057078a249d3e7b41c0031b1314b6b6f08c",
+    "blob_sha1_listed": "e7b94057078a249d3e7b41c0031b1314b6b6f08c",
+    "forecast_date": "2020-11-01",
+    "median": "6624.448129865355",
+    "path": "data-processed/LNQ-ens1/2020-11-01-LNQ-ens1.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "a423c29b9fb3d39a35d2b622704b792781eb0e19",
+    "blob_sha1_listed": "a423c29b9fb3d39a35d2b622704b792781eb0e19",
+    "forecast_date": "2020-11-08",
+    "median": "7850.28172050001",
+    "path": "data-processed/LNQ-ens1/2020-11-08-LNQ-ens1.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "701869eaf3d4133b1c8a4dc389f59e49f367b3ca",
+    "blob_sha1_listed": "701869eaf3d4133b1c8a4dc389f59e49f367b3ca",
+    "forecast_date": "2020-11-15",
+    "median": "9321.766588519102",
+    "path": "data-processed/LNQ-ens1/2020-11-15-LNQ-ens1.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "9a54b8319fe454128e014ee43265057f17215f9e",
+    "blob_sha1_listed": "9a54b8319fe454128e014ee43265057f17215f9e",
+    "forecast_date": "2020-11-22",
+    "median": "12842.289393598774",
+    "path": "data-processed/LNQ-ens1/2020-11-22-LNQ-ens1.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "d5a9a1e4df8e694ef372a1a5728dc1c8259fc463",
+    "blob_sha1_listed": "d5a9a1e4df8e694ef372a1a5728dc1c8259fc463",
+    "forecast_date": "2020-11-29",
+    "median": "11194.202115630787",
+    "path": "data-processed/LNQ-ens1/2020-11-29-LNQ-ens1.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "fe0539914077be9903d6c522985b593f0d397977",
+    "blob_sha1_listed": "fe0539914077be9903d6c522985b593f0d397977",
+    "forecast_date": "2020-12-06",
+    "median": "16893.408501992155",
+    "path": "data-processed/LNQ-ens1/2020-12-06-LNQ-ens1.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "529eea946755ba84e6d799f37cdcc865a892528c",
+    "blob_sha1_listed": "529eea946755ba84e6d799f37cdcc865a892528c",
+    "forecast_date": "2020-12-13",
+    "median": "20058.29145427368",
+    "path": "data-processed/LNQ-ens1/2020-12-13-LNQ-ens1.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "5890e9a3bd6c3a51f3c3382e5310f4f7238f50ea",
+    "blob_sha1_listed": "5890e9a3bd6c3a51f3c3382e5310f4f7238f50ea",
+    "forecast_date": "2020-12-20",
+    "median": "20099.2139039104",
+    "path": "data-processed/LNQ-ens1/2020-12-20-LNQ-ens1.csv"
+   }
+  },
+  "MIT_CritData-GBCF": {
+   "2020-11-07": {
+    "blob_sha1": "a0e53c47a9d80706dfff629ecf7ec08a2f2f6c04",
+    "blob_sha1_listed": "a0e53c47a9d80706dfff629ecf7ec08a2f2f6c04",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/MIT_CritData-GBCF/2020-11-01-MIT_CritData-GBCF.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "e99dd0f77d8c61a3dc4d5eaf46a00dda1f6ad79c",
+    "blob_sha1_listed": "e99dd0f77d8c61a3dc4d5eaf46a00dda1f6ad79c",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/MIT_CritData-GBCF/2020-11-08-MIT_CritData-GBCF.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "4a23b3e9455df653cbb95e5adfa496c0f65d8bca",
+    "blob_sha1_listed": "4a23b3e9455df653cbb95e5adfa496c0f65d8bca",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/MIT_CritData-GBCF/2020-11-15-MIT_CritData-GBCF.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "79cdd17359498986cb5df326314574b803a27404",
+    "blob_sha1_listed": "79cdd17359498986cb5df326314574b803a27404",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/MIT_CritData-GBCF/2020-11-22-MIT_CritData-GBCF.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "5e9e20e8332b20873c7e7cd0326ef6ce3ae2f1df",
+    "blob_sha1_listed": "5e9e20e8332b20873c7e7cd0326ef6ce3ae2f1df",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/MIT_CritData-GBCF/2020-11-29-MIT_CritData-GBCF.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "ab668779f0399e14c2368171ddd59a2344271ea8",
+    "blob_sha1_listed": "ab668779f0399e14c2368171ddd59a2344271ea8",
+    "forecast_date": "2020-12-06",
+    "median": "14493",
+    "path": "data-processed/MIT_CritData-GBCF/2020-12-06-MIT_CritData-GBCF.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "4a53b9d5f52013efa90b750f35bbb6d3455a47f4",
+    "blob_sha1_listed": "4a53b9d5f52013efa90b750f35bbb6d3455a47f4",
+    "forecast_date": "2020-12-13",
+    "median": "17641",
+    "path": "data-processed/MIT_CritData-GBCF/2020-12-13-MIT_CritData-GBCF.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "5fb93bb5481bcc0a5fd2300512951e19f316ca71",
+    "blob_sha1_listed": "5fb93bb5481bcc0a5fd2300512951e19f316ca71",
+    "forecast_date": "2020-12-20",
+    "median": "20197",
+    "path": "data-processed/MIT_CritData-GBCF/2020-12-20-MIT_CritData-GBCF.csv"
+   }
+  },
+  "MOBS-GLEAM_COVID": {
+   "2020-11-07": {
+    "blob_sha1": "f9a8ba5aa64cd8dff20e06f2fc707ab900d07a01",
+    "blob_sha1_listed": "f9a8ba5aa64cd8dff20e06f2fc707ab900d07a01",
+    "forecast_date": "2020-11-02",
+    "median": "5803.79605879297",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-11-02-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "72c2cf859c954183cdfc0207ded98856814d2f77",
+    "blob_sha1_listed": "72c2cf859c954183cdfc0207ded98856814d2f77",
+    "forecast_date": "2020-11-09",
+    "median": "7028.489892748114",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-11-09-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "1a2ed8bd9c6446ad272ec5e4bdee891e27b4d537",
+    "blob_sha1_listed": "1a2ed8bd9c6446ad272ec5e4bdee891e27b4d537",
+    "forecast_date": "2020-11-16",
+    "median": "8293.494835220636",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-11-16-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "25db38a78611575703b693da8e6ab54995a5f56b",
+    "blob_sha1_listed": "25db38a78611575703b693da8e6ab54995a5f56b",
+    "forecast_date": "2020-11-23",
+    "median": "11370.411549959656",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-11-23-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "7fa7284c1e63171a088a2bcd18c3fa29ffc14a30",
+    "blob_sha1_listed": "7fa7284c1e63171a088a2bcd18c3fa29ffc14a30",
+    "forecast_date": "2020-11-30",
+    "median": "11400.210875403704",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-11-30-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "a1e250e39f5dc3f226deec8babb7c5269ad48f77",
+    "blob_sha1_listed": "a1e250e39f5dc3f226deec8babb7c5269ad48f77",
+    "forecast_date": "2020-12-07",
+    "median": "15272.757492046185",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-12-07-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "f1c2fab7451cd8d74700fbccd70c7f93c9d9e195",
+    "blob_sha1_listed": "f1c2fab7451cd8d74700fbccd70c7f93c9d9e195",
+    "forecast_date": "2020-12-14",
+    "median": "17087.03575812053",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-12-14-MOBS-GLEAM_COVID.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "5fcd3db6517e1201e851d54890ffde026a0a2c67",
+    "blob_sha1_listed": "5fcd3db6517e1201e851d54890ffde026a0a2c67",
+    "forecast_date": "2020-12-21",
+    "median": "18663.553465434354",
+    "path": "data-processed/MOBS-GLEAM_COVID/2020-12-21-MOBS-GLEAM_COVID.csv"
+   }
+  },
+  "MSRA-DeepST": {
+   "2020-11-07": {
+    "blob_sha1": "bbe7449ab79b6dbe9419988bcc31819227a60547",
+    "blob_sha1_listed": "bbe7449ab79b6dbe9419988bcc31819227a60547",
+    "forecast_date": "2020-11-02",
+    "median": "5906.315815827787",
+    "path": "data-processed/MSRA-DeepST/2020-11-02-MSRA-DeepST.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "43388be99e20be5b4b8a4555c006ffefe2b2d9f6",
+    "blob_sha1_listed": "43388be99e20be5b4b8a4555c006ffefe2b2d9f6",
+    "forecast_date": "2020-11-09",
+    "median": "6729.603873275637",
+    "path": "data-processed/MSRA-DeepST/2020-11-09-MSRA-DeepST.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "bdb62f8c57cef635883dbc401bd22b6ed9c2e345",
+    "blob_sha1_listed": "bdb62f8c57cef635883dbc401bd22b6ed9c2e345",
+    "forecast_date": "2020-11-16",
+    "median": "8343.1799901014",
+    "path": "data-processed/MSRA-DeepST/2020-11-16-MSRA-DeepST.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "2bdfc02d0ec8f9a17e8475a42e6deddbbe75d6bb",
+    "blob_sha1_listed": "2bdfc02d0ec8f9a17e8475a42e6deddbbe75d6bb",
+    "forecast_date": "2020-11-23",
+    "median": "11882.606316053249",
+    "path": "data-processed/MSRA-DeepST/2020-11-23-MSRA-DeepST.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "44afe8d0fe308444677411d742b689594b04980f",
+    "blob_sha1_listed": "44afe8d0fe308444677411d742b689594b04980f",
+    "forecast_date": "2020-11-30",
+    "median": "11213.420174632796",
+    "path": "data-processed/MSRA-DeepST/2020-11-30-MSRA-DeepST.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "69910d672743cb51c17148100fda913fd86d5468",
+    "blob_sha1_listed": "69910d672743cb51c17148100fda913fd86d5468",
+    "forecast_date": "2020-12-07",
+    "median": "16227.051229684464",
+    "path": "data-processed/MSRA-DeepST/2020-12-07-MSRA-DeepST.csv"
+   }
+  },
+  "Microsoft-DeepSTIA": {
+   "2020-12-12": {
+    "blob_sha1": "71ecd9fc99381a1471d96e5eff3158f21c96f2e9",
+    "blob_sha1_listed": "71ecd9fc99381a1471d96e5eff3158f21c96f2e9",
+    "forecast_date": "2020-12-07",
+    "median": "16223.377813916086",
+    "path": "data-processed/Microsoft-DeepSTIA/2020-12-07-Microsoft-DeepSTIA.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "7e4bfb434bddf37a9c92f1c5a0b837bbfe3569f5",
+    "blob_sha1_listed": "7e4bfb434bddf37a9c92f1c5a0b837bbfe3569f5",
+    "forecast_date": "2020-12-14",
+    "median": "19125.45715284379",
+    "path": "data-processed/Microsoft-DeepSTIA/2020-12-14-Microsoft-DeepSTIA.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "b32187e421b6c98c2eb75d94f526f3eaa4ecf911",
+    "blob_sha1_listed": "b32187e421b6c98c2eb75d94f526f3eaa4ecf911",
+    "forecast_date": "2020-12-21",
+    "median": "20675.180747076585",
+    "path": "data-processed/Microsoft-DeepSTIA/2020-12-21-Microsoft-DeepSTIA.csv"
+   }
+  },
+  "NotreDame-FRED": {
+   "2020-11-07": {
+    "blob_sha1": "e30063ecb000d098f403399dd4b471456e4668c3",
+    "blob_sha1_listed": "e30063ecb000d098f403399dd4b471456e4668c3",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/NotreDame-FRED/2020-11-02-NotreDame-FRED.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "7b90536b5e95a63bad262d2bce51458065066c00",
+    "blob_sha1_listed": "7b90536b5e95a63bad262d2bce51458065066c00",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/NotreDame-FRED/2020-11-09-NotreDame-FRED.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "713612a95bcd0c4d8339f56b27f9454e9f22f5d6",
+    "blob_sha1_listed": "713612a95bcd0c4d8339f56b27f9454e9f22f5d6",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/NotreDame-FRED/2020-11-16-NotreDame-FRED.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "45081774d1fd6fc3674c69e9375a5113e9846111",
+    "blob_sha1_listed": "45081774d1fd6fc3674c69e9375a5113e9846111",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/NotreDame-FRED/2020-11-23-NotreDame-FRED.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "e4e652a41c160195ecc7bf54cc0eb3bb19f37b53",
+    "blob_sha1_listed": "e4e652a41c160195ecc7bf54cc0eb3bb19f37b53",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/NotreDame-FRED/2020-12-07-NotreDame-FRED.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "48dbc7d5e96ef1287361c474ae873d453b5f1faf",
+    "blob_sha1_listed": "48dbc7d5e96ef1287361c474ae873d453b5f1faf",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/NotreDame-FRED/2020-12-14-NotreDame-FRED.csv"
+   }
+  },
+  "NotreDame-mobility": {
+   "2020-11-07": {
+    "blob_sha1": "11f6134d7e2ce87b03bc1b63450f91dac093cb74",
+    "blob_sha1_listed": "11f6134d7e2ce87b03bc1b63450f91dac093cb74",
+    "forecast_date": "2020-11-02",
+    "median": "5019",
+    "path": "data-processed/NotreDame-mobility/2020-11-02-NotreDame-mobility.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "2a38fc6ccf41fb86c89907ae3719c86dc68b465f",
+    "blob_sha1_listed": "2a38fc6ccf41fb86c89907ae3719c86dc68b465f",
+    "forecast_date": "2020-11-09",
+    "median": "5426",
+    "path": "data-processed/NotreDame-mobility/2020-11-09-NotreDame-mobility.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "976ac24596ea318e2f9b79969c3cb5cba7a9a202",
+    "blob_sha1_listed": "976ac24596ea318e2f9b79969c3cb5cba7a9a202",
+    "forecast_date": "2020-11-16",
+    "median": "7660",
+    "path": "data-processed/NotreDame-mobility/2020-11-16-NotreDame-mobility.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "82b491f30eb752759a1a5e0437083dcabf41d6cb",
+    "blob_sha1_listed": "82b491f30eb752759a1a5e0437083dcabf41d6cb",
+    "forecast_date": "2020-11-30",
+    "median": "8958",
+    "path": "data-processed/NotreDame-mobility/2020-11-30-NotreDame-mobility.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "ef4ab82cc07b152b3ff0ae94f0fe8709d338c5e5",
+    "blob_sha1_listed": "ef4ab82cc07b152b3ff0ae94f0fe8709d338c5e5",
+    "forecast_date": "2020-12-07",
+    "median": "11126",
+    "path": "data-processed/NotreDame-mobility/2020-12-07-NotreDame-mobility.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "b953ab52a23094b689a55c3571cc449567fda265",
+    "blob_sha1_listed": "b953ab52a23094b689a55c3571cc449567fda265",
+    "forecast_date": "2020-12-14",
+    "median": "9375",
+    "path": "data-processed/NotreDame-mobility/2020-12-14-NotreDame-mobility.csv"
+   }
+  },
+  "OliverWyman-Navigator": {
+   "2020-11-07": {
+    "blob_sha1": "bec5017aafa59beeff8fcd4c9dc911c3613b713f",
+    "blob_sha1_listed": "bec5017aafa59beeff8fcd4c9dc911c3613b713f",
+    "forecast_date": "2020-11-01",
+    "median": "6351.485243",
+    "path": "data-processed/OliverWyman-Navigator/2020-11-01-OliverWyman-Navigator.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "ccb66709a4b42b848a7c004e09f1d4b1ed3ed51d",
+    "blob_sha1_listed": "ccb66709a4b42b848a7c004e09f1d4b1ed3ed51d",
+    "forecast_date": "2020-11-08",
+    "median": "7736.001367",
+    "path": "data-processed/OliverWyman-Navigator/2020-11-08-OliverWyman-Navigator.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "ba4376f9c522bd343e118872559f13db640237e8",
+    "blob_sha1_listed": "ba4376f9c522bd343e118872559f13db640237e8",
+    "forecast_date": "2020-11-15",
+    "median": "8668.723270",
+    "path": "data-processed/OliverWyman-Navigator/2020-11-15-OliverWyman-Navigator.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "8fb59ba4104efd015c549cf84e085146c59a8770",
+    "blob_sha1_listed": "8fb59ba4104efd015c549cf84e085146c59a8770",
+    "forecast_date": "2020-11-22",
+    "median": "11825.642625",
+    "path": "data-processed/OliverWyman-Navigator/2020-11-22-OliverWyman-Navigator.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "73848f9b1de29367c10b2a8b1a7f5610123182bf",
+    "blob_sha1_listed": "73848f9b1de29367c10b2a8b1a7f5610123182bf",
+    "forecast_date": "2020-11-29",
+    "median": "13382.667178",
+    "path": "data-processed/OliverWyman-Navigator/2020-11-29-OliverWyman-Navigator.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "61fc3e840402fd1770ffc89b483ef2bef47d4963",
+    "blob_sha1_listed": "61fc3e840402fd1770ffc89b483ef2bef47d4963",
+    "forecast_date": "2020-12-06",
+    "median": "15083.135493",
+    "path": "data-processed/OliverWyman-Navigator/2020-12-06-OliverWyman-Navigator.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "8c980fd3b1aeeff8a82156d802fc9fb0847cb605",
+    "blob_sha1_listed": "8c980fd3b1aeeff8a82156d802fc9fb0847cb605",
+    "forecast_date": "2020-12-13",
+    "median": "17985.722235",
+    "path": "data-processed/OliverWyman-Navigator/2020-12-13-OliverWyman-Navigator.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "314b73fc81502cb79270f7015db4ea082c3bec7c",
+    "blob_sha1_listed": "314b73fc81502cb79270f7015db4ea082c3bec7c",
+    "forecast_date": "2020-12-20",
+    "median": "18801.651116",
+    "path": "data-processed/OliverWyman-Navigator/2020-12-20-OliverWyman-Navigator.csv"
+   }
+  },
+  "OneQuietNight-ML": {
+   "2020-12-05": {
+    "blob_sha1": "c0cefb5cede8ad89b4c69bf3f2fccec6068eff64",
+    "blob_sha1_listed": "c0cefb5cede8ad89b4c69bf3f2fccec6068eff64",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/OneQuietNight-ML/2020-11-29-OneQuietNight-ML.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "178821f5c872b90b43de8ad444a90835da2081b0",
+    "blob_sha1_listed": "178821f5c872b90b43de8ad444a90835da2081b0",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/OneQuietNight-ML/2020-12-06-OneQuietNight-ML.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "f4243d49125d9e4b04e9bddcc2907c36acbf5a86",
+    "blob_sha1_listed": "f4243d49125d9e4b04e9bddcc2907c36acbf5a86",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/OneQuietNight-ML/2020-12-13-OneQuietNight-ML.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "6363abc1162d12b4ff1fbc11fd7a18527371a437",
+    "blob_sha1_listed": "6363abc1162d12b4ff1fbc11fd7a18527371a437",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/OneQuietNight-ML/2020-12-20-OneQuietNight-ML.csv"
+   }
+  },
+  "PSI-DRAFT": {
+   "2020-11-07": {
+    "blob_sha1": "81ba20549c9c464ae92b2a2cb40801170895de30",
+    "blob_sha1_listed": "81ba20549c9c464ae92b2a2cb40801170895de30",
+    "forecast_date": "2020-11-02",
+    "median": "5615",
+    "path": "data-processed/PSI-DRAFT/2020-11-02-PSI-DRAFT.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "612d7716a906dda05e0f28bf41eef8284844824e",
+    "blob_sha1_listed": "612d7716a906dda05e0f28bf41eef8284844824e",
+    "forecast_date": "2020-11-09",
+    "median": "5537",
+    "path": "data-processed/PSI-DRAFT/2020-11-09-PSI-DRAFT.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "067982b03df1badcb6ec574ca5ce0dfd169b7e36",
+    "blob_sha1_listed": "067982b03df1badcb6ec574ca5ce0dfd169b7e36",
+    "forecast_date": "2020-11-16",
+    "median": "7964",
+    "path": "data-processed/PSI-DRAFT/2020-11-16-PSI-DRAFT.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "bd6180e5c6f6e72ca39b029991fa13071d948cca",
+    "blob_sha1_listed": "bd6180e5c6f6e72ca39b029991fa13071d948cca",
+    "forecast_date": "2020-11-23",
+    "median": "9579.5",
+    "path": "data-processed/PSI-DRAFT/2020-11-23-PSI-DRAFT.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "16d5688bad1bf8c5f48a81cecf2f0b26cfb6174b",
+    "blob_sha1_listed": "16d5688bad1bf8c5f48a81cecf2f0b26cfb6174b",
+    "forecast_date": "2020-11-30",
+    "median": "8813.5",
+    "path": "data-processed/PSI-DRAFT/2020-11-30-PSI-DRAFT.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "d5f66a094a0b3f5a8db2dad9630fa6e5700774a4",
+    "blob_sha1_listed": "d5f66a094a0b3f5a8db2dad9630fa6e5700774a4",
+    "forecast_date": "2020-12-07",
+    "median": "12896.5",
+    "path": "data-processed/PSI-DRAFT/2020-12-07-PSI-DRAFT.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "814316bcdfcb5f8a2bfad2410984d4ee005a47eb",
+    "blob_sha1_listed": "814316bcdfcb5f8a2bfad2410984d4ee005a47eb",
+    "forecast_date": "2020-12-14",
+    "median": "19576",
+    "path": "data-processed/PSI-DRAFT/2020-12-14-PSI-DRAFT.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "9b0a94448d79ce0a4f6f1c8ccda392858ebe5b8d",
+    "blob_sha1_listed": "9b0a94448d79ce0a4f6f1c8ccda392858ebe5b8d",
+    "forecast_date": "2020-12-21",
+    "median": "17443",
+    "path": "data-processed/PSI-DRAFT/2020-12-21-PSI-DRAFT.csv"
+   }
+  },
+  "PandemicCentral-USCounty": {
+   "2020-11-07": {
+    "blob_sha1": "17ec7627df6520628981cf4f173921acadb035aa",
+    "blob_sha1_listed": "17ec7627df6520628981cf4f173921acadb035aa",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/PandemicCentral-USCounty/2020-11-02-PandemicCentral-USCounty.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "9194272d516d5794d13a921b1283f9ed44d93e1d",
+    "blob_sha1_listed": "9194272d516d5794d13a921b1283f9ed44d93e1d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/PandemicCentral-USCounty/2020-11-09-PandemicCentral-USCounty.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "513b87f523da895fbf78e358a3e3e5239930ee03",
+    "blob_sha1_listed": "513b87f523da895fbf78e358a3e3e5239930ee03",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/PandemicCentral-USCounty/2020-11-16-PandemicCentral-USCounty.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "16be3acd2e1b8d24eedf1a14e0d50a2c3f85638a",
+    "blob_sha1_listed": "16be3acd2e1b8d24eedf1a14e0d50a2c3f85638a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/PandemicCentral-USCounty/2020-12-07-PandemicCentral-USCounty.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "623622545b9a7f312eaef72e8fd04c85d630b5f7",
+    "blob_sha1_listed": "623622545b9a7f312eaef72e8fd04c85d630b5f7",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/PandemicCentral-USCounty/2020-12-14-PandemicCentral-USCounty.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "66a1b28313abf1044b16116459c2e14a83244728",
+    "blob_sha1_listed": "66a1b28313abf1044b16116459c2e14a83244728",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/PandemicCentral-USCounty/2020-12-21-PandemicCentral-USCounty.csv"
+   }
+  },
+  "QJHong-Encounter": {
+   "2020-11-07": {
+    "blob_sha1": "094a0561aa1f1b2ed7500d7b7efe1c4b37e29b88",
+    "blob_sha1_listed": "094a0561aa1f1b2ed7500d7b7efe1c4b37e29b88",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/QJHong-Encounter/2020-11-01-QJHong-Encounter.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "71da25f81bd49c62f672c7d1ba9b0525bc3546e1",
+    "blob_sha1_listed": "71da25f81bd49c62f672c7d1ba9b0525bc3546e1",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/QJHong-Encounter/2020-11-08-QJHong-Encounter.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "485bb4be724da50b9304dedc677d755c5be1af76",
+    "blob_sha1_listed": "485bb4be724da50b9304dedc677d755c5be1af76",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/QJHong-Encounter/2020-11-15-QJHong-Encounter.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "f76c227f61d96ece6574e7f35a3ff1a8cb4cccae",
+    "blob_sha1_listed": "f76c227f61d96ece6574e7f35a3ff1a8cb4cccae",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/QJHong-Encounter/2020-11-22-QJHong-Encounter.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "51bf0c6e6c97789942dab41194b7aa32e448ae8f",
+    "blob_sha1_listed": "51bf0c6e6c97789942dab41194b7aa32e448ae8f",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/QJHong-Encounter/2020-11-29-QJHong-Encounter.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "d2830dfe13c75ad734183331ee2ef2a0d09493c3",
+    "blob_sha1_listed": "d2830dfe13c75ad734183331ee2ef2a0d09493c3",
+    "forecast_date": "2020-12-06",
+    "median": "14572.689589713758",
+    "path": "data-processed/QJHong-Encounter/2020-12-06-QJHong-Encounter.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "3979117981c7f59b0ff489230052d0978c978abe",
+    "blob_sha1_listed": "3979117981c7f59b0ff489230052d0978c978abe",
+    "forecast_date": "2020-12-13",
+    "median": "16536.217958364345",
+    "path": "data-processed/QJHong-Encounter/2020-12-13-QJHong-Encounter.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "064caf13aa767942cffd3f26628d5b8923350a54",
+    "blob_sha1_listed": "064caf13aa767942cffd3f26628d5b8923350a54",
+    "forecast_date": "2020-12-20",
+    "median": "18458.012847770762",
+    "path": "data-processed/QJHong-Encounter/2020-12-20-QJHong-Encounter.csv"
+   }
+  },
+  "RPI_UW-Mob_Collision": {
+   "2020-11-07": {
+    "blob_sha1": "6f744a784e105011c8383326f1d1d68cc134b945",
+    "blob_sha1_listed": "6f744a784e105011c8383326f1d1d68cc134b945",
+    "forecast_date": "2020-11-01",
+    "median": "5559.13988683998",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-11-01-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "8e9736011c98ebe5d06dee54537bd172a0aa52f5",
+    "blob_sha1_listed": "8e9736011c98ebe5d06dee54537bd172a0aa52f5",
+    "forecast_date": "2020-11-08",
+    "median": "5915.48162834187",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-11-08-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "65c358a1b61a07be64ff0f8bec1024a7acfc654e",
+    "blob_sha1_listed": "65c358a1b61a07be64ff0f8bec1024a7acfc654e",
+    "forecast_date": "2020-11-15",
+    "median": "7099.57290077906",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-11-15-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "b3b584ae39fbd79e1fdf19390a73808ec8e106fb",
+    "blob_sha1_listed": "b3b584ae39fbd79e1fdf19390a73808ec8e106fb",
+    "forecast_date": "2020-11-22",
+    "median": "8052.11253916148",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-11-22-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "337069bee604cd3a4618ffb0248c632f966da118",
+    "blob_sha1_listed": "337069bee604cd3a4618ffb0248c632f966da118",
+    "forecast_date": "2020-11-29",
+    "median": "12068.985889348",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-11-29-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "21f43c19b8b9c8e1063ec99d39e921806eddccaa",
+    "blob_sha1_listed": "21f43c19b8b9c8e1063ec99d39e921806eddccaa",
+    "forecast_date": "2020-12-06",
+    "median": "14442.1328517624",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-12-06-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1aaf557d5319c203eb3afdb3c6a67444e3ff962e",
+    "blob_sha1_listed": "1aaf557d5319c203eb3afdb3c6a67444e3ff962e",
+    "forecast_date": "2020-12-13",
+    "median": "16132.0555479924",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-12-13-RPI_UW-Mob_Collision.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "332ef68c9660ebfeeec2e8d4e1bc93dd0c30c381",
+    "blob_sha1_listed": "332ef68c9660ebfeeec2e8d4e1bc93dd0c30c381",
+    "forecast_date": "2020-12-20",
+    "median": "15618.4921641383",
+    "path": "data-processed/RPI_UW-Mob_Collision/2020-12-20-RPI_UW-Mob_Collision.csv"
+   }
+  },
+  "RobertWalraven-ESG": {
+   "2020-11-07": {
+    "blob_sha1": "2e3ee1494fcd3cbbde1451a2c23f54bc487e7640",
+    "blob_sha1_listed": "2e3ee1494fcd3cbbde1451a2c23f54bc487e7640",
+    "forecast_date": "2020-11-02",
+    "median": "7140.99",
+    "path": "data-processed/RobertWalraven-ESG/2020-11-02-RobertWalraven-ESG.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "977be4efcc368c01d6cbbdec7e669259378b9e02",
+    "blob_sha1_listed": "977be4efcc368c01d6cbbdec7e669259378b9e02",
+    "forecast_date": "2020-11-09",
+    "median": "7750.24",
+    "path": "data-processed/RobertWalraven-ESG/2020-11-09-RobertWalraven-ESG.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "1ff909693f809bc34d409663f0cbcb9c49c0e533",
+    "blob_sha1_listed": "1ff909693f809bc34d409663f0cbcb9c49c0e533",
+    "forecast_date": "2020-11-16",
+    "median": "8917.06",
+    "path": "data-processed/RobertWalraven-ESG/2020-11-16-RobertWalraven-ESG.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "c4675ecd0e85948c199d4fd40e3ef73ac27be9e9",
+    "blob_sha1_listed": "c4675ecd0e85948c199d4fd40e3ef73ac27be9e9",
+    "forecast_date": "2020-11-23",
+    "median": "14334.75",
+    "path": "data-processed/RobertWalraven-ESG/2020-11-23-RobertWalraven-ESG.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "ab2c574b8fd57cee959d6207e9f5562c34ee0135",
+    "blob_sha1_listed": "ab2c574b8fd57cee959d6207e9f5562c34ee0135",
+    "forecast_date": "2020-11-30",
+    "median": "7931.53",
+    "path": "data-processed/RobertWalraven-ESG/2020-11-30-RobertWalraven-ESG.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "512e3da2c5d0e82a6845963552cdeec4824b1054",
+    "blob_sha1_listed": "512e3da2c5d0e82a6845963552cdeec4824b1054",
+    "forecast_date": "2020-12-07",
+    "median": "21736.63",
+    "path": "data-processed/RobertWalraven-ESG/2020-12-07-RobertWalraven-ESG.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "b2fe67c6f2bd8792c163e4e8d56806cc8be68613",
+    "blob_sha1_listed": "b2fe67c6f2bd8792c163e4e8d56806cc8be68613",
+    "forecast_date": "2020-12-14",
+    "median": "19028.26",
+    "path": "data-processed/RobertWalraven-ESG/2020-12-14-RobertWalraven-ESG.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "80d2e9e688c267af6c88f4d266f5538e21b284d3",
+    "blob_sha1_listed": "80d2e9e688c267af6c88f4d266f5538e21b284d3",
+    "forecast_date": "2020-12-21",
+    "median": "20880.72",
+    "path": "data-processed/RobertWalraven-ESG/2020-12-21-RobertWalraven-ESG.csv"
+   }
+  },
+  "STH-3PU": {
+   "2020-11-07": {
+    "blob_sha1": "b521dc1da86138e2cbed5d4692269f1c6c172478",
+    "blob_sha1_listed": "b521dc1da86138e2cbed5d4692269f1c6c172478",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/STH-3PU/2020-11-01-STH-3PU.csv"
+   }
+  },
+  "SteveMcConnell-CovidComplete": {
+   "2020-11-07": {
+    "blob_sha1": "257f350f3b15e6ad61a2eca517a8aaff74d892bc",
+    "blob_sha1_listed": "257f350f3b15e6ad61a2eca517a8aaff74d892bc",
+    "forecast_date": "2020-11-02",
+    "median": "6772",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-11-02-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "616f8abb79bb2128c04e342324b2e5cc6ffb9a09",
+    "blob_sha1_listed": "616f8abb79bb2128c04e342324b2e5cc6ffb9a09",
+    "forecast_date": "2020-11-09",
+    "median": "8213",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-11-09-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "cd79dcb7b41f5be6bcccd4aa36767e89790b3e38",
+    "blob_sha1_listed": "cd79dcb7b41f5be6bcccd4aa36767e89790b3e38",
+    "forecast_date": "2020-11-16",
+    "median": "10106",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-11-16-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "ce46a064a5a74bdb8290c090f3aaa1f6dc3d8e9c",
+    "blob_sha1_listed": "ce46a064a5a74bdb8290c090f3aaa1f6dc3d8e9c",
+    "forecast_date": "2020-11-23",
+    "median": "13412",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-11-23-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "ddb3d4892a4b78558f40f86459274bc65ea49c47",
+    "blob_sha1_listed": "ddb3d4892a4b78558f40f86459274bc65ea49c47",
+    "forecast_date": "2020-11-30",
+    "median": "19427",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-11-30-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "0bee82da882d21fced81dea1aea8fa3933655bb8",
+    "blob_sha1_listed": "0bee82da882d21fced81dea1aea8fa3933655bb8",
+    "forecast_date": "2020-12-07",
+    "median": "13659",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-12-07-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "4b06e85143d81abe7ce9782ec3db857c96398348",
+    "blob_sha1_listed": "4b06e85143d81abe7ce9782ec3db857c96398348",
+    "forecast_date": "2020-12-14",
+    "median": "16464",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-12-14-SteveMcConnell-CovidComplete.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "fecb1b17ff5ac2be4829e4b524e6ac76c0227bce",
+    "blob_sha1_listed": "fecb1b17ff5ac2be4829e4b524e6ac76c0227bce",
+    "forecast_date": "2020-12-21",
+    "median": "19853",
+    "path": "data-processed/SteveMcConnell-CovidComplete/2020-12-21-SteveMcConnell-CovidComplete.csv"
+   }
+  },
+  "TTU-squider": {
+   "2020-11-07": {
+    "blob_sha1": "ad4c77db6afffff2409cce845107e6cf538e7e5b",
+    "blob_sha1_listed": "ad4c77db6afffff2409cce845107e6cf538e7e5b",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-11-01-TTU-squider.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "fd3475e0169f45ba8cdf7d6621d1bfa413992c22",
+    "blob_sha1_listed": "fd3475e0169f45ba8cdf7d6621d1bfa413992c22",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-11-08-TTU-squider.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "9393b8815bcce4ab4880904b359287a8e4eab878",
+    "blob_sha1_listed": "9393b8815bcce4ab4880904b359287a8e4eab878",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-11-15-TTU-squider.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "1be63f272dc73c7b1308635d72d51a2770920e78",
+    "blob_sha1_listed": "1be63f272dc73c7b1308635d72d51a2770920e78",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-11-22-TTU-squider.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "6ac90a2a025cc8abc7d1dd7003ff0f6cd425ed8a",
+    "blob_sha1_listed": "6ac90a2a025cc8abc7d1dd7003ff0f6cd425ed8a",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-11-29-TTU-squider.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "b3613c6a8f06ad7a01fa76c346416e352add7eb9",
+    "blob_sha1_listed": "b3613c6a8f06ad7a01fa76c346416e352add7eb9",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-12-06-TTU-squider.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "947a486687e3bf0f0926d44703fe0e231e0e5829",
+    "blob_sha1_listed": "947a486687e3bf0f0926d44703fe0e231e0e5829",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-12-13-TTU-squider.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "d8343d6747b566d55d3fd77feed909fc5ac997ce",
+    "blob_sha1_listed": "d8343d6747b566d55d3fd77feed909fc5ac997ce",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/TTU-squider/2020-12-20-TTU-squider.csv"
+   }
+  },
+  "UA-EpiCovDA": {
+   "2020-11-07": {
+    "blob_sha1": "316d4ea911ec30f6f5f4e18d48a12cd5b9839af0",
+    "blob_sha1_listed": "316d4ea911ec30f6f5f4e18d48a12cd5b9839af0",
+    "forecast_date": "2020-11-01",
+    "median": "6210",
+    "path": "data-processed/UA-EpiCovDA/2020-11-01-UA-EpiCovDA.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "c2bf08c9024a1e1d2f9fcfc366f72ca30f1be5ba",
+    "blob_sha1_listed": "c2bf08c9024a1e1d2f9fcfc366f72ca30f1be5ba",
+    "forecast_date": "2020-11-08",
+    "median": "7518",
+    "path": "data-processed/UA-EpiCovDA/2020-11-08-UA-EpiCovDA.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "3e48341ae1854de354f595e4e700b310413d3f05",
+    "blob_sha1_listed": "3e48341ae1854de354f595e4e700b310413d3f05",
+    "forecast_date": "2020-11-15",
+    "median": "8690",
+    "path": "data-processed/UA-EpiCovDA/2020-11-15-UA-EpiCovDA.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "229e31f16e79ac48d5c17544ab30f41c5ae9c2cf",
+    "blob_sha1_listed": "229e31f16e79ac48d5c17544ab30f41c5ae9c2cf",
+    "forecast_date": "2020-11-22",
+    "median": "10486",
+    "path": "data-processed/UA-EpiCovDA/2020-11-22-UA-EpiCovDA.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "811585f57c78b5525483fa747525276cc1edb3d7",
+    "blob_sha1_listed": "811585f57c78b5525483fa747525276cc1edb3d7",
+    "forecast_date": "2020-11-29",
+    "median": "9163",
+    "path": "data-processed/UA-EpiCovDA/2020-11-29-UA-EpiCovDA.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "36d311236d39c103d9ecf604834a04e8828e0079",
+    "blob_sha1_listed": "36d311236d39c103d9ecf604834a04e8828e0079",
+    "forecast_date": "2020-12-06",
+    "median": "13550",
+    "path": "data-processed/UA-EpiCovDA/2020-12-06-UA-EpiCovDA.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "901eb8080e018ce923de762a41950d018d9c793b",
+    "blob_sha1_listed": "901eb8080e018ce923de762a41950d018d9c793b",
+    "forecast_date": "2020-12-13",
+    "median": "16502",
+    "path": "data-processed/UA-EpiCovDA/2020-12-13-UA-EpiCovDA.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "422119569ef563166ea2b00a387ef022af607c1e",
+    "blob_sha1_listed": "422119569ef563166ea2b00a387ef022af607c1e",
+    "forecast_date": "2020-12-20",
+    "median": "16741",
+    "path": "data-processed/UA-EpiCovDA/2020-12-20-UA-EpiCovDA.csv"
+   }
+  },
+  "UCF-AEM": {
+   "2020-11-21": {
+    "blob_sha1": "5319aeeaa8297b6f24848c44b9314cd569b22ac7",
+    "blob_sha1_listed": "5319aeeaa8297b6f24848c44b9314cd569b22ac7",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCF-AEM/2020-11-15-UCF-AEM.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "f8af43552f608fa64654a177ced07c097f999744",
+    "blob_sha1_listed": "f8af43552f608fa64654a177ced07c097f999744",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCF-AEM/2020-11-22-UCF-AEM.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "571209f4ec7cec75f4a2bb9aa0e123a94ef7b60b",
+    "blob_sha1_listed": "571209f4ec7cec75f4a2bb9aa0e123a94ef7b60b",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCF-AEM/2020-11-29-UCF-AEM.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "013c7fda16a0d3084ef5df3db58396f19edec727",
+    "blob_sha1_listed": "013c7fda16a0d3084ef5df3db58396f19edec727",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCF-AEM/2020-12-07-UCF-AEM.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "5ff80afd0efed5c5383a025a3bd3c773eda75819",
+    "blob_sha1_listed": "5ff80afd0efed5c5383a025a3bd3c773eda75819",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCF-AEM/2020-12-13-UCF-AEM.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "509535ee44c6a067ff35329c62d7e10a44ee8470",
+    "blob_sha1_listed": "509535ee44c6a067ff35329c62d7e10a44ee8470",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCF-AEM/2020-12-20-UCF-AEM.csv"
+   }
+  },
+  "UCLA-SuEIR": {
+   "2020-11-07": {
+    "blob_sha1": "812b217c68ce60fdc0b1cf26c34767ef774c6629",
+    "blob_sha1_listed": "812b217c68ce60fdc0b1cf26c34767ef774c6629",
+    "forecast_date": "2020-11-01",
+    "median": "5568.9951412341325",
+    "path": "data-processed/UCLA-SuEIR/2020-11-01-UCLA-SuEIR.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "34033e18a18baba3a57dd84f831e5bbf93292f12",
+    "blob_sha1_listed": "34033e18a18baba3a57dd84f831e5bbf93292f12",
+    "forecast_date": "2020-11-08",
+    "median": "6647.308451893798",
+    "path": "data-processed/UCLA-SuEIR/2020-11-08-UCLA-SuEIR.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "d312be8957b7203906fc43c9c990aaea4fdcd7f6",
+    "blob_sha1_listed": "d312be8957b7203906fc43c9c990aaea4fdcd7f6",
+    "forecast_date": "2020-11-15",
+    "median": "7670.051950741501",
+    "path": "data-processed/UCLA-SuEIR/2020-11-15-UCLA-SuEIR.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "985a4f824bc2132a5a0618e316df532451672514",
+    "blob_sha1_listed": "985a4f824bc2132a5a0618e316df532451672514",
+    "forecast_date": "2020-11-22",
+    "median": "10714.432821634633",
+    "path": "data-processed/UCLA-SuEIR/2020-11-22-UCLA-SuEIR.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "e2ed4ae8f399e1cd4e2be2b883d657a6fbd5644d",
+    "blob_sha1_listed": "e2ed4ae8f399e1cd4e2be2b883d657a6fbd5644d",
+    "forecast_date": "2020-11-29",
+    "median": "9661.237146145955",
+    "path": "data-processed/UCLA-SuEIR/2020-11-29-UCLA-SuEIR.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "c04f0445404d1ca5c5d1e6e50a3931ddbe44b941",
+    "blob_sha1_listed": "c04f0445404d1ca5c5d1e6e50a3931ddbe44b941",
+    "forecast_date": "2020-12-06",
+    "median": "16027.266840235621",
+    "path": "data-processed/UCLA-SuEIR/2020-12-06-UCLA-SuEIR.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "98df8fecffa0fdfb466b70c6b696a8b279faf237",
+    "blob_sha1_listed": "98df8fecffa0fdfb466b70c6b696a8b279faf237",
+    "forecast_date": "2020-12-13",
+    "median": "16260.443200169306",
+    "path": "data-processed/UCLA-SuEIR/2020-12-13-UCLA-SuEIR.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "71435bb0eece29100c9af822e48ead506b53445c",
+    "blob_sha1_listed": "71435bb0eece29100c9af822e48ead506b53445c",
+    "forecast_date": "2020-12-20",
+    "median": "18043.560791062308",
+    "path": "data-processed/UCLA-SuEIR/2020-12-20-UCLA-SuEIR.csv"
+   }
+  },
+  "UCM_MESALab-FoGSEIR": {
+   "2020-11-07": {
+    "blob_sha1": "856f2a40caa0eba21778b2cd3475d18064acd1e6",
+    "blob_sha1_listed": "856f2a40caa0eba21778b2cd3475d18064acd1e6",
+    "forecast_date": "2020-11-01",
+    "median": "6478",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-11-01-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "3df1496770f6a543c7df114b26af08f6940c3014",
+    "blob_sha1_listed": "3df1496770f6a543c7df114b26af08f6940c3014",
+    "forecast_date": "2020-11-08",
+    "median": "6425",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-11-08-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "b3c5b0d4e58a0d4089c3d0423b2a2175d6376fa0",
+    "blob_sha1_listed": "b3c5b0d4e58a0d4089c3d0423b2a2175d6376fa0",
+    "forecast_date": "2020-11-15",
+    "median": "6542",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-11-15-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "98da3354ba93c2879d36bcc30d6406e70a215c83",
+    "blob_sha1_listed": "98da3354ba93c2879d36bcc30d6406e70a215c83",
+    "forecast_date": "2020-11-22",
+    "median": "6682",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-11-22-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "2db4033a0701cb1e35fd9a12ade8d466535104ba",
+    "blob_sha1_listed": "2db4033a0701cb1e35fd9a12ade8d466535104ba",
+    "forecast_date": "2020-11-29",
+    "median": "10896",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-11-29-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "a608a55cea2cb7966a2ea555338561fe68ac2bb6",
+    "blob_sha1_listed": "a608a55cea2cb7966a2ea555338561fe68ac2bb6",
+    "forecast_date": "2020-12-06",
+    "median": "19787",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-12-06-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "46a0a6affd27f0f298963b7fbf665d4da57b5254",
+    "blob_sha1_listed": "46a0a6affd27f0f298963b7fbf665d4da57b5254",
+    "forecast_date": "2020-12-13",
+    "median": "25089",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-12-13-UCM_MESALab-FoGSEIR.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "3aadf99ced4797ed7286ccc32d51b210a653e9a2",
+    "blob_sha1_listed": "3aadf99ced4797ed7286ccc32d51b210a653e9a2",
+    "forecast_date": "2020-12-20",
+    "median": "31544",
+    "path": "data-processed/UCM_MESALab-FoGSEIR/2020-12-20-UCM_MESALab-FoGSEIR.csv"
+   }
+  },
+  "UCSB-ACTS": {
+   "2020-11-07": {
+    "blob_sha1": "366365d07f3331a3a449601c773d6f42259cf565",
+    "blob_sha1_listed": "366365d07f3331a3a449601c773d6f42259cf565",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-11-01-UCSB-ACTS.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "46158e8db9c3e4fee2a6c2e94a33cf9bd1bdff54",
+    "blob_sha1_listed": "46158e8db9c3e4fee2a6c2e94a33cf9bd1bdff54",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-11-08-UCSB-ACTS.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "1728f6fbd7b700dc30a7624b5bea6b9dffb83efa",
+    "blob_sha1_listed": "1728f6fbd7b700dc30a7624b5bea6b9dffb83efa",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-11-15-UCSB-ACTS.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "a0d2e2e1e05851e46822c84dcad4abf0ef97b0d7",
+    "blob_sha1_listed": "a0d2e2e1e05851e46822c84dcad4abf0ef97b0d7",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-11-22-UCSB-ACTS.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "7104dcfcc0b5df17b208dfc7d97604609b48f08d",
+    "blob_sha1_listed": "7104dcfcc0b5df17b208dfc7d97604609b48f08d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-11-29-UCSB-ACTS.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "655ddea624dc72577190b77369b6c3b8151c6312",
+    "blob_sha1_listed": "655ddea624dc72577190b77369b6c3b8151c6312",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-12-06-UCSB-ACTS.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "f98a2e859f5bf467b04e99b134ccab3fd8d72720",
+    "blob_sha1_listed": "f98a2e859f5bf467b04e99b134ccab3fd8d72720",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-12-13-UCSB-ACTS.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "c1fb7d5a3ff81815c3551434752ee2d7ef7f829c",
+    "blob_sha1_listed": "c1fb7d5a3ff81815c3551434752ee2d7ef7f829c",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UCSB-ACTS/2020-12-20-UCSB-ACTS.csv"
+   }
+  },
+  "UCSD_NEU-DeepGLEAM": {
+   "2020-11-07": {
+    "blob_sha1": "3bbb65a42d4a3f755b74292db526e1d98c37cd6d",
+    "blob_sha1_listed": "3bbb65a42d4a3f755b74292db526e1d98c37cd6d",
+    "forecast_date": "2020-11-02",
+    "median": "6011.75164291383",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-11-02-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "56c740b0a3b71816f32abe3c8c35e2dcddaa01c3",
+    "blob_sha1_listed": "56c740b0a3b71816f32abe3c8c35e2dcddaa01c3",
+    "forecast_date": "2020-11-09",
+    "median": "7270.780148992878",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-11-09-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "451c82d44a8221835e69d032796bf847578ecf1b",
+    "blob_sha1_listed": "451c82d44a8221835e69d032796bf847578ecf1b",
+    "forecast_date": "2020-11-16",
+    "median": "8446.389781532298",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-11-16-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "497a5638be195244e7abb5b78bd04807afba0482",
+    "blob_sha1_listed": "497a5638be195244e7abb5b78bd04807afba0482",
+    "forecast_date": "2020-11-23",
+    "median": "11319.159307433958",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-11-23-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "e4bdf4d04116af45ace79ec2a427307e0c608d5e",
+    "blob_sha1_listed": "e4bdf4d04116af45ace79ec2a427307e0c608d5e",
+    "forecast_date": "2020-11-30",
+    "median": "11860.920656392289",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-11-30-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "e98447eabbcdb1d2798086393bd783ce5ee27df9",
+    "blob_sha1_listed": "e98447eabbcdb1d2798086393bd783ce5ee27df9",
+    "forecast_date": "2020-12-07",
+    "median": "15914.420997346602",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-12-07-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "37009bd57a4941e0f3bb9ea255ee5bc498e36f77",
+    "blob_sha1_listed": "37009bd57a4941e0f3bb9ea255ee5bc498e36f77",
+    "forecast_date": "2020-12-14",
+    "median": "17880.84762448841",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-12-14-UCSD_NEU-DeepGLEAM.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "73716c2c5a0f58c59e635245dd5a699822851b26",
+    "blob_sha1_listed": "73716c2c5a0f58c59e635245dd5a699822851b26",
+    "forecast_date": "2020-12-21",
+    "median": "19507.029625243566",
+    "path": "data-processed/UCSD_NEU-DeepGLEAM/2020-12-21-UCSD_NEU-DeepGLEAM.csv"
+   }
+  },
+  "UChicagoCHATTOPADHYAY-UnIT": {
+   "2020-11-14": {
+    "blob_sha1": "2c4af4b3f89acdf0e93dcc80d3c6c84f06872082",
+    "blob_sha1_listed": "2c4af4b3f89acdf0e93dcc80d3c6c84f06872082",
+    "forecast_date": "2020-11-08",
+    "median": "8009.2823392722785",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-11-08-UChicagoCHATTOPADHYAY-UnIT.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "d649a6a2b840d9378fac88d84bd77f5dce7d3cb8",
+    "blob_sha1_listed": "d649a6a2b840d9378fac88d84bd77f5dce7d3cb8",
+    "forecast_date": "2020-11-15",
+    "median": "8308.300520116063",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-11-15-UChicagoCHATTOPADHYAY-UnIT.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "15277698e65c1bc8b2152e782308452fb3a1e60f",
+    "blob_sha1_listed": "15277698e65c1bc8b2152e782308452fb3a1e60f",
+    "forecast_date": "2020-11-22",
+    "median": "12253.477280077223",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-11-22-UChicagoCHATTOPADHYAY-UnIT.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "f42ce3e4aa70fedd54367066fc0b8cc746135965",
+    "blob_sha1_listed": "f42ce3e4aa70fedd54367066fc0b8cc746135965",
+    "forecast_date": "2020-11-29",
+    "median": "9267.880902830624",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-11-29-UChicagoCHATTOPADHYAY-UnIT.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "5db69c0d048eedc072a5b9cf3a1ce1def8add02a",
+    "blob_sha1_listed": "5db69c0d048eedc072a5b9cf3a1ce1def8add02a",
+    "forecast_date": "2020-12-06",
+    "median": "18343.24022483392",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-12-06-UChicagoCHATTOPADHYAY-UnIT.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "48f5a0e1ab1ef6d0d17da536bfe8ceaaf8aa41ac",
+    "blob_sha1_listed": "48f5a0e1ab1ef6d0d17da536bfe8ceaaf8aa41ac",
+    "forecast_date": "2020-12-13",
+    "median": "17557.243567878693",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-12-13-UChicagoCHATTOPADHYAY-UnIT.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "0246625ee646d9862d934503e05646630876bdc3",
+    "blob_sha1_listed": "0246625ee646d9862d934503e05646630876bdc3",
+    "forecast_date": "2020-12-20",
+    "median": "18546.833608053224",
+    "path": "data-processed/UChicagoCHATTOPADHYAY-UnIT/2020-12-20-UChicagoCHATTOPADHYAY-UnIT.csv"
+   }
+  },
+  "UMass-MechBayes": {
+   "2020-11-07": {
+    "blob_sha1": "d6819e856c3e29aca7d74479a9b74c827bbe7aaa",
+    "blob_sha1_listed": "d6819e856c3e29aca7d74479a9b74c827bbe7aaa",
+    "forecast_date": "2020-11-01",
+    "median": "6884",
+    "path": "data-processed/UMass-MechBayes/2020-11-01-UMass-MechBayes.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "6c1aeec451dba537f175edcdbe5c40bb55d1f330",
+    "blob_sha1_listed": "6c1aeec451dba537f175edcdbe5c40bb55d1f330",
+    "forecast_date": "2020-11-08",
+    "median": "8256",
+    "path": "data-processed/UMass-MechBayes/2020-11-08-UMass-MechBayes.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "0f79a01b8bb4782903cc978ec08ccd75571b7f7d",
+    "blob_sha1_listed": "0f79a01b8bb4782903cc978ec08ccd75571b7f7d",
+    "forecast_date": "2020-11-15",
+    "median": "10578",
+    "path": "data-processed/UMass-MechBayes/2020-11-15-UMass-MechBayes.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "e93d08689f541e7f355957045c85c2dc77408b0c",
+    "blob_sha1_listed": "e93d08689f541e7f355957045c85c2dc77408b0c",
+    "forecast_date": "2020-11-22",
+    "median": "13413",
+    "path": "data-processed/UMass-MechBayes/2020-11-22-UMass-MechBayes.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "14ba8175ba310e1c98137eaf6d1a828d2f5fe60d",
+    "blob_sha1_listed": "14ba8175ba310e1c98137eaf6d1a828d2f5fe60d",
+    "forecast_date": "2020-11-29",
+    "median": "12546",
+    "path": "data-processed/UMass-MechBayes/2020-11-29-UMass-MechBayes.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "e8bc388eb59f2a45ae4dedddff113940b2a32653",
+    "blob_sha1_listed": "e8bc388eb59f2a45ae4dedddff113940b2a32653",
+    "forecast_date": "2020-12-06",
+    "median": "15728",
+    "path": "data-processed/UMass-MechBayes/2020-12-06-UMass-MechBayes.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "f62259d6c5f17ef57f8322c1fa83d22babbd050e",
+    "blob_sha1_listed": "f62259d6c5f17ef57f8322c1fa83d22babbd050e",
+    "forecast_date": "2020-12-13",
+    "median": "18730",
+    "path": "data-processed/UMass-MechBayes/2020-12-13-UMass-MechBayes.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "6e277bc4268451e70e4540ea6d2c211d84481aab",
+    "blob_sha1_listed": "6e277bc4268451e70e4540ea6d2c211d84481aab",
+    "forecast_date": "2020-12-20",
+    "median": "18450",
+    "path": "data-processed/UMass-MechBayes/2020-12-20-UMass-MechBayes.csv"
+   }
+  },
+  "UMich-RidgeTfReg": {
+   "2020-11-07": {
+    "blob_sha1": "13efc3dc4ccd668af27e57355f62c362e7ed3a01",
+    "blob_sha1_listed": "13efc3dc4ccd668af27e57355f62c362e7ed3a01",
+    "forecast_date": "2020-11-02",
+    "median": "5982.352372325461",
+    "path": "data-processed/UMich-RidgeTfReg/2020-11-02-UMich-RidgeTfReg.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "2c4c13106fd710df978c58111057230dfc5e4f45",
+    "blob_sha1_listed": "2c4c13106fd710df978c58111057230dfc5e4f45",
+    "forecast_date": "2020-11-09",
+    "median": "6601.8109158945435",
+    "path": "data-processed/UMich-RidgeTfReg/2020-11-09-UMich-RidgeTfReg.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "ef2248c363a12357fa15e04a1acbd8079626a707",
+    "blob_sha1_listed": "ef2248c363a12357fa15e04a1acbd8079626a707",
+    "forecast_date": "2020-11-16",
+    "median": "7720.398074678929",
+    "path": "data-processed/UMich-RidgeTfReg/2020-11-16-UMich-RidgeTfReg.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "e383e0509a76efd5e88afdec46189088f370d95c",
+    "blob_sha1_listed": "e383e0509a76efd5e88afdec46189088f370d95c",
+    "forecast_date": "2020-11-23",
+    "median": "10244.860544961586",
+    "path": "data-processed/UMich-RidgeTfReg/2020-11-23-UMich-RidgeTfReg.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "844c70b0dffc46e14fa6c44ed3b373e37fe9e664",
+    "blob_sha1_listed": "844c70b0dffc46e14fa6c44ed3b373e37fe9e664",
+    "forecast_date": "2020-11-30",
+    "median": "11596.452404268435",
+    "path": "data-processed/UMich-RidgeTfReg/2020-11-30-UMich-RidgeTfReg.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "7eb326370f9d9b1cdbba6d0bf16cb08dc6f04a4e",
+    "blob_sha1_listed": "7eb326370f9d9b1cdbba6d0bf16cb08dc6f04a4e",
+    "forecast_date": "2020-12-07",
+    "median": "14882.346111076591",
+    "path": "data-processed/UMich-RidgeTfReg/2020-12-07-UMich-RidgeTfReg.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "9bb2072922e4753b4d962147078934936921c928",
+    "blob_sha1_listed": "9bb2072922e4753b4d962147078934936921c928",
+    "forecast_date": "2020-12-14",
+    "median": "18910.23525626288",
+    "path": "data-processed/UMich-RidgeTfReg/2020-12-14-UMich-RidgeTfReg.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "faa910fddee402ee89d08d9d5641b2bd539a9f58",
+    "blob_sha1_listed": "faa910fddee402ee89d08d9d5641b2bd539a9f58",
+    "forecast_date": "2020-12-21",
+    "median": "20584.72443544748",
+    "path": "data-processed/UMich-RidgeTfReg/2020-12-21-UMich-RidgeTfReg.csv"
+   }
+  },
+  "USACE-ERDC_SEIR": {
+   "2020-11-21": {
+    "blob_sha1": "771eeaf7c9075a73ec666af76d98ce3d80d3cc2e",
+    "blob_sha1_listed": "771eeaf7c9075a73ec666af76d98ce3d80d3cc2e",
+    "forecast_date": "2020-11-16",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/USACE-ERDC_SEIR/2020-11-16-USACE-ERDC_SEIR.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "553e51b5eed71e9945157207900497da116e2506",
+    "blob_sha1_listed": "553e51b5eed71e9945157207900497da116e2506",
+    "forecast_date": "2020-11-23",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/USACE-ERDC_SEIR/2020-11-23-USACE-ERDC_SEIR.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "833923ad2cc6790976f5815c458800611c181c66",
+    "blob_sha1_listed": "833923ad2cc6790976f5815c458800611c181c66",
+    "forecast_date": "2020-11-30",
+    "median": "withheld: license does not clearly permit redistribution; re-acquire from the pinned path and blob",
+    "path": "data-processed/USACE-ERDC_SEIR/2020-11-30-USACE-ERDC_SEIR.csv"
+   }
+  },
+  "USC-SI_kJalpha": {
+   "2020-11-07": {
+    "blob_sha1": "99189957d1af5937792b02d10f36454174dabbba",
+    "blob_sha1_listed": "99189957d1af5937792b02d10f36454174dabbba",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/USC-SI_kJalpha/2020-11-01-USC-SI_kJalpha.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "3bc2381e53421dc777064c5de7c01f7fe7f45887",
+    "blob_sha1_listed": "3bc2381e53421dc777064c5de7c01f7fe7f45887",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/USC-SI_kJalpha/2020-11-08-USC-SI_kJalpha.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "d2ff83ad8d03f6926da8b202ea4edaf1c65d90bb",
+    "blob_sha1_listed": "d2ff83ad8d03f6926da8b202ea4edaf1c65d90bb",
+    "forecast_date": "2020-11-15",
+    "median": "8858.0",
+    "path": "data-processed/USC-SI_kJalpha/2020-11-15-USC-SI_kJalpha.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "d7c0fe6c83b5dd731382f65430974e387d96b19c",
+    "blob_sha1_listed": "d7c0fe6c83b5dd731382f65430974e387d96b19c",
+    "forecast_date": "2020-11-22",
+    "median": "12209.0",
+    "path": "data-processed/USC-SI_kJalpha/2020-11-22-USC-SI_kJalpha.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "fc2bdcd07efe87f1e54bf22aae75b0c997370619",
+    "blob_sha1_listed": "fc2bdcd07efe87f1e54bf22aae75b0c997370619",
+    "forecast_date": "2020-11-29",
+    "median": "12770.0",
+    "path": "data-processed/USC-SI_kJalpha/2020-11-29-USC-SI_kJalpha.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "25804fba6d8998dd56c7174ffdccc1100a766762",
+    "blob_sha1_listed": "25804fba6d8998dd56c7174ffdccc1100a766762",
+    "forecast_date": "2020-12-06",
+    "median": "14004.0",
+    "path": "data-processed/USC-SI_kJalpha/2020-12-06-USC-SI_kJalpha.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1967f3a6e73626b70e1f015cc1bda88cfaa4b643",
+    "blob_sha1_listed": "1967f3a6e73626b70e1f015cc1bda88cfaa4b643",
+    "forecast_date": "2020-12-13",
+    "median": "16926.0",
+    "path": "data-processed/USC-SI_kJalpha/2020-12-13-USC-SI_kJalpha.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "8d917a7e9550e540b8cf310b09e141faab131653",
+    "blob_sha1_listed": "8d917a7e9550e540b8cf310b09e141faab131653",
+    "forecast_date": "2020-12-20",
+    "median": "19689.0",
+    "path": "data-processed/USC-SI_kJalpha/2020-12-20-USC-SI_kJalpha.csv"
+   }
+  },
+  "USC-SI_kJalpha_RF": {
+   "2020-11-07": {
+    "blob_sha1": "76e879bc1afa5dad27c2b42462a457e5d45665b3",
+    "blob_sha1_listed": "76e879bc1afa5dad27c2b42462a457e5d45665b3",
+    "forecast_date": "2020-11-01",
+    "median": "5605.023501621021",
+    "path": "data-processed/USC-SI_kJalpha_RF/2020-11-01-USC-SI_kJalpha_RF.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "49dcfd5b6e1fca7ff3b3c6028f0e433f8a540f98",
+    "blob_sha1_listed": "49dcfd5b6e1fca7ff3b3c6028f0e433f8a540f98",
+    "forecast_date": "2020-11-08",
+    "median": "6281.68609951219",
+    "path": "data-processed/USC-SI_kJalpha_RF/2020-11-08-USC-SI_kJalpha_RF.csv"
+   }
+  },
+  "UT-Mobility": {
+   "2020-11-07": {
+    "blob_sha1": "8453078f3fd27c8f324f088de8bdaa14ecb5b569",
+    "blob_sha1_listed": "8453078f3fd27c8f324f088de8bdaa14ecb5b569",
+    "forecast_date": "2020-11-02",
+    "median": "5063.5",
+    "path": "data-processed/UT-Mobility/2020-11-02-UT-Mobility.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "30c1a05c6afeb8325290637a2a70fbe4936c05eb",
+    "blob_sha1_listed": "30c1a05c6afeb8325290637a2a70fbe4936c05eb",
+    "forecast_date": "2020-11-09",
+    "median": "5715",
+    "path": "data-processed/UT-Mobility/2020-11-09-UT-Mobility.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "d6241290c9b90aed144f5e40aff6aaa8c34f2302",
+    "blob_sha1_listed": "d6241290c9b90aed144f5e40aff6aaa8c34f2302",
+    "forecast_date": "2020-11-16",
+    "median": "6803.5",
+    "path": "data-processed/UT-Mobility/2020-11-16-UT-Mobility.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "5ef54097c6ff605f06a61be351cb463bab91f383",
+    "blob_sha1_listed": "5ef54097c6ff605f06a61be351cb463bab91f383",
+    "forecast_date": "2020-11-23",
+    "median": "9199",
+    "path": "data-processed/UT-Mobility/2020-11-23-UT-Mobility.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "31fd06b513c9a89a0e1bd568b896f9b3df541f9f",
+    "blob_sha1_listed": "31fd06b513c9a89a0e1bd568b896f9b3df541f9f",
+    "forecast_date": "2020-11-30",
+    "median": "9268",
+    "path": "data-processed/UT-Mobility/2020-11-30-UT-Mobility.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "9630b02d22329774a996604672759840f2d89685",
+    "blob_sha1_listed": "9630b02d22329774a996604672759840f2d89685",
+    "forecast_date": "2020-12-07",
+    "median": "13314.5",
+    "path": "data-processed/UT-Mobility/2020-12-07-UT-Mobility.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "22d75f903b2ba3762b93c969b9cc2419c6d7797b",
+    "blob_sha1_listed": "22d75f903b2ba3762b93c969b9cc2419c6d7797b",
+    "forecast_date": "2020-12-14",
+    "median": "15902",
+    "path": "data-processed/UT-Mobility/2020-12-14-UT-Mobility.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "c93863fb8d8251c197f251b93839609bcac76f85",
+    "blob_sha1_listed": "c93863fb8d8251c197f251b93839609bcac76f85",
+    "forecast_date": "2020-12-21",
+    "median": "18339",
+    "path": "data-processed/UT-Mobility/2020-12-21-UT-Mobility.csv"
+   }
+  },
+  "UVA-Ensemble": {
+   "2020-11-07": {
+    "blob_sha1": "e3f91a6564eba2d82d0f205327a033aaaed2ddfe",
+    "blob_sha1_listed": "e3f91a6564eba2d82d0f205327a033aaaed2ddfe",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-11-02-UVA-Ensemble.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "2f184083df299cbe6386f8a684e3e7cf98889f58",
+    "blob_sha1_listed": "2f184083df299cbe6386f8a684e3e7cf98889f58",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-11-09-UVA-Ensemble.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "286117826686bc578549f9945445fb1a163c2b50",
+    "blob_sha1_listed": "286117826686bc578549f9945445fb1a163c2b50",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-11-16-UVA-Ensemble.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "18172add31e8bea8977a136912b08b2d398340cf",
+    "blob_sha1_listed": "18172add31e8bea8977a136912b08b2d398340cf",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-11-23-UVA-Ensemble.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "39ff740f949761630a347eb10819782702bfa0c6",
+    "blob_sha1_listed": "39ff740f949761630a347eb10819782702bfa0c6",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-11-30-UVA-Ensemble.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "b46361b0b20414a6be67b41268064bf2e2ad8093",
+    "blob_sha1_listed": "b46361b0b20414a6be67b41268064bf2e2ad8093",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-12-07-UVA-Ensemble.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "f370f1a818baf8886667e60eeed7483c8957a9ab",
+    "blob_sha1_listed": "f370f1a818baf8886667e60eeed7483c8957a9ab",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-12-14-UVA-Ensemble.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "7061a93ca47f7aac4fc545eeed6cb3d7c2ecc684",
+    "blob_sha1_listed": "7061a93ca47f7aac4fc545eeed6cb3d7c2ecc684",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/UVA-Ensemble/2020-12-21-UVA-Ensemble.csv"
+   }
+  },
+  "Wadhwani_AI-BayesOpt": {
+   "2020-12-12": {
+    "blob_sha1": "7d9efffd9c3c4f633a54c83a67c0227f5c2afde2",
+    "blob_sha1_listed": "7d9efffd9c3c4f633a54c83a67c0227f5c2afde2",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Wadhwani_AI-BayesOpt/2020-12-06-Wadhwani_AI-BayesOpt.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "4e8220fe0a74935b049ae5812d8fa0ae4e65e54d",
+    "blob_sha1_listed": "4e8220fe0a74935b049ae5812d8fa0ae4e65e54d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Wadhwani_AI-BayesOpt/2020-12-14-Wadhwani_AI-BayesOpt.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "80ac716efadd0231ddf02c92f0afaa14e074f024",
+    "blob_sha1_listed": "80ac716efadd0231ddf02c92f0afaa14e074f024",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/Wadhwani_AI-BayesOpt/2020-12-21-Wadhwani_AI-BayesOpt.csv"
+   }
+  },
+  "WalmartLabsML-LogForecasting": {
+   "2020-11-07": {
+    "blob_sha1": "e1dfeb4aa6e169a58e892b84f327e1502c6ec66e",
+    "blob_sha1_listed": "e1dfeb4aa6e169a58e892b84f327e1502c6ec66e",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-11-01-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "1614693c54d3165c9ea5978c1a9eac01b4ef752d",
+    "blob_sha1_listed": "1614693c54d3165c9ea5978c1a9eac01b4ef752d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-11-08-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "a11b3d5b89c63fe808a2a8a1e357577115116067",
+    "blob_sha1_listed": "a11b3d5b89c63fe808a2a8a1e357577115116067",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-11-15-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "ff6a902d0cf7152d08626c7a9c07e7f04d263d2f",
+    "blob_sha1_listed": "ff6a902d0cf7152d08626c7a9c07e7f04d263d2f",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-11-22-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "82e65e4e8242121d9f2b03c767d1afa968cea89d",
+    "blob_sha1_listed": "82e65e4e8242121d9f2b03c767d1afa968cea89d",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-11-29-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "f656af9876fa39adfe5100a8669141f02b4ba458",
+    "blob_sha1_listed": "f656af9876fa39adfe5100a8669141f02b4ba458",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-12-06-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "1f33599ffe60cd0b7674ed746514fb385cad403f",
+    "blob_sha1_listed": "1f33599ffe60cd0b7674ed746514fb385cad403f",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-12-13-WalmartLabsML-LogForecasting.csv"
+   },
+   "2020-12-26": {
+    "blob_sha1": "70cbe6aab42a8ed327930c12a85ff67480ee6ee3",
+    "blob_sha1_listed": "70cbe6aab42a8ed327930c12a85ff67480ee6ee3",
+    "forecast_date": null,
+    "median": null,
+    "path": "data-processed/WalmartLabsML-LogForecasting/2020-12-20-WalmartLabsML-LogForecasting.csv"
+   }
+  },
+  "epiforecasts-ensemble1": {
+   "2020-11-07": {
+    "blob_sha1": "01184aec007ad9e957babb49f10071e1055fabce",
+    "blob_sha1_listed": "01184aec007ad9e957babb49f10071e1055fabce",
+    "forecast_date": "2020-11-02",
+    "median": "6210",
+    "path": "data-processed/epiforecasts-ensemble1/2020-11-02-epiforecasts-ensemble1.csv"
+   },
+   "2020-11-14": {
+    "blob_sha1": "d26f99cf49123ac7ade83eb021e99fea454e3f8c",
+    "blob_sha1_listed": "d26f99cf49123ac7ade83eb021e99fea454e3f8c",
+    "forecast_date": "2020-11-09",
+    "median": "6930",
+    "path": "data-processed/epiforecasts-ensemble1/2020-11-09-epiforecasts-ensemble1.csv"
+   },
+   "2020-11-21": {
+    "blob_sha1": "34a52a899a8ac8e6de5dc0399f6aca69c9462660",
+    "blob_sha1_listed": "34a52a899a8ac8e6de5dc0399f6aca69c9462660",
+    "forecast_date": "2020-11-16",
+    "median": "8285",
+    "path": "data-processed/epiforecasts-ensemble1/2020-11-16-epiforecasts-ensemble1.csv"
+   },
+   "2020-11-28": {
+    "blob_sha1": "ae790574679b27308b10714a264e0040acc84ba7",
+    "blob_sha1_listed": "ae790574679b27308b10714a264e0040acc84ba7",
+    "forecast_date": "2020-11-23",
+    "median": "13778",
+    "path": "data-processed/epiforecasts-ensemble1/2020-11-23-epiforecasts-ensemble1.csv"
+   },
+   "2020-12-05": {
+    "blob_sha1": "f94503df8191b095cea68e5e2230a29d0784e198",
+    "blob_sha1_listed": "f94503df8191b095cea68e5e2230a29d0784e198",
+    "forecast_date": "2020-11-30",
+    "median": "10277",
+    "path": "data-processed/epiforecasts-ensemble1/2020-11-30-epiforecasts-ensemble1.csv"
+   },
+   "2020-12-12": {
+    "blob_sha1": "360afac4b1a6708a90c9dfb96c2d2bcb1d0e907a",
+    "blob_sha1_listed": "360afac4b1a6708a90c9dfb96c2d2bcb1d0e907a",
+    "forecast_date": "2020-12-07",
+    "median": "14899",
+    "path": "data-processed/epiforecasts-ensemble1/2020-12-07-epiforecasts-ensemble1.csv"
+   },
+   "2020-12-19": {
+    "blob_sha1": "57710ca0ee66a042a222cb1a1f6fec2fc9ff1e9d",
+    "blob_sha1_listed": "57710ca0ee66a042a222cb1a1f6fec2fc9ff1e9d",
+    "forecast_date": "2020-12-14",
+    "median": "17397.3333333333",
+    "path": "data-processed/epiforecasts-ensemble1/2020-12-14-epiforecasts-ensemble1.csv"
+   }
+  }
+ },
+ "receipt_note": "blob_sha1 is the git blob SHA-1 recomputed from the downloaded bytes; it equals the tree listing for every file. This identifies content at the pinned commit, not first publication time.",
+ "schema": "fulcrum.paper1.cohort.v04",
+ "target": "1 wk ahead inc death",
+ "weeks": [
+  "2020-11-07",
+  "2020-11-14",
+  "2020-11-21",
+  "2020-11-28",
+  "2020-12-05",
+  "2020-12-12",
+  "2020-12-19",
+  "2020-12-26"
+ ],
+ "withheld_note": "Median values for IHME-CurveFit, Covid19Sim-Simulator, USACE-ERDC_SEIR are withheld because their licenses do not clearly permit redistribution. None of these models has a complete eight-week series, so no result uses them. Paths and git blob identities are kept for re-acquisition."
+}

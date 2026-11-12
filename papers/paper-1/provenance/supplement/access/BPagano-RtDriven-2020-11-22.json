@@ -1,0 +1,12 @@
+{
+  "access_finished_at": "2026-09-09T02:58:41.908079+00:00",
+  "access_scope": "entire CSV including out-of-selector rows",
+  "access_started_at": "2026-09-09T02:58:41.260874+00:00",
+  "id": "BPagano-RtDriven-2020-11-22",
+  "identity": {
+    "bytes": 856457,
+    "git_blob_sha1": "fbfde361f708253c5a32f4cbe92154d4aba75f1a",
+    "sha256": "c28b6dccccc05ee18eb114cc47f9d4f5b625801ce937ceae6ae5c512ffcfef28"
+  },
+  "url": "https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/2fb4e2027aee509ae678e169659fc52f2c3d2703/data-processed/BPagano-RtDriven/2020-11-22-BPagano-RtDriven.csv"
+}

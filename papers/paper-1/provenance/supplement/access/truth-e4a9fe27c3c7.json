@@ -1,0 +1,12 @@
+{
+  "access_finished_at": "2026-09-09T02:58:52.644959+00:00",
+  "access_scope": "entire CSV including out-of-selector rows",
+  "access_started_at": "2026-09-09T02:58:51.777456+00:00",
+  "id": "truth-e4a9fe27c3c7",
+  "identity": {
+    "bytes": 35985439,
+    "git_blob_sha1": "da4a1c542a509c556bfe43019034179fe0ecd727",
+    "sha256": "e3b918303c9c4f720d8d7fb5b1105d9af1a56285658391aed4df69c94fe5d586"
+  },
+  "url": "https://raw.githubusercontent.com/reichlab/covid19-forecast-hub/e4a9fe27c3c7d1393e15d8bb42baa8093b6d9636/data-truth/truth-Incident%20Deaths.csv"
+}

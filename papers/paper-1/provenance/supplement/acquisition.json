@@ -1,0 +1,352 @@
+{
+  "cutoff_ref": "52f10b79f02af0af7940a0a9a02314a563c04569",
+  "cutoff_utc": "2021-01-05T02:00:00Z",
+  "forecast_rule": "exact 0.5 quantile, US, 1 wk ahead inc death; original committed blob retained at own merge within target week",
+  "forecasts": [
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "18e52e4db832db4ede097bd860b746d7fe190c34",
+      "id": "CU-select-2020-11-01",
+      "merge_sha": "af53fa3b6f55f63e8ac4f3c7b1de9f5127b3df7b",
+      "merged_at": "2020-11-03T04:53:43Z",
+      "model": "CU-select",
+      "origin": "2020-11-01",
+      "path": "data-processed/CU-select/2020-11-01-CU-select.csv",
+      "pr": 1902,
+      "ref": "0ef37d0e178455ba91ae4a7f66c19b59925f13a8",
+      "target_end": "2020-11-07"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "ef908fe68b92fe648331989f6af3e196a86ff127",
+      "id": "BPagano-RtDriven-2020-11-01",
+      "merge_sha": "14408b5b65282e5b77ade345dd74a2e2d6c157e6",
+      "merged_at": "2020-11-02T23:20:18Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-11-01",
+      "path": "data-processed/BPagano-RtDriven/2020-11-01-BPagano-RtDriven.csv",
+      "pr": 1896,
+      "ref": "12b088745c838b0ff971932b243460f6d6821674",
+      "target_end": "2020-11-07"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "6425f0a7885759c6e4acbca037daaa7cf5e0a831",
+      "id": "CU-select-2020-11-08",
+      "merge_sha": "b0ab4dbdbaff476a50e51e87800fa02b2836766c",
+      "merged_at": "2020-11-10T01:49:06Z",
+      "model": "CU-select",
+      "origin": "2020-11-08",
+      "path": "data-processed/CU-select/2020-11-08-CU-select.csv",
+      "pr": 1959,
+      "ref": "95609ad208eebc77fb7cca6bbcd05234970820b3",
+      "target_end": "2020-11-14"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "6ad07adac05082682f495a130d7a160bc3ed313b",
+      "id": "BPagano-RtDriven-2020-11-08",
+      "merge_sha": "fabbb68cdadc96d05b84f38a36cb048875382c73",
+      "merged_at": "2020-11-09T16:35:21Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-11-08",
+      "path": "data-processed/BPagano-RtDriven/2020-11-08-BPagano-RtDriven.csv",
+      "pr": 1942,
+      "ref": "ca88d0e4cc84d2137f6065bf87f9da5145519a09",
+      "target_end": "2020-11-14"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "31498b1ea24dc2f3bfcd203c89b570591579b7de",
+      "id": "CU-select-2020-11-15",
+      "merge_sha": "dcb2d51f26bbdc81071e3fd3cf4de58620bfa222",
+      "merged_at": "2020-11-17T00:24:25Z",
+      "model": "CU-select",
+      "origin": "2020-11-15",
+      "path": "data-processed/CU-select/2020-11-15-CU-select.csv",
+      "pr": 2036,
+      "ref": "c6856bce3e3db9fb24e36b8a09e64bb01eb0c75c",
+      "target_end": "2020-11-21"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "5f9629fe562ec290578c6b7ce3b2d4892cb027bf",
+      "id": "BPagano-RtDriven-2020-11-15",
+      "merge_sha": "c9be937b35ea10d890d98b064eda2643f7d7d018",
+      "merged_at": "2020-11-16T19:21:38Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-11-15",
+      "path": "data-processed/BPagano-RtDriven/2020-11-15-BPagano-RtDriven.csv",
+      "pr": 2013,
+      "ref": "d6431c7a454b7436374e7b2d62ea2dade6f4867f",
+      "target_end": "2020-11-21"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "dd9d0f6fe66348bb424d16a2b4f6bad7470afac9",
+      "id": "CU-select-2020-11-22",
+      "merge_sha": "93498a2d9e8da2ab1711050338a873b51af72a87",
+      "merged_at": "2020-11-23T22:07:59Z",
+      "model": "CU-select",
+      "origin": "2020-11-22",
+      "path": "data-processed/CU-select/2020-11-22-CU-select.csv",
+      "pr": 2104,
+      "ref": "89d5a781277455d78d4b8c999a7d03af3b05518c",
+      "target_end": "2020-11-28"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "fbfde361f708253c5a32f4cbe92154d4aba75f1a",
+      "id": "BPagano-RtDriven-2020-11-22",
+      "merge_sha": "de7cf4324bffdd236399fe736014176e9829db39",
+      "merged_at": "2020-11-23T16:02:09Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-11-22",
+      "path": "data-processed/BPagano-RtDriven/2020-11-22-BPagano-RtDriven.csv",
+      "pr": 2079,
+      "ref": "2fb4e2027aee509ae678e169659fc52f2c3d2703",
+      "target_end": "2020-11-28"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "843c952786e7a301cf1fbbd47fe1f69915c15c73",
+      "id": "CU-select-2020-11-29",
+      "merge_sha": "d9a510e8b85cb1aeac0fd6da29fcf164f8581871",
+      "merged_at": "2020-11-30T20:29:18Z",
+      "model": "CU-select",
+      "origin": "2020-11-29",
+      "path": "data-processed/CU-select/2020-11-29-CU-select.csv",
+      "pr": 2155,
+      "ref": "efbc4cb5b2fa5ef5e73e3427988f5730efe52495",
+      "target_end": "2020-12-05"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "ab531130cb883e96a9e8ee609891fa2a6ce629b7",
+      "id": "BPagano-RtDriven-2020-11-29",
+      "merge_sha": "c28c60b12f93a8eec9926f23d8136ad2caecf72f",
+      "merged_at": "2020-11-30T19:21:10Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-11-29",
+      "path": "data-processed/BPagano-RtDriven/2020-11-29-BPagano-RtDriven.csv",
+      "pr": 2146,
+      "ref": "43427284c6bd6b07b18f50096a8b861cee408d8c",
+      "target_end": "2020-12-05"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "58446c783c6bfcc9b4b25ed70b0efba9506a90cb",
+      "id": "CU-select-2020-12-06",
+      "merge_sha": "201621f83a61809490fe0ecbae58e07d2382cb2c",
+      "merged_at": "2020-12-08T01:25:00Z",
+      "model": "CU-select",
+      "origin": "2020-12-06",
+      "path": "data-processed/CU-select/2020-12-06-CU-select.csv",
+      "pr": 2237,
+      "ref": "9431da7a14fe4727670de7476cddb41a6de84c13",
+      "target_end": "2020-12-12"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "fdaca678872afc2a8d4c041dd7fabd512711cfad",
+      "id": "BPagano-RtDriven-2020-12-06",
+      "merge_sha": "6167d6a25be6ab825034059b26e030d98ceddbb0",
+      "merged_at": "2020-12-07T16:42:04Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-12-06",
+      "path": "data-processed/BPagano-RtDriven/2020-12-06-BPagano-RtDriven.csv",
+      "pr": 2204,
+      "ref": "d18099bdd916292e7d072f200195a53312e64f23",
+      "target_end": "2020-12-12"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "9ad8b615890aa3a8292388401b5d36400ecec3ee",
+      "id": "CU-select-2020-12-13",
+      "merge_sha": "8718b93e8bcabcb6e5c22c909f2eaebd0feb7e1a",
+      "merged_at": "2020-12-14T22:48:17Z",
+      "model": "CU-select",
+      "origin": "2020-12-13",
+      "path": "data-processed/CU-select/2020-12-13-CU-select.csv",
+      "pr": 2312,
+      "ref": "5c6214c112e92953efbf701faa37078d20c31147",
+      "target_end": "2020-12-19"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "a3d69e237379688d005df4d22c798f74218ab011",
+      "id": "BPagano-RtDriven-2020-12-13",
+      "merge_sha": "d12e0964346d70391d47e87e5351032bb925888c",
+      "merged_at": "2020-12-14T17:02:30Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-12-13",
+      "path": "data-processed/BPagano-RtDriven/2020-12-13-BPagano-RtDriven.csv",
+      "pr": 2280,
+      "ref": "2ad189092459793e623427a32795d4961dfe1ce8",
+      "target_end": "2020-12-19"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "b1a5ec00752b74e2b1818340cb2d6c0f83a44141",
+      "id": "CU-select-2020-12-20",
+      "merge_sha": "82338a23486f063bb2e8ff6707577ef4b4fdff94",
+      "merged_at": "2020-12-22T05:32:27Z",
+      "model": "CU-select",
+      "origin": "2020-12-20",
+      "path": "data-processed/CU-select/2020-12-20-CU-select.csv",
+      "pr": 2365,
+      "ref": "9e269899c426d9fd8b1f3107f4d17a52dba59535",
+      "target_end": "2020-12-26"
+    },
+    {
+      "cutoff_blob_same": true,
+      "git_blob_sha1": "360358460ab2cf0304f3ce16e05d4837058f83b8",
+      "id": "BPagano-RtDriven-2020-12-20",
+      "merge_sha": "095574ea04220b61fb0608fd5aeb84d7e12def19",
+      "merged_at": "2020-12-21T22:44:34Z",
+      "model": "BPagano-RtDriven",
+      "origin": "2020-12-20",
+      "path": "data-processed/BPagano-RtDriven/2020-12-20-BPagano-RtDriven.csv",
+      "pr": 2381,
+      "ref": "ad92f9c72323714bea3719f0a946b0144aeecad3",
+      "target_end": "2020-12-26"
+    }
+  ],
+  "frozen_at": "2026-09-09T02:54:35.877967+00:00",
+  "raw_access": "whole CSV download is an access event; only selected rows emitted; no later outcome vintage in this manifest",
+  "rights": {
+    "BPagano-RtDriven": "CC-BY-4.0, Bob Pagano, retain attribution source and license",
+    "CU-select": "Apache-2.0, retain source notices and license for redistribution",
+    "truth": "JHU CSSE COVID-19 Data, CC-BY-4.0 declared, cited through Hub daily clipped product; raw datasets not in reviewer package"
+  },
+  "schema": "fulcrum.paper1.acquisition.v1",
+  "status": "acquisition_only_before_csv_access",
+  "timing_claim": "repository-receipt-backed retrospective audit, not first-publication reconstruction or ensemble-deadline compliance",
+  "truth_rule": "seven unique daily US rows per Sunday-Saturday week; clipped reported levels; missing is not zero; signed cross-vintage differences",
+  "truths": [
+    {
+      "available_by_receipt": "2021-01-05T01:57:23Z",
+      "git_blob_sha1": "1b949af071ffe1327801756fa1b2d62c76688582",
+      "git_time": "2020-11-24T07:33:46+00:00",
+      "id": "truth-885931af4e0c",
+      "path": "data-truth/truth-Incident Deaths.csv",
+      "producers": {
+        "data-truth/get-truth-data.py": {
+          "git_blob_sha1": "6ba5076b6ebc2b299334bb7b00fe5f4b77b09a04",
+          "sha256": "aeded001aa08d29d44b6f67ebf18f4e05d8e846dac047a584e2ae899b3f59fe7"
+        },
+        "data-truth/truth_utils/_utils.py": {
+          "git_blob_sha1": "9ac7f0b7a8302e84f2d8ccc0adca9c9cf0b5c585",
+          "sha256": "0d52aec1f8c55935a2515394c9d371ad40c33050028b189e04dd487171f3c93e"
+        }
+      },
+      "receipt_class": "reachable_historical_tree_in_public_merge_ancestry",
+      "ref": "885931af4e0c65fa7a1b0bc1b01e99f06265285b"
+    },
+    {
+      "available_by_receipt": "2021-01-05T01:57:23Z",
+      "git_blob_sha1": "9a0e616c6a8c234a2dd14d074c8827a5e4f72bf9",
+      "git_time": "2020-12-06T16:27:49+00:00",
+      "id": "truth-5f052abd160a",
+      "path": "data-truth/truth-Incident Deaths.csv",
+      "producers": {
+        "data-truth/get-truth-data.py": {
+          "git_blob_sha1": "6ba5076b6ebc2b299334bb7b00fe5f4b77b09a04",
+          "sha256": "aeded001aa08d29d44b6f67ebf18f4e05d8e846dac047a584e2ae899b3f59fe7"
+        },
+        "data-truth/truth_utils/_utils.py": {
+          "git_blob_sha1": "9ac7f0b7a8302e84f2d8ccc0adca9c9cf0b5c585",
+          "sha256": "0d52aec1f8c55935a2515394c9d371ad40c33050028b189e04dd487171f3c93e"
+        }
+      },
+      "receipt_class": "reachable_historical_tree_in_public_merge_ancestry",
+      "ref": "5f052abd160a1d45c8b7402b7d65cadade11b96a"
+    },
+    {
+      "available_by_receipt": "2021-01-05T01:57:23Z",
+      "git_blob_sha1": "c1bd4684c836e21c8361439cbc1c67ba6808e72e",
+      "git_time": "2020-12-13T16:27:09+00:00",
+      "id": "truth-eefbf0e79039",
+      "path": "data-truth/truth-Incident Deaths.csv",
+      "producers": {
+        "data-truth/get-truth-data.py": {
+          "git_blob_sha1": "6ba5076b6ebc2b299334bb7b00fe5f4b77b09a04",
+          "sha256": "aeded001aa08d29d44b6f67ebf18f4e05d8e846dac047a584e2ae899b3f59fe7"
+        },
+        "data-truth/truth_utils/_utils.py": {
+          "git_blob_sha1": "9ac7f0b7a8302e84f2d8ccc0adca9c9cf0b5c585",
+          "sha256": "0d52aec1f8c55935a2515394c9d371ad40c33050028b189e04dd487171f3c93e"
+        }
+      },
+      "receipt_class": "reachable_historical_tree_in_public_merge_ancestry",
+      "ref": "eefbf0e79039048138e9511b7e3a6489297e14a6"
+    },
+    {
+      "available_by_receipt": "2021-01-05T01:57:23Z",
+      "git_blob_sha1": "da4a1c542a509c556bfe43019034179fe0ecd727",
+      "git_time": "2020-12-20T16:34:56+00:00",
+      "id": "truth-e4a9fe27c3c7",
+      "path": "data-truth/truth-Incident Deaths.csv",
+      "producers": {
+        "data-truth/get-truth-data.py": {
+          "git_blob_sha1": "6ba5076b6ebc2b299334bb7b00fe5f4b77b09a04",
+          "sha256": "aeded001aa08d29d44b6f67ebf18f4e05d8e846dac047a584e2ae899b3f59fe7"
+        },
+        "data-truth/truth_utils/_utils.py": {
+          "git_blob_sha1": "9ac7f0b7a8302e84f2d8ccc0adca9c9cf0b5c585",
+          "sha256": "0d52aec1f8c55935a2515394c9d371ad40c33050028b189e04dd487171f3c93e"
+        }
+      },
+      "receipt_class": "reachable_historical_tree_in_public_merge_ancestry",
+      "ref": "e4a9fe27c3c7d1393e15d8bb42baa8093b6d9636"
+    },
+    {
+      "available_by_receipt": "2021-01-05T01:57:23Z",
+      "git_blob_sha1": "79c75a1e9d58e71441ec332ff3f67135dc01edba",
+      "git_time": "2020-12-27T16:35:33+00:00",
+      "id": "truth-ae770bdd7b5d",
+      "path": "data-truth/truth-Incident Deaths.csv",
+      "producers": {
+        "data-truth/get-truth-data.py": {
+          "git_blob_sha1": "6ba5076b6ebc2b299334bb7b00fe5f4b77b09a04",
+          "sha256": "aeded001aa08d29d44b6f67ebf18f4e05d8e846dac047a584e2ae899b3f59fe7"
+        },
+        "data-truth/truth_utils/_utils.py": {
+          "git_blob_sha1": "9ac7f0b7a8302e84f2d8ccc0adca9c9cf0b5c585",
+          "sha256": "0d52aec1f8c55935a2515394c9d371ad40c33050028b189e04dd487171f3c93e"
+        }
+      },
+      "receipt_class": "reachable_historical_tree_in_public_merge_ancestry",
+      "ref": "ae770bdd7b5ddd22c7d7680f3504fd4690f55349"
+    },
+    {
+      "available_by_receipt": "2021-01-05T01:57:23Z",
+      "git_blob_sha1": "157bc3244181706fba20b510f51e39293ec45ba9",
+      "git_time": "2021-01-03T16:40:12+00:00",
+      "id": "truth-80bf182e77a1",
+      "path": "data-truth/truth-Incident Deaths.csv",
+      "producers": {
+        "data-truth/get-truth-data.py": {
+          "git_blob_sha1": "6ba5076b6ebc2b299334bb7b00fe5f4b77b09a04",
+          "sha256": "aeded001aa08d29d44b6f67ebf18f4e05d8e846dac047a584e2ae899b3f59fe7"
+        },
+        "data-truth/truth_utils/_utils.py": {
+          "git_blob_sha1": "9ac7f0b7a8302e84f2d8ccc0adca9c9cf0b5c585",
+          "sha256": "0d52aec1f8c55935a2515394c9d371ad40c33050028b189e04dd487171f3c93e"
+        }
+      },
+      "receipt_class": "reachable_historical_tree_in_public_merge_ancestry",
+      "ref": "80bf182e77a163ea142c48cefe99ab4558742ea9"
+    }
+  ],
+  "weeks": [
+    "2020-11-07",
+    "2020-11-14",
+    "2020-11-21",
+    "2020-11-28",
+    "2020-12-05",
+    "2020-12-12",
+    "2020-12-19",
+    "2020-12-26"
+  ]
+}

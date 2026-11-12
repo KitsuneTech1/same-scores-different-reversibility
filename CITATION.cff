@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Same scores, different reversibility: exact reversal radii for mean-absolute-error rankings, with an audit of the US COVID-19 Forecast Hub"
+type: software
+version: "1.0.0"
+date-released: "2026-11-12"
+license: MIT
+repository-code: "https://github.com/KitsuneTech1/same-scores-different-reversibility"
+authors:
+  - family-names: Widger
+    given-names: Dominick
+    affiliation: Kitsune Technologies
+    email: founder@kitsunetechnologies.org
+keywords:
+  - forecast evaluation
+  - data revision
+  - ranking stability
+  - mean absolute error
+  - COVID-19 Forecast Hub
