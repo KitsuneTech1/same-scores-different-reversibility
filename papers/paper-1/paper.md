@@ -268,7 +268,7 @@ Under mean absolute error, the cost of reversing a ranking is the score-gap boun
 
 **Funding.** This research received no external funding.
 
-**Competing interests.** The author is the founder of Kitsune Technologies, the affiliation listed above, and declares no other competing interests.
+**Competing interests.** The author is the founder of Kitsune Technologies, the affiliation listed above, which uses the methods described here in internal automation software and may offer products based on them in the future. The author has no financial or professional ties to any of the forecasting teams, the COVID-19 Forecast Hub or the CDC, holds no stock in any organization whose model is ranked, and declares no other competing interests.
 
 **Author contributions.** Dominick Widger is the sole author and conceived the study, wrote the software, carried out the analysis, and wrote and revised the manuscript.
 
