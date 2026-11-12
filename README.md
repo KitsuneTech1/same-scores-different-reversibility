@@ -61,7 +61,11 @@ Hub commit. Together they stream about 8 GB, so run them on a server, not a lapt
 
 ## Licenses
 
-- Code: MIT, see [LICENSE](LICENSE).
+- Code: GNU General Public License v3.0 or later, see [LICENSE](LICENSE).
+  Copyright (C) 2026 Dominick Widger, Kitsune Technologies. This program is free software: you
+  can redistribute it and/or modify it under the terms of the GNU GPL as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option) any later version.
+  It is distributed in the hope that it will be useful, but without any warranty.
 - Paper text and figures: CC BY 4.0.
 - Forecast and reference data: the licenses of their original publishers, listed in
   [THIRD-PARTY-NOTICES.md](papers/paper-1/THIRD-PARTY-NOTICES.md).

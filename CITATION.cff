@@ -4,7 +4,7 @@ title: "Same scores, different reversibility: exact reversal radii for mean-abso
 type: software
 version: "1.0.0"
 date-released: "2026-11-12"
-license: MIT
+license: GPL-3.0-or-later
 repository-code: "https://github.com/KitsuneTech1/same-scores-different-reversibility"
 authors:
   - family-names: Widger
